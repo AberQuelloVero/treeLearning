@@ -1,0 +1,571 @@
+{
+  "chapters": [
+    {
+      "topicId": "devices",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "devices-touch-and-buttons",
+        "title": "Toccare, premere e regolare lo schermo",
+        "steps": [
+          { "text": "Un tocco breve apre un'icona; tenere il dito premuto può mostrare altre opzioni. Se non sai cosa fa un comando, puoi annullare prima di confermare." },
+          { "text": "Scorrere con un dito sposta la pagina. Allargare due dita può ingrandire una fotografia o una pagina." },
+          { "text": "I tasti laterali regolano spesso il volume o bloccano lo schermo. Il gesto esatto può cambiare in base al modello." },
+          { "text": "Se il testo è piccolo, cerca nelle impostazioni di schermo o accessibilità le opzioni per ingrandirlo." }
+        ],
+        "realLife": { "title": "Imparare senza fretta", "text": "Come provare i tasti di un telecomando, puoi esplorare un comando alla volta e guardare cosa succede prima di proseguire." },
+        "quiz": [
+          { "id": "devices-touch-q1", "type": "choice", "prompt": "Come apri normalmente un'icona sullo schermo tattile?", "options": ["La tocchi brevemente", "Soffi sullo schermo", "Stacchi la batteria"], "answer": 0, "explanation": "Un tocco breve, chiamato tap, apre normalmente l'elemento selezionato." },
+          { "id": "devices-touch-q2", "type": "truefalse", "prompt": "Scorrere con un dito può spostare una pagina verso l'alto o verso il basso.", "answer": true, "explanation": "Lo scorrimento, o scroll, permette di leggere le parti fuori dallo schermo." },
+          { "id": "devices-touch-q3", "type": "choice", "prompt": "Il testo sullo schermo è troppo piccolo. Qual è una buona prima prova?", "options": ["Cercare l'ingrandimento del testo nelle impostazioni", "Premere a caso tutti i tasti", "Rimuovere la scheda SIM"], "answer": 0, "explanation": "Le impostazioni di schermo o accessibilità offrono spesso dimensioni del testo regolabili." },
+          { "id": "devices-touch-q4", "type": "order", "prompt": "Ordina i passaggi per ingrandire il testo in modo prudente:", "items": ["Aprire le Impostazioni", "Cercare Schermo o Accessibilità", "Modificare la dimensione e controllare il risultato"], "explanation": "Parti dalle impostazioni e verifica il risultato prima di fare altre modifiche." }
+        ]
+      }
+    },
+    {
+      "topicId": "devices",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "devices-battery-and-storage",
+        "title": "Batteria, memoria e accessori",
+        "steps": [
+          { "text": "La batteria alimenta il dispositivo quando non è collegato alla presa. Luminosità elevata, video e applicazioni aperte possono consumare più energia." },
+          { "text": "La memoria conserva app e file; la batteria e la memoria sono cose diverse. Liberare memoria non ricarica la batteria." },
+          { "text": "Se lo spazio è quasi esaurito, controlla quali file occupano spazio e salva altrove quelli importanti prima di eliminarli." },
+          { "text": "Per collegare cuffie o altri accessori, verifica che il tipo di porta o connessione sia compatibile e non forzare mai uno spinotto." }
+        ],
+        "realLife": { "title": "Energia e scaffali", "text": "La batteria è come il carburante per usare il dispositivo; la memoria è come uno scaffale dove conservi app e documenti." },
+        "quiz": [
+          { "id": "devices-battery-q1", "type": "choice", "prompt": "Che cosa conserva fotografie e applicazioni?", "options": ["La memoria del dispositivo", "Il volume dell'altoparlante", "Il caricabatterie"], "answer": 0, "explanation": "I file e le app occupano lo spazio di memoria, non la carica della batteria." },
+          { "id": "devices-battery-q2", "type": "truefalse", "prompt": "Ridurre la luminosità può aiutare a consumare meno batteria.", "answer": true, "explanation": "Lo schermo luminoso può richiedere più energia." },
+          { "id": "devices-battery-q3", "type": "choice", "prompt": "Il telefono avvisa che lo spazio è quasi pieno. Cosa fai prima di cancellare file?", "options": ["Controllo cosa occupa spazio e salvo i file importanti", "Elimino tutte le fotografie senza guardarle", "Formatto subito il dispositivo"], "answer": 0, "explanation": "Verifica i file e crea una copia di quelli importanti prima di eliminarli." },
+          { "id": "devices-battery-q4", "type": "order", "prompt": "Ordina i controlli prima di collegare un accessorio:", "items": ["Controllare la porta o il tipo di collegamento", "Verificare la compatibilità dell'accessorio", "Collegarlo senza forzare"], "explanation": "Controllo e compatibilità aiutano a evitare danni alla porta o all'accessorio." }
+        ]
+      }
+    },
+    {
+      "topicId": "devices",
+      "levelId": "pro",
+      "chapter": {
+        "id": "devices-accessibility-and-troubleshooting",
+        "title": "Accessibilità e piccoli problemi tecnici",
+        "steps": [
+          { "text": "Le funzioni di accessibilità possono offrire testo ingrandito, lettura dello schermo, sottotitoli, ingrandimento e comandi vocali." },
+          { "text": "Se un'app sembra bloccata, aspetta qualche secondo; poi prova a chiuderla e riaprirla. Evita di ripristinare il telefono come prima soluzione." },
+          { "text": "Se manca la connessione, controlla modalità aereo, Wi-Fi e dati mobili prima di modificare altre impostazioni." },
+          { "text": "Annota il messaggio di errore senza condividere password o codici: può aiutarti a chiedere assistenza in modo sicuro." }
+        ],
+        "realLife": { "title": "Adattare e controllare", "text": "Un dispositivo può essere regolato come una sedia: le opzioni di accessibilità lo adattano alla persona che lo usa." },
+        "quiz": [
+          { "id": "devices-access-q1", "type": "choice", "prompt": "Quale funzione aiuta chi preferisce ascoltare il testo sullo schermo?", "options": ["Lettura dello schermo", "Modalità aereo", "Torcia"], "answer": 0, "explanation": "La lettura dello schermo pronuncia alcuni contenuti e comandi." },
+          { "id": "devices-access-q2", "type": "truefalse", "prompt": "Ripristinare il telefono ai dati di fabbrica dovrebbe essere sempre il primo tentativo quando un'app si blocca.", "answer": false, "explanation": "Prima prova soluzioni semplici e chiedi assistenza: il ripristino può cancellare dati." },
+          { "id": "devices-access-q3", "type": "choice", "prompt": "Non riesci a collegarti a internet. Quale controllo è utile?", "options": ["Verificare Wi-Fi, dati mobili e modalità aereo", "Condividere il PIN con un contatto", "Eliminare la rubrica"], "answer": 0, "explanation": "Controllare le impostazioni di connessione è un primo passo non distruttivo." },
+          { "id": "devices-access-q4", "type": "truefalse", "prompt": "Puoi comunicare un messaggio di errore all'assistenza senza inviare la tua password.", "answer": true, "explanation": "L'assistenza può valutare il messaggio; password e codici restano segreti." }
+        ]
+      }
+    },
+    {
+      "topicId": "operating-system",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "os-notifications-and-keyboard",
+        "title": "Notifiche, tastiera e blocco schermo",
+        "steps": [
+          { "text": "Una notifica avvisa di un messaggio o di un aggiornamento. Puoi leggerla, ignorarla o aprire l'app corrispondente." },
+          { "text": "Una notifica inattesa che chiede password o pagamenti va verificata nell'app ufficiale, non tramite il collegamento nell'avviso." },
+          { "text": "La tastiera su schermo appare quando selezioni un campo di testo; il tasto con la freccia o Invio può andare a capo o confermare." },
+          { "text": "Il blocco schermo protegge il dispositivo quando non lo usi. Premi il tasto di accensione e inserisci il metodo di sblocco configurato." }
+        ],
+        "realLife": { "title": "Avvisi e serratura", "text": "Una notifica è come un campanello: puoi guardare chi ha suonato prima di aprire la porta." },
+        "quiz": [
+          { "id": "os-notify-q1", "type": "choice", "prompt": "Una notifica inattesa chiede la password tramite un link. Come procedi?", "options": ["Apri direttamente l'app o il sito ufficiale per verificare", "Inserisci subito la password", "Inoltra il codice ricevuto"], "answer": 0, "explanation": "Verifica dall'app o dal sito ufficiale, senza usare il link inatteso." },
+          { "id": "os-notify-q2", "type": "truefalse", "prompt": "La tastiera su schermo compare spesso quando selezioni una casella in cui scrivere.", "answer": true, "explanation": "Il dispositivo mostra la tastiera quando serve inserire testo." },
+          { "id": "os-notify-q3", "type": "choice", "prompt": "A cosa serve il blocco schermo?", "options": ["A proteggere l'accesso quando non usi il dispositivo", "A eliminare tutte le fotografie", "A rendere pubblici i messaggi"], "answer": 0, "explanation": "Un metodo di blocco riduce il rischio che altre persone aprano il dispositivo." },
+          { "id": "os-notify-q4", "type": "truefalse", "prompt": "Puoi ignorare una notifica se non vuoi aprirla subito.", "answer": true, "explanation": "Non è obbligatorio aprire ogni avviso; verifica con calma quelli inattesi." }
+        ]
+      }
+    },
+    {
+      "topicId": "operating-system",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "os-organizing-apps",
+        "title": "Organizzare app e passare da una schermata all'altra",
+        "steps": [
+          { "text": "Puoi spostare le icone o raggrupparle in cartelle per trovare più facilmente le app usate spesso." },
+          { "text": "Il selettore delle app recenti permette di tornare a un'app aperta da poco, se il dispositivo lo supporta." },
+          { "text": "La schermata Home e il menu delle app possono essere diversi su Android, iPhone, tablet e computer." },
+          { "text": "Prima di rimuovere un'icona, controlla se stai eliminando solo il collegamento dalla Home o disinstallando l'app." }
+        ],
+        "realLife": { "title": "Mettere in ordine la scrivania", "text": "Raggruppare le icone è come disporre gli oggetti sulla scrivania: trovi prima quelli che usi spesso." },
+        "quiz": [
+          { "id": "os-organize-q1", "type": "choice", "prompt": "A cosa serve una cartella di app sulla Home?", "options": ["A raggruppare icone correlate", "A caricare il dispositivo", "A sostituire il sistema operativo"], "answer": 0, "explanation": "Una cartella raccoglie icone e può rendere più semplice trovarle." },
+          { "id": "os-organize-q2", "type": "truefalse", "prompt": "Rimuovere un'icona dalla schermata iniziale significa sempre disinstallare l'app.", "answer": false, "explanation": "Su alcuni dispositivi puoi rimuovere il collegamento senza eliminare l'app." },
+          { "id": "os-organize-q3", "type": "choice", "prompt": "Dove cerchi un'app aperta poco fa?", "options": ["Nel selettore delle app recenti, se disponibile", "Nella fotocamera", "Nel caricabatterie"], "answer": 0, "explanation": "Il selettore delle app recenti aiuta a passare tra applicazioni aperte." },
+          { "id": "os-organize-q4", "type": "order", "prompt": "Ordina i passaggi per creare una cartella di app, se il dispositivo lo consente:", "items": ["Tenere premuta un'icona", "Trascinarla sopra un'altra app compatibile", "Dare un nome alla cartella, se richiesto"], "explanation": "La procedura può variare, ma spesso si crea la cartella trascinando un'icona su un'altra." }
+        ]
+      }
+    },
+    {
+      "topicId": "operating-system",
+      "levelId": "pro",
+      "chapter": {
+        "id": "os-privacy-and-backup-settings",
+        "title": "Privacy, posizione e ripristino delle impostazioni",
+        "steps": [
+          { "text": "Puoi controllare quali app accedono a posizione, microfono e fotocamera nelle impostazioni sulla privacy." },
+          { "text": "Molte app permettono di usare la posizione solo mentre sono in uso, invece che sempre." },
+          { "text": "Prima di cambiare impostazioni importanti, verifica cosa modificano e annota come ripristinarle." },
+          { "text": "La sincronizzazione del dispositivo non sostituisce necessariamente una copia di sicurezza separata: verifica cosa viene salvato e come recuperarlo." }
+        ],
+        "realLife": { "title": "Decidere chi può entrare", "text": "Le impostazioni sulla privacy sono come un elenco di chiavi: controlli chi può accedere a microfono, fotocamera o posizione." },
+        "quiz": [
+          { "id": "os-privacy-q1", "type": "choice", "prompt": "Un'app di mappe deve conoscere la posizione per indicarti un percorso. Quale scelta limita l'accesso nel tempo?", "options": ["Consentirla solo mentre usi l'app, se disponibile", "Condividerla per sempre con chiunque", "Inviare la password"], "answer": 0, "explanation": "Un permesso limitato all'uso dell'app può essere sufficiente per la navigazione." },
+          { "id": "os-privacy-q2", "type": "truefalse", "prompt": "Puoi controllare dalle impostazioni quali app accedono al microfono.", "answer": true, "explanation": "I sistemi operativi offrono controlli per diversi permessi delle app." },
+          { "id": "os-privacy-q3", "type": "choice", "prompt": "Prima di modificare una configurazione importante, cosa è utile fare?", "options": ["Capire l'effetto e come annullare la modifica", "Cambiare molte impostazioni a caso", "Condividere il codice di sblocco"], "answer": 0, "explanation": "Agire una modifica per volta e conoscerne l'effetto rende più semplice rimediare." },
+          { "id": "os-privacy-q4", "type": "truefalse", "prompt": "La sincronizzazione garantisce sempre una copia recuperabile separata.", "answer": false, "explanation": "La sincronizzazione può propagare anche le cancellazioni; verifica le funzioni di backup." }
+        ]
+      }
+    },
+    {
+      "topicId": "apps",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "apps-find-and-open",
+        "title": "Trovare, aprire e riconoscere un'app",
+        "steps": [
+          { "text": "Il nome e l'icona aiutano a individuare un'app, ma icone simili possono appartenere a programmi diversi." },
+          { "text": "Apri lo store ufficiale dal dispositivo e cerca il nome dell'app; controlla che lo sviluppatore corrisponda a quello atteso." },
+          { "text": "La pagina dell'app mostra descrizione, valutazioni, data di aggiornamento e informazioni sui dati richiesti." },
+          { "text": "Per avviare un'app installata, tocca la sua icona dalla Home o dall'elenco delle applicazioni." }
+        ],
+        "realLife": { "title": "Controllare l'etichetta", "text": "Prima di prendere un prodotto dallo scaffale, leggi l'etichetta: anche nello store conviene controllare autore e descrizione." },
+        "quiz": [
+          { "id": "apps-find-q1", "type": "choice", "prompt": "Dove è più prudente cercare una nuova app per il telefono?", "options": ["Nello store ufficiale del dispositivo", "In un link casuale ricevuto da uno sconosciuto", "In un allegato inatteso"], "answer": 0, "explanation": "Lo store ufficiale offre informazioni sull'app e sul suo sviluppatore." },
+          { "id": "apps-find-q2", "type": "truefalse", "prompt": "Due app con icone simili sono necessariamente la stessa app.", "answer": false, "explanation": "Controlla il nome e lo sviluppatore: l'icona da sola non basta." },
+          { "id": "apps-find-q3", "type": "choice", "prompt": "Quale informazione è utile controllare nella pagina di un'app?", "options": ["Chi l'ha sviluppata", "Il colore della custodia del telefono", "Il nome della rete Wi-Fi del vicino"], "answer": 0, "explanation": "Il nome dello sviluppatore aiuta a verificare che sia l'app desiderata." },
+          { "id": "apps-find-q4", "type": "truefalse", "prompt": "Puoi aprire un'app installata toccandone l'icona.", "answer": true, "explanation": "L'icona è un collegamento per avviare l'app." }
+        ]
+      }
+    },
+    {
+      "topicId": "apps",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "apps-updates-and-subscriptions",
+        "title": "Aggiornamenti, spazio e abbonamenti",
+        "steps": [
+          { "text": "Un aggiornamento può correggere errori o aggiungere funzioni. Controlla che provenga dallo store o dal produttore ufficiale." },
+          { "text": "Puoi configurare gli aggiornamenti automatici; su reti mobili potrebbero consumare dati secondo le impostazioni." },
+          { "text": "Alcune app offrono prove gratuite o abbonamenti. Leggi prezzo, durata e modalità di rinnovo prima di confermare." },
+          { "text": "Disinstallare un'app non sempre annulla un abbonamento: controlla gli abbonamenti nell'account dello store." }
+        ],
+        "realLife": { "title": "Leggere le condizioni", "text": "Un abbonamento digitale è come un servizio periodico: prima di sottoscriverlo controlli il costo e quando si rinnova." },
+        "quiz": [
+          { "id": "apps-update-q1", "type": "choice", "prompt": "Dove controlli se un abbonamento dell'app si rinnova?", "options": ["Nella sezione abbonamenti dello store o dell'account", "Eliminando l'icona dalla Home", "Spegnendo il Wi-Fi"], "answer": 0, "explanation": "La rimozione dell'app non annulla necessariamente un pagamento ricorrente." },
+          { "id": "apps-update-q2", "type": "truefalse", "prompt": "Prima di avviare una prova gratuita è bene verificare se e quando diventa a pagamento.", "answer": true, "explanation": "Prezzo, rinnovo e modalità di cancellazione sono informazioni importanti." },
+          { "id": "apps-update-q3", "type": "choice", "prompt": "Un aggiornamento inatteso appare come un link in un SMS. Cosa fai?", "options": ["Apri lo store ufficiale e cerchi gli aggiornamenti lì", "Installi subito il file allegato", "Invii il codice di accesso"], "answer": 0, "explanation": "Gestisci gli aggiornamenti tramite lo store ufficiale o le impostazioni del dispositivo." },
+          { "id": "apps-update-q4", "type": "truefalse", "prompt": "Gli aggiornamenti automatici possono essere configurati secondo la connessione disponibile.", "answer": true, "explanation": "Le opzioni variano, ma spesso puoi scegliere se aggiornare anche usando dati mobili." }
+        ]
+      }
+    },
+    {
+      "topicId": "apps",
+      "levelId": "pro",
+      "chapter": {
+        "id": "apps-evaluate-and-remove",
+        "title": "Valutare, limitare e rimuovere applicazioni",
+        "steps": [
+          { "text": "Prima di installare, confronta funzione, autore, aggiornamenti recenti e permessi richiesti; una valutazione alta da sola non dimostra affidabilità." },
+          { "text": "Se un'app chiede accessi non necessari, puoi negare il permesso e verificare se la funzione principale continua a funzionare." },
+          { "text": "Quando rimuovi un'app, controlla eventuali file o dati associati e verifica l'abbonamento separatamente." },
+          { "text": "Su un dispositivo condiviso, evita di salvare credenziali personali in app a cui altre persone possono accedere." }
+        ],
+        "realLife": { "title": "Scegliere con criterio", "text": "Per scegliere un attrezzo non basta una recensione: controlli che faccia ciò che serve e che sia adatto al lavoro." },
+        "quiz": [
+          { "id": "apps-evaluate-q1", "type": "choice", "prompt": "Una valutazione alta garantisce che un'app sia sicura?", "options": ["No: controllo anche autore, permessi e informazioni", "Sì, sempre", "Sì, se l'icona è colorata"], "answer": 0, "explanation": "Le valutazioni sono solo un indizio e non sostituiscono altri controlli." },
+          { "id": "apps-evaluate-q2", "type": "truefalse", "prompt": "Un permesso non necessario si può negare e poi verificare il comportamento dell'app.", "answer": true, "explanation": "È ragionevole concedere solo gli accessi utili alla funzione." },
+          { "id": "apps-evaluate-q3", "type": "choice", "prompt": "Hai disinstallato un'app con un abbonamento. Quale verifica resta utile?", "options": ["Controllare e annullare l'abbonamento dall'account", "Cambiare lo sfondo", "Eliminare tutti i contatti"], "answer": 0, "explanation": "La disinstallazione e la cancellazione di un abbonamento sono operazioni separate." },
+          { "id": "apps-evaluate-q4", "type": "truefalse", "prompt": "Su un dispositivo condiviso è opportuno valutare se lasciare salvata la propria password.", "answer": true, "explanation": "Chi usa lo stesso dispositivo potrebbe avere accesso all'account." }
+        ]
+      }
+    },
+    {
+      "topicId": "internet",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "internet-search-and-bookmarks",
+        "title": "Cercare informazioni e salvare pagine",
+        "steps": [
+          { "text": "Apri il browser e scrivi poche parole chiare nella casella di ricerca; controlla che la ricerca sia nella barra giusta." },
+          { "text": "I risultati possono includere pubblicità. La dicitura Annuncio o Sponsorizzato indica spesso un risultato a pagamento." },
+          { "text": "Apri risultati da fonti riconoscibili e confronta più pagine, soprattutto per salute, denaro o servizi pubblici." },
+          { "text": "Un segnalibro o preferito salva l'indirizzo di una pagina per ritrovarla senza cercarla di nuovo." }
+        ],
+        "realLife": { "title": "Cercare in una biblioteca", "text": "Il motore di ricerca è un indice: mostra possibili risposte, ma spetta a te valutare quale fonte consultare." },
+        "quiz": [
+          { "id": "internet-search-q1", "type": "choice", "prompt": "Che cosa segnala spesso la parola «Sponsorizzato» nei risultati?", "options": ["Un annuncio a pagamento", "Una garanzia di verità", "Che la pagina è stata scritta da un familiare"], "answer": 0, "explanation": "Un risultato sponsorizzato è pubblicità, non una certificazione dell'informazione." },
+          { "id": "internet-search-q2", "type": "truefalse", "prompt": "Un segnalibro aiuta a ritrovare una pagina web.", "answer": true, "explanation": "Il segnalibro salva l'indirizzo della pagina nel browser." },
+          { "id": "internet-search-q3", "type": "choice", "prompt": "Devi verificare un'informazione importante. Qual è un buon metodo?", "options": ["Confrontare più fonti affidabili", "Fermarti al primo titolo", "Scegliere il risultato con più colori"], "answer": 0, "explanation": "Il confronto tra fonti aiuta a individuare errori o informazioni incomplete." },
+          { "id": "internet-search-q4", "type": "truefalse", "prompt": "Il primo risultato di una ricerca è sempre quello più affidabile.", "answer": false, "explanation": "La posizione dipende anche da pubblicità e altri fattori; valuta la fonte." }
+        ]
+      }
+    },
+    {
+      "topicId": "internet",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "internet-qr-and-connections",
+        "title": "QR Code, reti Wi-Fi e problemi di connessione",
+        "steps": [
+          { "text": "Un QR Code può contenere un indirizzo web, un contatto o altri dati. Prima di aprire un collegamento, guarda quale sito compare." },
+          { "text": "Una rete Wi-Fi pubblica può essere comoda, ma non inserire dati sensibili in pagine inattese e verifica il nome esatto della rete." },
+          { "text": "Se internet non funziona, controlla se il problema riguarda un solo sito o tutte le app; poi verifica il Wi-Fi e la modalità aereo." },
+          { "text": "Riavviare router o dispositivo può aiutare, ma non condividere la password della rete con persone non autorizzate." }
+        ],
+        "realLife": { "title": "Controllare la destinazione", "text": "Un QR Code è come un cartello: prima di seguirlo leggi dove ti porta." },
+        "quiz": [
+          { "id": "internet-qr-q1", "type": "choice", "prompt": "Dopo aver inquadrato un QR Code, cosa controlli?", "options": ["L'indirizzo web mostrato prima di aprirlo", "La percentuale della batteria di uno sconosciuto", "La password del tuo account"], "answer": 0, "explanation": "Controllare il dominio aiuta a evitare link ingannevoli." },
+          { "id": "internet-qr-q2", "type": "truefalse", "prompt": "Il nome di una rete Wi-Fi pubblica può essere copiato da una rete falsa.", "answer": true, "explanation": "Verifica con il personale o con una fonte ufficiale il nome corretto della rete." },
+          { "id": "internet-qr-q3", "type": "choice", "prompt": "Solo un sito non si carica, mentre le altre app funzionano. Cosa suggerisce?", "options": ["Il problema potrebbe riguardare quel sito o il suo indirizzo", "La batteria è certamente guasta", "Tutti i file sono stati cancellati"], "answer": 0, "explanation": "Confrontare più siti aiuta a capire se il problema è generale o circoscritto." },
+          { "id": "internet-qr-q4", "type": "truefalse", "prompt": "È prudente chiedere conferma del nome della rete Wi-Fi pubblica al gestore del luogo.", "answer": true, "explanation": "Una rete falsa può imitare il nome di quella legittima." }
+        ]
+      }
+    },
+    {
+      "topicId": "internet",
+      "levelId": "pro",
+      "chapter": {
+        "id": "internet-browser-privacy",
+        "title": "Indirizzi, HTTPS e privacy nel browser",
+        "steps": [
+          { "text": "Controlla l'intero nome del dominio, soprattutto prima di accedere o pagare: nomi simili possono imitare un sito noto." },
+          { "text": "HTTPS cifra la connessione tra browser e sito, ma non dimostra che il sito sia onesto o che appartenga all'organizzazione che imita." },
+          { "text": "La navigazione privata limita alcune tracce salvate localmente dopo la sessione; non rende anonimi su internet né nasconde l'attività a ogni rete o servizio." },
+          { "text": "Puoi cancellare cronologia e cookie dalle impostazioni del browser; ciò potrebbe scollegarti da alcuni siti." }
+        ],
+        "realLife": { "title": "Busta chiusa, destinatario verificato", "text": "HTTPS è come una busta chiusa durante il trasporto; controllare il dominio serve a verificare a chi la stai consegnando." },
+        "quiz": [
+          { "id": "internet-privacy-q1", "type": "choice", "prompt": "Che cosa garantisce da solo il lucchetto HTTPS?", "options": ["La connessione è cifrata, non che il sito sia affidabile", "Il sito è sempre quello della tua banca", "Nessuno può mai vedere il tuo indirizzo"], "answer": 0, "explanation": "HTTPS protegge il collegamento, ma bisogna verificare il dominio e il sito." },
+          { "id": "internet-privacy-q2", "type": "truefalse", "prompt": "La navigazione privata rende anonima ogni attività online.", "answer": false, "explanation": "Limita alcune tracce sul dispositivo, ma non garantisce anonimato verso siti, reti o fornitori." },
+          { "id": "internet-privacy-q3", "type": "choice", "prompt": "Prima di inserire credenziali, quale parte dell'indirizzo è importante verificare?", "options": ["Il nome completo del dominio", "Solo il colore della pagina", "L'ora mostrata dal telefono"], "answer": 0, "explanation": "Un dominio ingannevole può assomigliare a quello corretto." },
+          { "id": "internet-privacy-q4", "type": "truefalse", "prompt": "Cancellare i cookie può scollegarti da alcuni siti.", "answer": true, "explanation": "I cookie possono conservare informazioni di sessione e preferenze." }
+        ]
+      }
+    },
+    {
+      "topicId": "productivity",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "productivity-writing-and-formatting",
+        "title": "Scrivere e formattare un documento",
+        "steps": [
+          { "text": "In un documento di testo puoi scrivere lettere, appunti o una lista e correggere il testo prima di condividerlo." },
+          { "text": "Seleziona una parola o una frase per applicare grassetto, corsivo o una dimensione diversa." },
+          { "text": "Salva il documento con un nome chiaro e scegli una cartella facile da ritrovare." },
+          { "text": "Il PDF mantiene di solito l'aspetto del documento quando lo condividi; conserva anche il file originale se vuoi continuare a modificarlo." }
+        ],
+        "realLife": { "title": "Bozza e copia da consegnare", "text": "Il documento modificabile è la bozza; il PDF è una copia pronta da leggere o stampare." },
+        "quiz": [
+          { "id": "productivity-writing-q1", "type": "choice", "prompt": "Quale formato è spesso comodo per inviare una versione impaginata da leggere?", "options": ["PDF", "Una password", "Una formula"], "answer": 0, "explanation": "Il PDF aiuta a condividere un documento mantenendone l'aspetto." },
+          { "id": "productivity-writing-q2", "type": "truefalse", "prompt": "Un documento originale modificabile può essere conservato anche dopo averne esportato una copia in PDF.", "answer": true, "explanation": "Conservare entrambe le versioni permette di correggere l'originale in seguito." },
+          { "id": "productivity-writing-q3", "type": "choice", "prompt": "Come ritrovi più facilmente un documento salvato?", "options": ["Gli dai un nome chiaro e scegli una cartella", "Lo chiami sempre «Nuovo documento»", "Lo lasci senza salvare"], "answer": 0, "explanation": "Nomi e cartelle descrittivi facilitano la ricerca." },
+          { "id": "productivity-writing-q4", "type": "truefalse", "prompt": "Il grassetto può mettere in evidenza una parola selezionata.", "answer": true, "explanation": "La formattazione aiuta a dare struttura visiva al testo." }
+        ]
+      }
+    },
+    {
+      "topicId": "productivity",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "productivity-spreadsheet-practice",
+        "title": "Ordinare dati e controllare le formule",
+        "steps": [
+          { "text": "Usa una riga di intestazione per descrivere le colonne, per esempio Data, Spesa e Categoria." },
+          { "text": "Una formula inizia spesso con il segno uguale e fa riferimento alle celle; controlla gli intervalli prima di fidarti del totale." },
+          { "text": "Ordinare i dati li riordina; filtrare mostra solo le righe che corrispondono a un criterio. Controlla che la tabella intera sia inclusa." },
+          { "text": "Salva una copia prima di modificare un elenco importante e confronta i risultati con qualche dato noto." }
+        ],
+        "realLife": { "title": "Un registro di casa", "text": "Le intestazioni sono etichette sui cassetti; ordinamento e filtri aiutano a trovare le spese senza riscrivere tutto." },
+        "quiz": [
+          { "id": "productivity-sheet-q1", "type": "choice", "prompt": "A cosa serve una riga di intestazione?", "options": ["A spiegare cosa contiene ogni colonna", "A cancellare i dati", "A bloccare il computer"], "answer": 0, "explanation": "Le intestazioni rendono leggibile il significato dei dati." },
+          { "id": "productivity-sheet-q2", "type": "truefalse", "prompt": "Prima di usare un totale automatico è utile controllare le celle comprese nella formula.", "answer": true, "explanation": "Un intervallo errato può escludere o includere valori non desiderati." },
+          { "id": "productivity-sheet-q3", "type": "choice", "prompt": "Che effetto ha un filtro su una tabella?", "options": ["Mostra le righe che soddisfano un criterio", "Elimina per forza tutte le altre righe", "Converte il foglio in un'immagine"], "answer": 0, "explanation": "Un filtro nasconde temporaneamente le righe che non corrispondono al criterio." },
+          { "id": "productivity-sheet-q4", "type": "truefalse", "prompt": "Ordinare e filtrare sono la stessa operazione.", "answer": false, "explanation": "L'ordinamento cambia la sequenza; il filtro limita quali righe sono mostrate." }
+        ]
+      }
+    },
+    {
+      "topicId": "productivity",
+      "levelId": "pro",
+      "chapter": {
+        "id": "productivity-collaboration-and-rights",
+        "title": "Condivisione, versioni e uso dei contenuti",
+        "steps": [
+          { "text": "Prima di condividere un file cloud, scegli se gli altri possono solo leggerlo o anche modificarlo." },
+          { "text": "Un collegamento pubblico può essere inoltrato: evita di usarlo per documenti con dati personali o riservati." },
+          { "text": "La cronologia delle versioni può aiutare a recuperare modifiche precedenti, se il servizio la supporta." },
+          { "text": "Foto, testi e immagini possono avere diritti d'autore o licenze: verifica le condizioni prima di riutilizzarli o pubblicarli." }
+        ],
+        "realLife": { "title": "Prestare una copia", "text": "Condividere in sola lettura è come prestare una copia da consultare; dare la modifica è come permettere di scrivere sul documento." },
+        "quiz": [
+          { "id": "productivity-share-q1", "type": "choice", "prompt": "Vuoi che i familiari leggano un documento senza cambiarlo. Quale permesso scegli?", "options": ["Sola lettura", "Modifica per chiunque", "Accesso pubblico senza controllo"], "answer": 0, "explanation": "Il permesso di lettura limita la possibilità di modificare il file." },
+          { "id": "productivity-share-q2", "type": "truefalse", "prompt": "Un link pubblico a un file riservato può essere inoltrato ad altre persone.", "answer": true, "explanation": "Un link pubblico può raggiungere persone diverse da quelle inizialmente previste." },
+          { "id": "productivity-share-q3", "type": "choice", "prompt": "Prima di riutilizzare una fotografia trovata online, cosa verifichi?", "options": ["La licenza e i diritti d'uso", "Solo la risoluzione dello schermo", "Il livello della batteria"], "answer": 0, "explanation": "Non tutti i contenuti online possono essere copiati o pubblicati liberamente." },
+          { "id": "productivity-share-q4", "type": "truefalse", "prompt": "La cronologia delle versioni può aiutare a recuperare modifiche precedenti, se disponibile.", "answer": true, "explanation": "Alcuni servizi conservano versioni precedenti del documento." }
+        ]
+      }
+    },
+    {
+      "topicId": "communication",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "communication-contacts-and-messages",
+        "title": "Contatti, messaggi e fotografie",
+        "steps": [
+          { "text": "Prima di scrivere, controlla il nome e, quando possibile, il numero o l'indirizzo del destinatario." },
+          { "text": "Puoi allegare una fotografia o un documento usando il tasto con la graffetta, la fotocamera o il simbolo più." },
+          { "text": "Un messaggio consegnato non è sempre stato letto; le conferme dipendono dalle impostazioni dell'app." },
+          { "text": "Evita di inviare documenti, codici o fotografie private a un contatto sbagliato o non verificato." }
+        ],
+        "realLife": { "title": "Controllare la busta", "text": "Prima di spedire una lettera controlli il destinatario; prima di inviare un messaggio fai lo stesso." },
+        "quiz": [
+          { "id": "communication-contact-q1", "type": "choice", "prompt": "Prima di inviare una fotografia, cosa controlli?", "options": ["Il destinatario e l'immagine scelta", "Solo la suoneria", "Il nome del Wi-Fi"], "answer": 0, "explanation": "Controllare destinatario e allegato evita invii accidentali." },
+          { "id": "communication-contact-q2", "type": "truefalse", "prompt": "Un messaggio consegnato significa sempre che la persona l'ha letto.", "answer": false, "explanation": "Consegna e lettura sono informazioni diverse e dipendono dall'app." },
+          { "id": "communication-contact-q3", "type": "choice", "prompt": "Quale simbolo indica spesso l'aggiunta di un file?", "options": ["La graffetta", "Il simbolo della batteria", "La lente degli occhiali"], "answer": 0, "explanation": "La graffetta è comunemente usata per allegare file." },
+          { "id": "communication-contact-q4", "type": "truefalse", "prompt": "È prudente verificare il contatto prima di inviare un documento riservato.", "answer": true, "explanation": "Controllare il destinatario riduce il rischio di esporre informazioni personali." }
+        ]
+      }
+    },
+    {
+      "topicId": "communication",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "communication-calls-and-groups",
+        "title": "Videochiamate, gruppi e buone abitudini",
+        "steps": [
+          { "text": "Prima di una videochiamata, controlla connessione, volume e permessi di fotocamera e microfono." },
+          { "text": "Il tasto del microfono disattiva o riattiva l'audio; controlla l'icona prima di parlare." },
+          { "text": "Nei gruppi, un messaggio può raggiungere molte persone: non aggiungere contatti senza una ragione e non inoltrare contenuti privati." },
+          { "text": "Se qualcuno non vuole comparire in una foto o registrazione, rispettane la scelta e chiedi il consenso prima di condividere." }
+        ],
+        "realLife": { "title": "Una conversazione in gruppo", "text": "Una chat di gruppo è come una stanza con più persone: ciò che scrivi può essere letto e inoltrato da tutti i partecipanti." },
+        "quiz": [
+          { "id": "communication-call-q1", "type": "choice", "prompt": "Non ti sentono durante la videochiamata. Quale controllo fai?", "options": ["Verifico che il microfono non sia disattivato", "Elimino la rubrica", "Invio il PIN della banca"], "answer": 0, "explanation": "Controlla l'icona del microfono e i permessi dell'app." },
+          { "id": "communication-call-q2", "type": "truefalse", "prompt": "Un messaggio in un gruppo può essere inoltrato dai partecipanti.", "answer": true, "explanation": "Considera il pubblico del gruppo prima di condividere informazioni." },
+          { "id": "communication-call-q3", "type": "choice", "prompt": "Prima di pubblicare la foto di un'altra persona, qual è una buona pratica?", "options": ["Chiedere il suo consenso", "Pubblicarla comunque", "Aggiungere il suo indirizzo"], "answer": 0, "explanation": "Rispetta la privacy e le preferenze delle persone ritratte." },
+          { "id": "communication-call-q4", "type": "truefalse", "prompt": "Per una videochiamata è utile controllare in anticipo audio e connessione.", "answer": true, "explanation": "Un controllo rapido aiuta a iniziare senza problemi." }
+        ]
+      }
+    },
+    {
+      "topicId": "communication",
+      "levelId": "pro",
+      "chapter": {
+        "id": "communication-identity-and-misinformation",
+        "title": "Identità digitale, reputazione e notizie",
+        "steps": [
+          { "text": "Il nome, la fotografia e le informazioni del profilo contribuiscono alla tua identità digitale; controlla cosa è visibile pubblicamente." },
+          { "text": "Prima di condividere una notizia, verifica data, autore e fonte originale; un contenuto vecchio può essere riproposto fuori contesto." },
+          { "text": "Confronta la notizia con fonti indipendenti e affidabili. Immagini e video possono essere ritagliati o modificati." },
+          { "text": "Una correzione o una pausa prima di inoltrare può fermare la diffusione di informazioni false o dannose." }
+        ],
+        "realLife": { "title": "Il passaparola digitale", "text": "Una notizia inoltrata molte volte non diventa per questo vera: verifica la fonte prima di ripeterla." },
+        "quiz": [
+          { "id": "communication-identity-q1", "type": "choice", "prompt": "Quale verifica è utile prima di inoltrare una notizia?", "options": ["Controllare data, autore e fonte", "Guardare solo il numero di condivisioni", "Fidarsi del titolo più allarmante"], "answer": 0, "explanation": "Fonte e contesto aiutano a valutare se la notizia è attendibile." },
+          { "id": "communication-identity-q2", "type": "truefalse", "prompt": "Un contenuto condiviso molte volte è necessariamente vero.", "answer": false, "explanation": "La popolarità non dimostra l'accuratezza di un'informazione." },
+          { "id": "communication-identity-q3", "type": "choice", "prompt": "Che cosa contribuisce alla tua identità digitale?", "options": ["Le informazioni e i contenuti del tuo profilo", "Solo il modello del telefono", "La rete elettrica di casa"], "answer": 0, "explanation": "I contenuti e le informazioni associati ai profili formano parte della presenza online." },
+          { "id": "communication-identity-q4", "type": "truefalse", "prompt": "Una fotografia o un video possono essere presentati fuori contesto.", "answer": true, "explanation": "Verifica origine e contesto, soprattutto per contenuti sorprendenti o allarmanti." }
+        ]
+      }
+    },
+    {
+      "topicId": "daily-services",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "services-public-apps",
+        "title": "App IO e servizi pubblici online",
+        "steps": [
+          { "text": "I servizi pubblici online possono permettere di ricevere comunicazioni, consultare pratiche o effettuare pagamenti." },
+          { "text": "L'app IO raccoglie comunicazioni e servizi degli enti aderenti; le funzioni disponibili dipendono dal servizio." },
+          { "text": "Per accedere usa i canali ufficiali e il metodo di identità richiesto. Non seguire link inattesi che chiedono codici o pagamenti urgenti." },
+          { "text": "Prima di pagare controlla ente, causale e importo; conserva la ricevuta quando ti serve." }
+        ],
+        "realLife": { "title": "Uno sportello digitale", "text": "L'app di un servizio pubblico è come uno sportello: controlla l'ente e i dettagli prima di consegnare informazioni o pagare." },
+        "quiz": [
+          { "id": "services-app-q1", "type": "choice", "prompt": "Che tipo di contenuti si possono ricevere nell'app IO?", "options": ["Comunicazioni e servizi degli enti aderenti", "Solo fotografie dalla fotocamera", "La password di tutti gli account"], "answer": 0, "explanation": "L'app IO permette di usare servizi e ricevere comunicazioni dagli enti aderenti." },
+          { "id": "services-app-q2", "type": "truefalse", "prompt": "Prima di confermare un pagamento pubblico è bene controllare importo ed ente.", "answer": true, "explanation": "Controlla i dettagli della transazione prima di confermare." },
+          { "id": "services-app-q3", "type": "choice", "prompt": "Ricevi un SMS che chiede con urgenza un pagamento tramite link. Cosa fai?", "options": ["Verifico sul sito o nell'app ufficiale", "Inserisco i dati della carta senza controllare", "Invio il codice ricevuto"], "answer": 0, "explanation": "Le richieste urgenti via link vanno verificate attraverso canali ufficiali." },
+          { "id": "services-app-q4", "type": "truefalse", "prompt": "I servizi disponibili nell'app possono dipendere dagli enti aderenti.", "answer": true, "explanation": "La disponibilità delle funzioni dipende dai servizi attivati dagli enti." }
+        ]
+      }
+    },
+    {
+      "topicId": "daily-services",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "services-health-and-bookings",
+        "title": "Fascicolo sanitario, ricette e appuntamenti",
+        "steps": [
+          { "text": "Il Fascicolo Sanitario Elettronico permette di consultare documenti sanitari resi disponibili dai servizi competenti." },
+          { "text": "Disponibilità e procedure possono cambiare tra regioni: consulta il portale sanitario ufficiale della tua regione." },
+          { "text": "Una ricetta digitale può avere un codice o un promemoria. Proteggi il documento come proteggeresti informazioni sanitarie su carta." },
+          { "text": "Per un appuntamento, ricontrolla data, ora e struttura; usa i recapiti ufficiali per modificare o annullare." }
+        ],
+        "realLife": { "title": "Una cartella sanitaria personale", "text": "Il fascicolo online è una cartella consultabile con le credenziali previste, ma contiene dati che restano riservati." },
+        "quiz": [
+          { "id": "services-health-q1", "type": "choice", "prompt": "Dove controlli la procedura per consultare il Fascicolo Sanitario?", "options": ["Sul portale sanitario ufficiale competente", "In un messaggio casuale", "Su un profilo sconosciuto"], "answer": 0, "explanation": "Consulta il servizio ufficiale, perché modalità e disponibilità possono variare." },
+          { "id": "services-health-q2", "type": "truefalse", "prompt": "Le ricette e i documenti sanitari contengono informazioni da proteggere.", "answer": true, "explanation": "I dati sanitari sono personali e vanno condivisi con attenzione." },
+          { "id": "services-health-q3", "type": "choice", "prompt": "Un messaggio propone di pagare una visita aprendo un link inatteso. Come verifichi?", "options": ["Contatti la struttura con i recapiti ufficiali", "Invii subito i dati della carta", "Giri il messaggio a tutti"], "answer": 0, "explanation": "Verifica la richiesta direttamente con la struttura o sul portale ufficiale." },
+          { "id": "services-health-q4", "type": "truefalse", "prompt": "Data e luogo dell'appuntamento meritano una verifica prima di partire.", "answer": true, "explanation": "Controllare i dettagli evita errori e viaggi inutili." }
+        ]
+      }
+    },
+    {
+      "topicId": "daily-services",
+      "levelId": "pro",
+      "chapter": {
+        "id": "services-safe-payments-and-travel",
+        "title": "Pagamenti digitali, mappe e trasporti",
+        "steps": [
+          { "text": "Usa l'app o il sito ufficiale della banca; controlla beneficiario e importo prima di autorizzare un pagamento." },
+          { "text": "Non comunicare a nessuno codici OTP o conferme che non hai richiesto. La banca non ha bisogno che tu legga un codice ricevuto per annullare una frode." },
+          { "text": "Il contactless usa una carta o un dispositivo vicino al POS. Controlla importo e ricevuta e custodisci carta e telefono." },
+          { "text": "Per mappe e biglietti, verifica percorso, data e condizioni del titolo di viaggio nell'app ufficiale del gestore." }
+        ],
+        "realLife": { "title": "Un pagamento allo sportello", "text": "Prima di consegnare denaro controlli a chi e quanto; una conferma sul telefono merita la stessa attenzione." },
+        "quiz": [
+          { "id": "services-pay-q1", "type": "choice", "prompt": "Ricevi una telefonata che ti chiede un codice OTP per annullare un pagamento. Cosa fai?", "options": ["Non lo comunico e contatto la banca con il numero ufficiale", "Leggo il codice al chiamante", "Invio la password via messaggio"], "answer": 0, "explanation": "I codici di autorizzazione sono segreti: contatta la banca attraverso un canale ufficiale." },
+          { "id": "services-pay-q2", "type": "truefalse", "prompt": "Prima di autorizzare un pagamento è utile controllare beneficiario e importo.", "answer": true, "explanation": "La verifica dei dettagli aiuta a evitare pagamenti errati o fraudolenti." },
+          { "id": "services-pay-q3", "type": "choice", "prompt": "Prima di acquistare un biglietto dei trasporti nell'app, cosa controlli?", "options": ["Gestore, data e condizioni del biglietto", "Solo il colore dell'icona", "La password di un'altra persona"], "answer": 0, "explanation": "Controlla che il titolo sia adatto alla data e al viaggio." },
+          { "id": "services-pay-q4", "type": "truefalse", "prompt": "Contactless significa che non è necessario verificare l'importo mostrato dal POS.", "answer": false, "explanation": "Anche con pagamenti contactless è importante controllare l'importo." }
+        ]
+      }
+    },
+    {
+      "topicId": "files",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "files-open-move-and-delete",
+        "title": "Aprire, spostare e cancellare file",
+        "steps": [
+          { "text": "L'app File o Gestione file mostra cartelle e documenti conservati sul dispositivo." },
+          { "text": "Tocca un file per aprirlo; se il dispositivo chiede con quale app, scegli quella adatta al tipo di file." },
+          { "text": "Spostare cambia la cartella del file; copiare crea un'altra versione lasciando l'originale." },
+          { "text": "Un file eliminato può finire nel cestino per un periodo limitato. Prima di svuotarlo, verifica che non ci siano elementi da recuperare." }
+        ],
+        "realLife": { "title": "Raccoglitori e cestino", "text": "Spostare un foglio cambia raccoglitore; copiarlo ne crea un'altra copia; il cestino può consentire di riprenderlo." },
+        "quiz": [
+          { "id": "files-manage-q1", "type": "choice", "prompt": "Qual è la differenza tra copiare e spostare un file?", "options": ["Copia crea un'altra versione; sposta cambia la posizione", "Sono sempre la stessa cosa", "Spostare stampa il file"], "answer": 0, "explanation": "La copia lascia l'originale al suo posto; lo spostamento lo trasferisce." },
+          { "id": "files-manage-q2", "type": "truefalse", "prompt": "Il cestino può permettere di recuperare un file eliminato di recente.", "answer": true, "explanation": "Dipende dal dispositivo e dal tempo trascorso: verifica prima di svuotarlo." },
+          { "id": "files-manage-q3", "type": "choice", "prompt": "Il dispositivo chiede quale app usare per aprire un file. Cosa scegli?", "options": ["Un'app adatta al tipo di file", "Un'app a caso", "La modalità aereo"], "answer": 0, "explanation": "Un documento, un'immagine e un audio possono richiedere app diverse." },
+          { "id": "files-manage-q4", "type": "truefalse", "prompt": "Svuotare il cestino può rendere più difficile recuperare i file.", "answer": true, "explanation": "Controlla il cestino prima di svuotarlo." }
+        ]
+      }
+    },
+    {
+      "topicId": "files",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "files-names-and-formats",
+        "title": "Nomi, formati e copie di sicurezza",
+        "steps": [
+          { "text": "Usa nomi che descrivono il contenuto, per esempio «spese-marzo», invece di «documento1»." },
+          { "text": "L'estensione, come .pdf o .jpg, suggerisce il tipo di file; non cambiare l'estensione solo per provare ad aprirlo." },
+          { "text": "Salva una copia dei documenti importanti in un luogo separato e verifica che il file si apra." },
+          { "text": "Prima di condividere un file, controlla che non contenga pagine, commenti o informazioni personali non destinate al destinatario." }
+        ],
+        "realLife": { "title": "Etichette leggibili", "text": "Un nome chiaro sul raccoglitore aiuta a trovare il documento e a distinguere le copie." },
+        "quiz": [
+          { "id": "files-names-q1", "type": "choice", "prompt": "Quale nome aiuta di più a ritrovare un file?", "options": ["ricevuta-luce-aprile", "nuovo123", "file"], "answer": 0, "explanation": "Un nome descrittivo rende più facile riconoscere il contenuto." },
+          { "id": "files-names-q2", "type": "truefalse", "prompt": "Cambiare il nome di un file cambiandone l'estensione lo converte sempre correttamente.", "answer": false, "explanation": "Cambiare l'estensione non converte necessariamente il formato e può impedire l'apertura." },
+          { "id": "files-names-q3", "type": "choice", "prompt": "Come verifichi una copia di sicurezza?", "options": ["Controlli che il file sia presente e si apra", "Ti fidi solo del nome dell'app", "Elimini l'originale subito"], "answer": 0, "explanation": "Una copia è utile se è accessibile e contiene i dati che ti servono." },
+          { "id": "files-names-q4", "type": "truefalse", "prompt": "Un documento può contenere commenti o dati personali da controllare prima di condividerlo.", "answer": true, "explanation": "Rivedi il file e rimuovi le informazioni che non vuoi divulgare." }
+        ]
+      }
+    },
+    {
+      "topicId": "files",
+      "levelId": "pro",
+      "chapter": {
+        "id": "files-cloud-sharing-and-recovery",
+        "title": "Condivisione cloud, sincronizzazione e recupero",
+        "steps": [
+          { "text": "Prima di condividere un file nel cloud, scegli persone specifiche e il livello minimo di accesso necessario." },
+          { "text": "Un collegamento può consentire a chiunque lo riceva di aprire il file: revoca o modifica l'accesso quando non serve più." },
+          { "text": "La sincronizzazione copia le modifiche tra dispositivi, ma può sincronizzare anche una cancellazione o un errore." },
+          { "text": "Controlla il cestino del servizio e le versioni precedenti per il recupero; mantieni una copia separata per i documenti insostituibili." }
+        ],
+        "realLife": { "title": "Prestare la chiave dell'archivio", "text": "Un link condiviso è come una chiave: limita chi può usarla e toglila quando il prestito finisce." },
+        "quiz": [
+          { "id": "files-cloud-q1", "type": "choice", "prompt": "Quale impostazione è più prudente per condividere un documento riservato?", "options": ["Accesso a persone specifiche con permesso di lettura", "Link pubblico con modifica", "Pubblicazione sui social"], "answer": 0, "explanation": "Limita destinatari e permessi a ciò che serve." },
+          { "id": "files-cloud-q2", "type": "truefalse", "prompt": "La sincronizzazione può propagare una cancellazione agli altri dispositivi.", "answer": true, "explanation": "La sincronizzazione mantiene i dispositivi allineati, incluse alcune modifiche o eliminazioni." },
+          { "id": "files-cloud-q3", "type": "choice", "prompt": "Hai condiviso un link che non serve più. Cosa fai?", "options": ["Revochi o limiti l'accesso", "Lo inoltri a più persone", "Condividi la password dell'account"], "answer": 0, "explanation": "Puoi disattivare il link o restringere chi può accedere." },
+          { "id": "files-cloud-q4", "type": "truefalse", "prompt": "Una copia indipendente è utile anche quando usi la sincronizzazione cloud.", "answer": true, "explanation": "Una copia separata può aiutare in caso di cancellazione o problema dell'account." }
+        ]
+      }
+    },
+    {
+      "topicId": "security",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "security-lock-and-updates",
+        "title": "Bloccare il dispositivo e tenerlo aggiornato",
+        "steps": [
+          { "text": "Imposta un codice di blocco difficile da indovinare; evita date di nascita e sequenze ovvie." },
+          { "text": "Attiva il blocco automatico dopo un periodo breve, se disponibile, e non lasciare il telefono sbloccato incustodito." },
+          { "text": "Installa aggiornamenti del sistema e delle app dagli strumenti ufficiali, dopo aver letto le informazioni essenziali." },
+          { "text": "Se perdi il telefono, usa le funzioni ufficiali per localizzarlo o bloccarlo e avvisa i servizi interessati se necessario." }
+        ],
+        "realLife": { "title": "Chiudere la porta", "text": "Il blocco schermo è una serratura: rende più difficile accedere ai contenuti se lasci il dispositivo da parte." },
+        "quiz": [
+          { "id": "security-lock-q1", "type": "choice", "prompt": "Quale codice di blocco è più prudente?", "options": ["Uno non ovvio e non legato ai tuoi dati pubblici", "1234", "La tua data di nascita"], "answer": 0, "explanation": "Evita sequenze prevedibili e informazioni facilmente reperibili." },
+          { "id": "security-lock-q2", "type": "truefalse", "prompt": "Gli aggiornamenti ufficiali possono contenere correzioni di sicurezza.", "answer": true, "explanation": "Gli aggiornamenti possono correggere problemi e vulnerabilità." },
+          { "id": "security-lock-q3", "type": "choice", "prompt": "Dove cerchi una funzione per bloccare da remoto un telefono smarrito?", "options": ["Nel servizio ufficiale del produttore o dell'account", "In un link ricevuto da uno sconosciuto", "In un gruppo pubblico"], "answer": 0, "explanation": "Usa le funzioni ufficiali associate al dispositivo e all'account." },
+          { "id": "security-lock-q4", "type": "truefalse", "prompt": "È una buona abitudine lasciare il dispositivo sbloccato quando non lo stai usando.", "answer": false, "explanation": "Il blocco automatico riduce l'accesso accidentale o non autorizzato." }
+        ]
+      }
+    },
+    {
+      "topicId": "security",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "security-account-recovery",
+        "title": "Proteggere gli account e preparare il recupero",
+        "steps": [
+          { "text": "Usa password diverse; un gestore di password può crearle e conservarle in un archivio protetto." },
+          { "text": "Attiva la verifica in due passaggi quando disponibile e conserva i codici di recupero in un luogo sicuro e separato." },
+          { "text": "Aggiorna email e numero di recupero dell'account, assicurandoti che siano ancora accessibili." },
+          { "text": "Non approvare notifiche di accesso che non hai avviato; cambia la password dal sito ufficiale e controlla le sessioni attive." }
+        ],
+        "realLife": { "title": "Una seconda chiave e un recapito sicuro", "text": "Il secondo fattore aggiunge una serratura; i recapiti di recupero aiutano a rientrare se perdi la chiave principale." },
+        "quiz": [
+          { "id": "security-recovery-q1", "type": "choice", "prompt": "Ricevi una richiesta di approvare un accesso che non hai avviato. Cosa fai?", "options": ["La rifiuto e controllo l'account tramite il sito ufficiale", "La approvo per far sparire la notifica", "Invio il codice a chi ha chiamato"], "answer": 0, "explanation": "Rifiuta accessi non riconosciuti e verifica l'account in modo indipendente." },
+          { "id": "security-recovery-q2", "type": "truefalse", "prompt": "I codici di recupero vanno conservati in modo sicuro e non condivisi in chat.", "answer": true, "explanation": "Chi li possiede potrebbe usarli per accedere o recuperare l'account." },
+          { "id": "security-recovery-q3", "type": "choice", "prompt": "Perché aggiornare email e numero di recupero?", "options": ["Per poter recuperare l'account se perdi l'accesso", "Per rendere pubbliche le credenziali", "Per evitare tutti gli aggiornamenti"], "answer": 0, "explanation": "I recapiti aggiornati possono aiutare nelle procedure di recupero." },
+          { "id": "security-recovery-q4", "type": "truefalse", "prompt": "Una notifica di accesso non richiesta va approvata se mostra il logo del servizio.", "answer": false, "explanation": "Non approvare richieste non avviate; accedi al servizio in modo indipendente per controllare." }
+        ]
+      }
+    },
+    {
+      "topicId": "security",
+      "levelId": "pro",
+      "chapter": {
+        "id": "security-incidents-and-privacy",
+        "title": "Che cosa fare dopo un errore o un sospetto",
+        "steps": [
+          { "text": "Se hai inserito una password in un sito sospetto, raggiungi il sito ufficiale digitandone l'indirizzo e cambiala subito; se riutilizzata altrove, cambiala anche sugli altri account." },
+          { "text": "Se hai condiviso dati bancari o autorizzato un pagamento sospetto, contatta subito la banca usando il numero ufficiale e segui le sue indicazioni." },
+          { "text": "Conserva il messaggio o una schermata utile alla segnalazione, ma non inoltrare link o allegati pericolosi ad altre persone." },
+          { "text": "Controlla gli accessi recenti e le impostazioni di recupero; segnala l'incidente al servizio interessato o alle autorità competenti secondo il caso." }
+        ],
+        "realLife": { "title": "Agire rapidamente e con calma", "text": "Se perdi una chiave, avvisi chi può bloccare la serratura: dopo un incidente digitale, contatta il servizio giusto con un recapito affidabile." },
+        "quiz": [
+          { "id": "security-incident-q1", "type": "choice", "prompt": "Hai inserito la password in un sito che sospetti essere falso. Qual è un primo passo?", "options": ["Aprire il sito ufficiale in modo indipendente e cambiare la password", "Usare il link sospetto per accedere ancora", "Inviare la password a un amico"], "answer": 0, "explanation": "Usa un indirizzo ufficiale e cambia anche le password riutilizzate su altri servizi." },
+          { "id": "security-incident-q2", "type": "truefalse", "prompt": "Dopo un pagamento sospetto, è utile contattare subito la banca tramite un recapito ufficiale.", "answer": true, "explanation": "La banca può indicare i passaggi di protezione più adatti al caso." },
+          { "id": "security-incident-q3", "type": "choice", "prompt": "Come conservi un messaggio sospetto per segnalarlo?", "options": ["Mantieni una copia o schermata senza aprire o inoltrare link dannosi", "Inoltri il link a tutti i contatti", "Rispondi con i tuoi codici"], "answer": 0, "explanation": "Conserva le informazioni utili e usa procedure di segnalazione affidabili." },
+          { "id": "security-incident-q4", "type": "truefalse", "prompt": "Se la stessa password è stata riutilizzata, è opportuno cambiarla anche sugli altri account.", "answer": true, "explanation": "Password uniche riducono il rischio che un incidente si estenda ad altri servizi." }
+        ]
+      }
+    }
+  ]
+}

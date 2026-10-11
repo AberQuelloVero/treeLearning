@@ -8,14 +8,16 @@ interface Props {
   topics: Topic[];
   progress: Progress;
   onSelect: (topic: Topic) => void;
+  onGeneralQuiz: () => void;
 }
 
-export function HomeScreen({ topics, progress, onSelect }: Props) {
+export function HomeScreen({ topics, progress, onSelect, onGeneralQuiz }: Props) {
   const acc = progress.totalAnswers ? Math.round((progress.correctAnswers / progress.totalAnswers) * 100) : 0;
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text accessibilityRole="header" style={styles.title}>Cosa vuoi imparare?</Text>
       <Text style={styles.stats}>🔥 Giorni di fila: {progress.streak}   ·   Quiz: {progress.quizzesTaken}   ·   Precisione: {acc}%</Text>
+      <BigButton label="🎯 Quiz generale" variant="secondary" onPress={onGeneralQuiz} />
       {topics.map((t) => (
         <BigButton key={t.id} label={`${t.icon} ${t.title}`} onPress={() => onSelect(t)} />
       ))}
