@@ -1,0 +1,522 @@
+{
+ "topics": [
+  {
+   "id": "smartphone",
+   "title": "Smartphone e Connessioni",
+   "icon": "📱",
+   "levels": [
+    {
+     "id": "beginner",
+     "title": "Principiante Assoluto",
+     "chapters": [
+      {
+       "id": "sp-b1",
+       "title": "Il tap e il link",
+       "steps": [
+        {
+         "text": "Il \"tap\" è un tocco leggero e veloce con un dito sullo schermo, come premere un campanello."
+        },
+        {
+         "text": "Uno schermo tattile non ha bottoni veri: tocchi le immagini e le scritte per dare comandi."
+        },
+        {
+         "text": "Un \"link\" è una scritta, di solito blu o sottolineata, che se la tocchi ti porta in un altro posto."
+        }
+       ],
+       "realLife": {
+        "title": "Il link è un indirizzo",
+        "text": "Un link è come l'indirizzo civico di una casa o un cartello stradale: ti dice dove andare, e toccandolo ci arrivi subito."
+       },
+       "quiz": [
+        {
+         "id": "sp-b1-1",
+         "type": "choice",
+         "prompt": "Cos'è un \"tap\"?",
+         "options": [
+          "Un tocco veloce con un dito",
+          "Spegnere il telefono",
+          "Scrivere un messaggio"
+         ],
+         "answer": 0,
+         "explanation": "Il tap è un tocco leggero e veloce con un dito."
+        },
+        {
+         "id": "sp-b1-2",
+         "type": "truefalse",
+         "prompt": "Un link è una scritta che, se toccata, ti porta in un altro posto.",
+         "answer": true,
+         "explanation": "Esatto: il link è come un cartello stradale."
+        },
+        {
+         "id": "sp-b1-3",
+         "type": "order",
+         "prompt": "Metti in ordine per aprire un link:",
+         "items": [
+          "Vedo la scritta blu",
+          "Tocco la scritta con il dito",
+          "Si apre la nuova pagina"
+         ],
+         "explanation": "Prima vedi il link, poi lo tocchi, poi si apre la pagina."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "intermediate",
+     "title": "Intermedio",
+     "chapters": [
+      {
+       "id": "sp-i1",
+       "title": "Wi-Fi e dati mobili",
+       "steps": [
+        {
+         "text": "Il Wi-Fi è la connessione internet di casa, senza fili."
+        },
+        {
+         "text": "I dati mobili usano la rete della tua SIM, anche fuori casa, ma hanno un limite mensile."
+        },
+        {
+         "text": "Per risparmiare i dati, collegati al Wi-Fi quando sei a casa."
+        }
+       ],
+       "realLife": {
+        "title": "Rubinetto e cisterna",
+        "text": "Il Wi-Fi è come l'acqua del rubinetto di casa: abbondante. I dati mobili sono una cisterna portatile: utile ovunque ma si svuota."
+       },
+       "quiz": [
+        {
+         "id": "sp-i1-1",
+         "type": "choice",
+         "prompt": "Quale connessione ha un limite mensile?",
+         "options": [
+          "Wi-Fi di casa",
+          "Dati mobili"
+         ],
+         "answer": 1,
+         "explanation": "I dati mobili dipendono dal piano della SIM."
+        },
+        {
+         "id": "sp-i1-2",
+         "type": "truefalse",
+         "prompt": "Il Wi-Fi funziona solo se hai la SIM.",
+         "answer": false,
+         "explanation": "Il Wi-Fi usa il router di casa, non la SIM."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pro",
+     "title": "Avanzato / PRO",
+     "chapters": [
+      {
+       "id": "sp-p1",
+       "title": "VPN e permessi delle app",
+       "steps": [
+        {
+         "text": "Ogni app può chiedere permessi (fotocamera, posizione, contatti): concedi solo quelli necessari."
+        },
+        {
+         "text": "Una VPN cifra il traffico e nasconde il tuo indirizzo IP ai siti."
+        },
+        {
+         "text": "Controlla periodicamente i permessi dalle Impostazioni."
+        }
+       ],
+       "realLife": {
+        "title": "Chiavi di casa",
+        "text": "I permessi sono come le chiavi di casa: dai a ciascuno solo la chiave che serve davvero."
+       },
+       "quiz": [
+        {
+         "id": "sp-p1-1",
+         "type": "truefalse",
+         "prompt": "Una torcia ha bisogno di accedere ai tuoi contatti.",
+         "answer": false,
+         "explanation": "Nessun motivo valido: nega il permesso."
+        },
+        {
+         "id": "sp-p1-2",
+         "type": "choice",
+         "prompt": "Cosa fa una VPN?",
+         "options": [
+          "Cifra il traffico",
+          "Aumenta la batteria",
+          "Cancella le app"
+         ],
+         "answer": 0,
+         "explanation": "La VPN cifra il traffico internet."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "security",
+   "title": "Sicurezza e Truffe online",
+   "icon": "🛡️",
+   "levels": [
+    {
+     "id": "beginner",
+     "title": "Principiante Assoluto",
+     "chapters": [
+      {
+       "id": "se-b1",
+       "title": "Riconoscere un messaggio falso",
+       "steps": [
+        {
+         "text": "Nessuna banca ti chiede la password per messaggio o telefono."
+        },
+        {
+         "text": "Se un messaggio mette fretta (\"agisci subito!\"), è un campanello d'allarme."
+        },
+        {
+         "text": "Nel dubbio, non toccare i link: chiama direttamente la banca."
+        }
+       ],
+       "realLife": {
+        "title": "Lo sconosciuto alla porta",
+        "text": "Un messaggio sospetto è come uno sconosciuto che bussa dicendo di essere il tuo bancario e chiede le chiavi: non apri."
+       },
+       "quiz": [
+        {
+         "id": "se-b1-1",
+         "type": "truefalse",
+         "prompt": "La banca può chiederti la password via SMS.",
+         "answer": false,
+         "explanation": "Mai: la password è solo tua."
+        },
+        {
+         "id": "se-b1-2",
+         "type": "choice",
+         "prompt": "Ricevi un SMS urgente col link. Cosa fai?",
+         "options": [
+          "Tocco il link",
+          "Ignoro e chiamo la banca",
+          "Rispondo con i miei dati"
+         ],
+         "answer": 1,
+         "explanation": "Chiama il numero ufficiale."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "intermediate",
+     "title": "Intermedio",
+     "chapters": [
+      {
+       "id": "se-i1",
+       "title": "Password robuste",
+       "steps": [
+        {
+         "text": "Una buona password è lunga e diversa per ogni servizio."
+        },
+        {
+         "text": "Una frase lunga è più sicura di una parola breve."
+        },
+        {
+         "text": "Non scrivere mai le password in un messaggio."
+        }
+       ],
+       "realLife": {
+        "title": "Chiave unica",
+        "text": "Usare la stessa password ovunque è come avere una sola chiave per casa, auto e cassaforte."
+       },
+       "quiz": [
+        {
+         "id": "se-i1-1",
+         "type": "choice",
+         "prompt": "Quale password è migliore?",
+         "options": [
+          "12345678",
+          "Il mio gatto mangia 3 mele rosse",
+          "nome1990"
+         ],
+         "answer": 1,
+         "explanation": "Frase lunga e inusuale."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pro",
+     "title": "Avanzato / PRO",
+     "chapters": [
+      {
+       "id": "se-p1",
+       "title": "Autenticazione a due fattori",
+       "steps": [
+        {
+         "text": "La 2FA richiede un secondo codice oltre alla password."
+        },
+        {
+         "text": "Preferisci app di autenticazione agli SMS."
+        },
+        {
+         "text": "Conserva i codici di recupero offline."
+        }
+       ],
+       "realLife": {
+        "title": "Doppia serratura",
+        "text": "È come una porta con serratura e catenaccio: il ladro deve forzarli entrambi."
+       },
+       "quiz": [
+        {
+         "id": "se-p1-1",
+         "type": "truefalse",
+         "prompt": "Con la 2FA, la sola password non basta per entrare.",
+         "answer": true,
+         "explanation": "Serve anche il secondo codice."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "social",
+   "title": "Social e Comunicazione",
+   "icon": "💬",
+   "levels": [
+    {
+     "id": "beginner",
+     "title": "Principiante Assoluto",
+     "chapters": [
+      {
+       "id": "so-b1",
+       "title": "Messaggi e videochiamate",
+       "steps": [
+        {
+         "text": "Un'app di messaggistica invia testi, foto e vocali via internet."
+        },
+        {
+         "text": "Per una videochiamata tocca l'icona della videocamera."
+        },
+        {
+         "text": "Controlla sempre il nome del contatto prima di inviare."
+        }
+       ],
+       "realLife": {
+        "title": "Lettera e telefono",
+        "text": "Un messaggio è una lettera che arriva subito; la videochiamata è una telefonata in cui vedi anche il volto."
+       },
+       "quiz": [
+        {
+         "id": "so-b1-1",
+         "type": "choice",
+         "prompt": "Quale icona avvia la videochiamata?",
+         "options": [
+          "Videocamera",
+          "Lucchetto",
+          "Lente"
+         ],
+         "answer": 0,
+         "explanation": "La videocamera."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "intermediate",
+     "title": "Intermedio",
+     "chapters": [
+      {
+       "id": "so-i1",
+       "title": "Privacy sui social",
+       "steps": [
+        {
+         "text": "Ciò che pubblichi può essere visto da molti."
+        },
+        {
+         "text": "Imposta il profilo come \"privato\"."
+        },
+        {
+         "text": "Non pubblicare indirizzo o date di vacanza."
+        }
+       ],
+       "realLife": {
+        "title": "La piazza",
+        "text": "Un post pubblico è come urlare in piazza: lo sentono tutti, anche gli sconosciuti."
+       },
+       "quiz": [
+        {
+         "id": "so-i1-1",
+         "type": "truefalse",
+         "prompt": "Dire sui social che parti per un mese è prudente.",
+         "answer": false,
+         "explanation": "Avvisa i malintenzionati che la casa è vuota."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pro",
+     "title": "Avanzato / PRO",
+     "chapters": [
+      {
+       "id": "so-p1",
+       "title": "Notizie false",
+       "steps": [
+        {
+         "text": "Controlla la fonte prima di condividere."
+        },
+        {
+         "text": "Cerca la stessa notizia su più siti affidabili."
+        },
+        {
+         "text": "Diffida di titoli esagerati."
+        }
+       ],
+       "realLife": {
+        "title": "Il passaparola",
+        "text": "Una fake news è un pettegolezzo: più persone lo ripetono, più sembra vero."
+       },
+       "quiz": [
+        {
+         "id": "so-p1-1",
+         "type": "choice",
+         "prompt": "Prima di condividere una notizia:",
+         "options": [
+          "La condivido subito",
+          "Verifico la fonte"
+         ],
+         "answer": 1,
+         "explanation": "Verifica sempre."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "spid",
+   "title": "Spid e Servizi PA",
+   "icon": "🏛️",
+   "levels": [
+    {
+     "id": "beginner",
+     "title": "Principiante Assoluto",
+     "chapters": [
+      {
+       "id": "pa-b1",
+       "title": "Cos'è lo SPID",
+       "steps": [
+        {
+         "text": "Lo SPID è un'identità digitale: nome utente e password per i servizi pubblici online."
+        },
+        {
+         "text": "Serve per esempio per vedere il fascicolo sanitario o la pensione."
+        },
+        {
+         "text": "Lo ottieni gratis da gestori ufficiali con un documento."
+        }
+       ],
+       "realLife": {
+        "title": "Carta d'identità online",
+        "text": "Lo SPID è come la carta d'identità, ma per dimostrare chi sei su internet."
+       },
+       "quiz": [
+        {
+         "id": "pa-b1-1",
+         "type": "truefalse",
+         "prompt": "Lo SPID serve per accedere ai servizi della pubblica amministrazione.",
+         "answer": true,
+         "explanation": "Esatto."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "intermediate",
+     "title": "Intermedio",
+     "chapters": [
+      {
+       "id": "pa-i1",
+       "title": "Accedere con SPID",
+       "steps": [
+        {
+         "text": "Sul sito scegli \"Entra con SPID\"."
+        },
+        {
+         "text": "Seleziona il tuo gestore."
+        },
+        {
+         "text": "Inserisci le credenziali e conferma il codice sul telefono."
+        }
+       ],
+       "realLife": {
+        "title": "Il portiere",
+        "text": "È come mostrare il documento al portiere: confermi chi sei e ti fa entrare."
+       },
+       "quiz": [
+        {
+         "id": "pa-i1-1",
+         "type": "order",
+         "prompt": "Ordina l'accesso:",
+         "items": [
+          "Scelgo \"Entra con SPID\"",
+          "Seleziono il gestore",
+          "Inserisco le credenziali",
+          "Confermo il codice"
+         ],
+         "explanation": "Questo è l'ordine corretto."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "pro",
+     "title": "Avanzato / PRO",
+     "chapters": [
+      {
+       "id": "pa-p1",
+       "title": "CIE e App IO",
+       "steps": [
+        {
+         "text": "La CIE è la carta d'identità elettronica, usabile come accesso."
+        },
+        {
+         "text": "L'App IO raccoglie avvisi e pagamenti della PA."
+        },
+        {
+         "text": "Non condividere mai codici SPID con altri."
+        }
+       ],
+       "realLife": {
+        "title": "Cassetta della posta",
+        "text": "L'App IO è la cassetta della posta in cui lo Stato ti scrive."
+       },
+       "quiz": [
+        {
+         "id": "pa-p1-1",
+         "type": "choice",
+         "prompt": "Quale app raccoglie avvisi e pagamenti PA?",
+         "options": [
+          "App IO",
+          "Mappe",
+          "Calcolatrice"
+         ],
+         "answer": 0,
+         "explanation": "App IO."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
