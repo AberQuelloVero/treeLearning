@@ -31,7 +31,7 @@ test('wrong answers are requeued once and lower the score', () => {
   assert.ok(Math.abs(s.score - 2 / 3) < 1e-9);
 });
 
-test('general quiz combines questions from all selected categories and levels', () => {
+test('general quiz samples one question from each category and level', () => {
   const topics = [{
     id: 'devices',
     title: 'Dispositivi',
@@ -47,12 +47,18 @@ test('general quiz combines questions from all selected categories and levels', 
       id: 'intermediate',
       title: 'Intermedio',
       chapters: [{ id: 'connections', title: 'Connessioni', steps: [], realLife: { title: '', text: '' }, quiz: [qs[2]] }],
+    }, {
+      id: 'pro',
+      title: 'Avanzato',
+      chapters: [{ id: 'device-privacy', title: 'Privacy', steps: [], realLife: { title: '', text: '' }, quiz: [] }],
     }],
   }] as unknown as Topic[];
 
   const chapter = createGeneralQuizChapter(topics);
   assert.equal(chapter.id, 'general-quiz');
-  assert.deepEqual(chapter.quiz, qs);
+  assert.equal(chapter.quiz.length, 2);
+  assert.ok(chapter.quiz.some((question) => question.id === 'c'));
+  assert.ok(chapter.quiz.some((question) => question.id === 'a' || question.id === 'b'));
 });
 
 test('streak grows on consecutive days and resets after a gap', () => {

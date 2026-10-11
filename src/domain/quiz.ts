@@ -4,12 +4,15 @@ export function createGeneralQuizChapter(topics: readonly Topic[]): Chapter {
   return {
     id: 'general-quiz',
     title: 'Quiz generale',
-    steps: [{ text: 'Rispondi alle domande di tutte le categorie per ripassare l’alfabetizzazione digitale.' }],
+    steps: [{ text: 'Una domanda casuale per ogni categoria e livello: un ripasso breve di tutta l’alfabetizzazione digitale.' }],
     realLife: {
       title: 'Ripasso completo',
       text: 'Come un giro di ripasso prima di uscire, questo quiz tocca un po’ tutti gli argomenti.',
     },
-    quiz: topics.flatMap((topic) => topic.levels.flatMap((level) => level.chapters.flatMap((chapter) => chapter.quiz))),
+    quiz: topics.flatMap((topic) => topic.levels.flatMap((level) => {
+      const questions = level.chapters.flatMap((chapter) => chapter.quiz);
+      return questions.length ? [shuffle(questions)[0]] : [];
+    })),
   };
 }
 
