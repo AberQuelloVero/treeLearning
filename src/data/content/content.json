@@ -234,7 +234,7 @@
               "id": "internet-navigation",
               "title": "Browser, link e schede",
               "steps": [
-                { "text": "Un browser, come Chrome o Safari, apre e mostra le pagine web. Un motore di ricerca aiuta a trovare pagine." },
+                { "text": "Un browser, come Chrome o Safari, apre e mostra le pagine web. Un motore di ricerca, come Google, aiuta a trovare pagine." },
                 { "text": "L'URL è l'indirizzo di una pagina; un link è un collegamento da toccare o cliccare per aprirla." },
                 { "text": "Una scheda (tab) permette di tenere aperta un'altra pagina. Scorrere o scrollare significa muoversi nella pagina." }
               ],
@@ -457,7 +457,7 @@
               "steps": [
                 { "text": "L'home banking permette di consultare o gestire il conto tramite i canali ufficiali della banca." },
                 { "text": "Negli acquisti online verifica sito, importo e metodo di pagamento. Il contactless usa la carta o il telefono vicino al POS; NFC è una tecnologia di comunicazione a breve distanza." },
-                { "text": "Le app di mappe come Google Maps aiutano a orientarsi; alcune app permettono di acquistare biglietti dei trasporti." }
+                { "text": "Le app di mappe come Google Maps aiutano a orientarsi; alcune app permettono di acquistare biglietti dei trasporti o fare la spesa online." }
               ],
               "realLife": { "title": "Sportelli e biglietterie sul telefono", "text": "Le app possono riunire servizi che prima richiedevano uno sportello, ma bisogna sempre verificare destinatario e importo." },
               "quiz": [
