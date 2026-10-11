@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { QuizSession, isCorrect } from './quiz.ts';
+import { createGeneralQuizChapter, QuizSession, isCorrect } from './quiz.ts';
 import { emptyProgress, recordQuiz } from './progress.ts';
-import type { Question } from './types.ts';
+import type { Question, Topic } from './types.ts';
 
 const qs: Question[] = [
   { id: 'a', type: 'choice', prompt: '?', options: ['x', 'y'], answer: 1, explanation: 'e' },
@@ -29,6 +29,30 @@ test('wrong answers are requeued once and lower the score', () => {
   }
   assert.ok(s.finished);
   assert.ok(Math.abs(s.score - 2 / 3) < 1e-9);
+});
+
+test('general quiz combines questions from all selected categories and levels', () => {
+  const topics = [{
+    id: 'devices',
+    title: 'Dispositivi',
+    icon: '📱',
+    levels: [{
+      id: 'beginner',
+      title: 'Principiante',
+      chapters: [
+        { id: 'device-basics', title: 'Dispositivi', steps: [], realLife: { title: '', text: '' }, quiz: [qs[0]] },
+        { id: 'device-safety', title: 'Uso sicuro', steps: [], realLife: { title: '', text: '' }, quiz: [qs[1]] },
+      ],
+    }, {
+      id: 'intermediate',
+      title: 'Intermedio',
+      chapters: [{ id: 'connections', title: 'Connessioni', steps: [], realLife: { title: '', text: '' }, quiz: [qs[2]] }],
+    }],
+  }] as unknown as Topic[];
+
+  const chapter = createGeneralQuizChapter(topics);
+  assert.equal(chapter.id, 'general-quiz');
+  assert.deepEqual(chapter.quiz, qs);
 });
 
 test('streak grows on consecutive days and resets after a gap', () => {
