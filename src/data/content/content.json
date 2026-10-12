@@ -17,7 +17,7 @@
                 { "text": "Un computer può essere fisso oppure portatile: un laptop si può trasportare e usare con la batteria." },
                 { "text": "Lo schermo tattile si usa toccando le icone; su un computer puoi usare tastiera e mouse." }
               ],
-              "realLife": { "title": "Strumenti diversi", "text": "Telefono, tablet e computer sono come mezzi di trasporto diversi: fanno cose simili, ma alcuni sono più comodi per compiti specifici." },
+              "realLife": { "title": "Scegliere il dispositivo", "text": "Per leggere un messaggio puoi usare uno smartphone; per scrivere un testo lungo, un computer con tastiera può essere più comodo." },
               "quiz": [
                 { "id": "dev-b-1", "type": "choice", "prompt": "Quale dispositivo si usa normalmente toccando le icone sullo schermo?", "options": ["Smartphone", "Stampante", "Cavo USB"], "answer": 0, "explanation": "Lo smartphone ha uno schermo tattile che risponde ai tocchi." },
                 { "id": "dev-b-2", "type": "truefalse", "prompt": "Un laptop è un computer portatile.", "answer": true, "explanation": "Un laptop è progettato per poter essere trasportato." }
@@ -37,7 +37,7 @@
                 { "text": "I cavi USB possono collegare accessori o ricaricare dispositivi. Controlla che il connettore sia adatto alla porta." },
                 { "text": "Usa un caricabatterie compatibile e in buone condizioni; non tirare il cavo per staccarlo dalla presa." }
               ],
-              "realLife": { "title": "Accessori utili", "text": "La tastiera e il mouse sono come penna e dito che indicano: aiutano a dare comandi al computer." },
+              "realLife": { "title": "Collegare gli accessori", "text": "Collega una tastiera USB alla porta adatta del computer e usala per scrivere; sposta il puntatore con il mouse e seleziona un file con un clic." },
               "quiz": [
                 { "id": "dev-i-1", "type": "choice", "prompt": "A cosa serve principalmente la tastiera?", "options": ["A scrivere", "A collegarsi al Wi-Fi", "A stampare"], "answer": 0, "explanation": "Con la tastiera inserisci lettere, numeri e comandi." },
                 { "id": "dev-i-2", "type": "truefalse", "prompt": "È meglio scollegare un cavo tirandolo dal filo.", "answer": false, "explanation": "Afferra il connettore, non tirare il filo: così riduci il rischio di danneggiarlo." }
@@ -57,7 +57,7 @@
                 { "text": "Se il cavo è rovinato o il caricatore si scalda in modo insolito, interrompi l'uso e chiedi assistenza." },
                 { "text": "Per collegare un accessorio, verifica la porta e segui le istruzioni del produttore; non forzare il connettore." }
               ],
-              "realLife": { "title": "Piccola manutenzione", "text": "Come per gli occhiali, una custodia e un po' di attenzione aiutano a proteggere il dispositivo." },
+              "realLife": { "title": "Proteggere il dispositivo", "text": "Se il caricabatterie o il cavo è danneggiato o si scalda in modo insolito, scollegalo e interrompine l'uso; non forzare un connettore incompatibile." },
               "quiz": [
                 { "id": "dev-p-1", "type": "choice", "prompt": "Un caricabatterie o un cavo è visibilmente danneggiato. Cosa fai?", "options": ["Continuo a usarlo", "Smetto di usarlo e chiedo assistenza", "Lo copro con carta"], "answer": 1, "explanation": "Un accessorio danneggiato può essere pericoloso: non usarlo e sostituiscilo in sicurezza." },
                 { "id": "dev-p-2", "type": "truefalse", "prompt": "Un connettore che non entra va forzato.", "answer": false, "explanation": "Controlla il verso e il tipo di connettore; forzarlo può danneggiare la porta." }
@@ -84,7 +84,7 @@
                 { "text": "La Home è la schermata iniziale. Le icone rappresentano app o strumenti che puoi aprire." },
                 { "text": "Le notifiche sono avvisi. Il cestino o gli elementi eliminati possono permettere di recuperare un file, finché non viene svuotato." }
               ],
-              "realLife": { "title": "Una casa digitale", "text": "La Home è l'ingresso, le icone sono le porte delle stanze e le notifiche sono i campanelli." },
+              "realLife": { "title": "Aprire app e notifiche", "text": "Dalla schermata Home tocca l'icona di un'app per aprirla; se compare una notifica, puoi leggerla o aprire l'app che l'ha inviata." },
               "quiz": [
                 { "id": "os-b-1", "type": "choice", "prompt": "Che cos'è la Home del dispositivo?", "options": ["La schermata iniziale", "Il caricabatterie", "La rubrica telefonica"], "answer": 0, "explanation": "La Home è la schermata da cui inizi a usare il dispositivo." },
                 { "id": "os-b-2", "type": "truefalse", "prompt": "Android e iOS sono sistemi operativi usati sui telefoni.", "answer": true, "explanation": "Sono due dei principali sistemi operativi per smartphone e tablet." }
@@ -104,7 +104,7 @@
                 { "text": "Nelle impostazioni puoi regolare volume, luminosità, dimensione del testo, connessioni e notifiche." },
                 { "text": "Puoi cercare un'impostazione usando la lente o la barra di ricerca del menu." }
               ],
-              "realLife": { "title": "Regolare il proprio spazio", "text": "Le impostazioni sono come le manopole di una casa: permettono di adattare luci, suoni e accessi alle proprie esigenze." },
+              "realLife": { "title": "Personalizzare le impostazioni", "text": "Apri le impostazioni del telefono e cerca «dimensione testo» per ingrandire le scritte oppure «volume» per regolare l'audio." },
               "quiz": [
                 { "id": "os-i-1", "type": "choice", "prompt": "Dove puoi ingrandire il testo del dispositivo?", "options": ["Nelle impostazioni", "Nel cestino", "Nel caricabatterie"], "answer": 0, "explanation": "Le impostazioni includono opzioni di visualizzazione e accessibilità." },
                 { "id": "os-i-2", "type": "truefalse", "prompt": "Windows è un sistema operativo per computer.", "answer": true, "explanation": "Windows è usato su molti computer; macOS è il sistema dei computer Apple." }
@@ -124,7 +124,7 @@
                 { "text": "Prima di un aggiornamento importante, collega il dispositivo all'alimentazione e salva i file importanti." },
                 { "text": "Controlla le notifiche prima di aprirle: un avviso inatteso può anche essere un messaggio ingannevole." }
               ],
-              "realLife": { "title": "Manutenzione periodica", "text": "Aggiornare il sistema è come fare manutenzione: non cambia tutto ciò che sai fare, ma aiuta a tenere il dispositivo in ordine." },
+              "realLife": { "title": "Installare un aggiornamento", "text": "Quando il telefono segnala un aggiornamento di sistema, controlla che sia quello ufficiale, salva i file importanti e collega il dispositivo all'alimentazione prima di avviarlo." },
               "quiz": [
                 { "id": "os-p-1", "type": "choice", "prompt": "Perché installare gli aggiornamenti ufficiali del sistema?", "options": ["Possono correggere problemi e migliorare la sicurezza", "Cancellano sempre tutti i file", "Servono solo a cambiare lo sfondo"], "answer": 0, "explanation": "Gli aggiornamenti ufficiali spesso includono correzioni e miglioramenti di sicurezza." },
                 { "id": "os-p-2", "type": "truefalse", "prompt": "Un avviso sullo schermo è sempre affidabile solo perché sembra ufficiale.", "answer": false, "explanation": "Verifica gli avvisi inattesi usando le impostazioni o il sito ufficiale, senza seguire link sospetti." }
@@ -151,7 +151,7 @@
                 { "text": "Su Android si usa comunemente Google Play Store; su iPhone e iPad si usa l'App Store." },
                 { "text": "Prima di scegliere un'app, controlla nome dello sviluppatore, descrizione e recensioni." }
               ],
-              "realLife": { "title": "Un negozio di strumenti", "text": "Lo store è come un negozio: scegli uno strumento adatto e controlli chi lo ha prodotto." },
+              "realLife": { "title": "Scegliere un'app", "text": "Cerca un'app nello store ufficiale del dispositivo e controlla nome dello sviluppatore, descrizione e recensioni prima di installarla." },
               "quiz": [
                 { "id": "app-b-1", "type": "choice", "prompt": "Dove si cercano normalmente app per un iPhone?", "options": ["App Store", "Cestino", "Bluetooth"], "answer": 0, "explanation": "L'App Store è il negozio ufficiale delle app per iPhone e iPad." },
                 { "id": "app-b-2", "type": "truefalse", "prompt": "Controllare chi ha creato un'app è una buona abitudine.", "answer": true, "explanation": "Lo sviluppatore e le informazioni dell'app aiutano a valutarla." }
@@ -171,7 +171,7 @@
                 { "text": "Gli store ufficiali segnalano gli aggiornamenti disponibili. Leggi le informazioni prima di confermare." },
                 { "text": "Disinstallare rimuove un'app dal dispositivo; verifica se contiene dati che vuoi conservare." }
               ],
-              "realLife": { "title": "Prendere e montare uno strumento", "text": "Scaricare è portare a casa una scatola; installare è montare lo strumento. Disinstallare lo mette via." },
+              "realLife": { "title": "Installare o rimuovere un'app", "text": "Dopo aver scaricato un'app dallo store, installala per poterla aprire; se non ti serve più, controlla i suoi dati e disinstallala dalle impostazioni." },
               "quiz": [
                 { "id": "app-i-1", "type": "choice", "prompt": "Che cosa significa disinstallare un'app?", "options": ["Rimuoverla dal dispositivo", "Cambiarle il nome", "Collegarla al Wi-Fi"], "answer": 0, "explanation": "Disinstallare elimina l'app dal dispositivo." },
                 { "id": "app-i-2", "type": "truefalse", "prompt": "È prudente installare app da link casuali ricevuti in un messaggio.", "answer": false, "explanation": "Cerca l'app nello store ufficiale e verifica che sia quella corretta." }
@@ -191,7 +191,7 @@
                 { "text": "Puoi rivedere e revocare molti permessi dalle impostazioni del dispositivo." },
                 { "text": "Se manca spazio, controlla file e app prima di cancellarli: non eliminare dati che ti servono." }
               ],
-              "realLife": { "title": "Dare solo le chiavi necessarie", "text": "I permessi sono come chiavi: dai a ciascuna app solo quelle che servono al suo compito." },
+              "realLife": { "title": "Controllare i permessi", "text": "Un'app per videochiamate può aver bisogno del microfono e della fotocamera durante la chiamata; puoi negare l'accesso alla posizione se non serve alla sua funzione." },
               "quiz": [
                 { "id": "app-p-1", "type": "choice", "prompt": "Una semplice torcia chiede accesso ai contatti. Cosa è ragionevole fare?", "options": ["Negare il permesso se non serve", "Concederlo sempre", "Inviare i contatti allo sviluppatore"], "answer": 0, "explanation": "Concedi i permessi solo quando sono necessari alla funzione dell'app." },
                 { "id": "app-p-2", "type": "truefalse", "prompt": "I permessi di un'app si possono spesso rivedere nelle impostazioni.", "answer": true, "explanation": "Le impostazioni permettono di controllare molti accessi delle app." }
@@ -218,7 +218,7 @@
                 { "text": "I dati mobili usano la rete telefonica 4G o 5G e dipendono dal piano della SIM." },
                 { "text": "Con l'hotspot il telefono può condividere la propria connessione con un computer: controlla il consumo dei dati." }
               ],
-              "realLife": { "title": "Reti diverse", "text": "Il Wi-Fi è come una strada di casa; i dati mobili sono una strada portatile che ti segue, ma possono avere un limite." },
+              "realLife": { "title": "Connettersi a internet", "text": "A casa puoi collegare il telefono al Wi-Fi; fuori puoi usare la rete 4G o 5G della SIM. Se attivi l'hotspot per il computer, controlla quanti dati consuma." },
               "quiz": [
                 { "id": "net-b-1", "type": "choice", "prompt": "Che cosa fa l'hotspot del telefono?", "options": ["Condivide la connessione con altri dispositivi", "Stampa le fotografie", "Blocca le chiamate"], "answer": 0, "explanation": "L'hotspot permette ad altri dispositivi di usare la connessione del telefono." },
                 { "id": "net-b-2", "type": "truefalse", "prompt": "I dati mobili possono consumare il limite del piano telefonico.", "answer": true, "explanation": "Controlla il piano e l'uso dei dati, soprattutto con video e hotspot." }
@@ -238,7 +238,7 @@
                 { "text": "L'URL è l'indirizzo di una pagina; un link è un collegamento da toccare o cliccare per aprirla." },
                 { "text": "Una scheda (tab) permette di tenere aperta un'altra pagina. Scorrere o scrollare significa muoversi nella pagina." }
               ],
-              "realLife": { "title": "Cartina e indirizzo", "text": "Il motore di ricerca è come un indice, l'URL è l'indirizzo e il link è un cartello verso un'altra pagina." },
+              "realLife": { "title": "Aprire una pagina web", "text": "Cerca il nome di un servizio nel browser, controlla l'indirizzo URL del risultato e tocca il link per aprire la pagina in una nuova scheda." },
               "quiz": [
                 { "id": "net-i-1", "type": "choice", "prompt": "Che cos'è un browser?", "options": ["Un programma per visitare pagine web", "Un tipo di caricabatterie", "Una cartella"], "answer": 0, "explanation": "Chrome e Safari sono esempi di browser." },
                 { "id": "net-i-2", "type": "truefalse", "prompt": "Un URL è l'indirizzo di una pagina web.", "answer": true, "explanation": "L'URL indica l'indirizzo della risorsa sul Web." }
@@ -258,7 +258,7 @@
                 { "text": "Il Bluetooth collega a breve distanza dispositivi come auricolari, apparecchi per l'udito o l'auto." },
                 { "text": "Per collegare un accessorio, attiva il Bluetooth e seleziona il dispositivo corretto; disattivalo se non ti serve." }
               ],
-              "realLife": { "title": "Collegamenti a portata di mano", "text": "Il QR Code è come un biglietto con un indirizzo; il Bluetooth è un collegamento corto tra dispositivi vicini." },
+              "realLife": { "title": "Usare QR Code e Bluetooth", "text": "Inquadra il QR Code di un menu e controlla il sito mostrato prima di aprirlo; per ascoltare l'audio, abbina le cuffie al telefono dalle impostazioni Bluetooth." },
               "quiz": [
                 { "id": "net-p-1", "type": "choice", "prompt": "Prima di aprire un link trovato in un QR Code sconosciuto, cosa fai?", "options": ["Controllo la destinazione", "Inserisco subito la password", "Lo inoltro a tutti"], "answer": 0, "explanation": "Un QR Code può portare a un sito ingannevole: verifica il link prima di procedere." },
                 { "id": "net-p-2", "type": "truefalse", "prompt": "Il Bluetooth può collegare il telefono ad auricolari.", "answer": true, "explanation": "È usato per collegare accessori vicini, inclusi molti auricolari." }
@@ -285,7 +285,7 @@
                 { "text": "Ogni rettangolino della griglia è una cella, dove puoi scrivere testo o numeri." },
                 { "text": "Una tabella aiuta a tenere elenchi e conti, per esempio spese di casa, pensione o ricette." }
               ],
-              "realLife": { "title": "Un quaderno a quadretti", "text": "Un foglio di calcolo è come un quaderno ordinato: ogni dato trova posto in una casella." },
+              "realLife": { "title": "Registrare dati in una tabella", "text": "In un foglio di calcolo inserisci le date nella colonna A, le spese nella colonna B e le categorie nella colonna C; ogni valore occupa una cella." },
               "quiz": [
                 { "id": "prod-b-1", "type": "choice", "prompt": "Come si chiama ciascun rettangolino del foglio di calcolo?", "options": ["Cella", "Scheda SIM", "Cartella"], "answer": 0, "explanation": "Una cella è l'incrocio in cui inserisci testo o numeri." },
                 { "id": "prod-b-2", "type": "truefalse", "prompt": "Un foglio di calcolo può aiutare a tenere un elenco delle spese.", "answer": true, "explanation": "Righe, colonne e celle sono utili per organizzare conti ed elenchi." }
@@ -305,7 +305,7 @@
                 { "text": "La somma addiziona più numeri; la media calcola un valore medio." },
                 { "text": "Quando cambiano i numeri usati, il risultato della formula può aggiornarsi automaticamente." }
               ],
-              "realLife": { "title": "La calcolatrice che ricorda", "text": "Una formula è come spiegare una volta alla calcolatrice quale conto fare: poi puoi riusare la regola." },
+              "realLife": { "title": "Calcolare una somma", "text": "In Excel o Google Fogli, inserisci =SOMMA(B2:B5) per addizionare le spese nelle celle da B2 a B5; modificando un importo, il totale si aggiorna." },
               "quiz": [
                 { "id": "prod-i-1", "type": "choice", "prompt": "Quale operazione somma automaticamente più importi?", "options": ["Somma", "Media", "Grassetto"], "answer": 0, "explanation": "La formula Somma addiziona i valori selezionati." },
                 { "id": "prod-i-2", "type": "truefalse", "prompt": "La media riassume più valori con un valore medio.", "answer": true, "explanation": "La media è un calcolo che rappresenta il valore centrale medio dei dati." }
@@ -325,7 +325,7 @@
                 { "text": "Salvare conserva il lavoro. Esportare o convertire in PDF è utile per condividere una versione che normalmente non si modifica come il documento originale." },
                 { "text": "Con un documento condiviso nel cloud più persone possono leggere o lavorare insieme a distanza; controlla a chi dai accesso." }
               ],
-              "realLife": { "title": "Un documento condiviso", "text": "Un file nel cloud è come un quaderno custodito in un luogo accessibile ai familiari autorizzati." },
+              "realLife": { "title": "Lavorare sullo stesso documento", "text": "Condividi un documento Google con una collega assegnandole il permesso di modifica; entrambi potete aggiornare il testo e vedere le modifiche online." },
               "quiz": [
                 { "id": "prod-p-1", "type": "choice", "prompt": "Perché si può inviare un documento in PDF?", "options": ["Per condividere una versione facile da leggere e stampare", "Per trasformarlo in una telefonata", "Per aumentare la memoria del telefono"], "answer": 0, "explanation": "Il PDF aiuta a mantenere impaginazione e aspetto quando il documento viene condiviso." },
                 { "id": "prod-p-2", "type": "truefalse", "prompt": "Prima di condividere un documento cloud è utile controllare chi può aprirlo.", "answer": true, "explanation": "Verificare i permessi protegge la riservatezza del documento." }
@@ -352,7 +352,7 @@
                 { "text": "Un allegato è un file aggiunto all'email, per esempio un PDF o un'immagine." },
                 { "text": "Apri gli allegati solo se ti aspetti il messaggio e ti fidi del mittente; non inviare dati riservati a sconosciuti." }
               ],
-              "realLife": { "title": "Una lettera digitale", "text": "L'oggetto è come il titolo della lettera e l'allegato è un foglio o una fotografia messa nella busta." },
+              "realLife": { "title": "Inviare un'email con allegato", "text": "Per inviare una ricevuta, scrivi «Ricevuta di marzo» nell'oggetto, aggiungi il PDF richiesto e controlla l'indirizzo del destinatario prima di inviare." },
               "quiz": [
                 { "id": "comm-b-1", "type": "choice", "prompt": "A cosa serve l'oggetto di un'email?", "options": ["A riassumere il tema del messaggio", "A ricaricare il telefono", "A cancellare l'allegato"], "answer": 0, "explanation": "L'oggetto aiuta il destinatario a capire di cosa parla l'email." },
                 { "id": "comm-b-2", "type": "truefalse", "prompt": "Un allegato può essere un PDF o un'immagine.", "answer": true, "explanation": "I file di vario tipo possono essere allegati a un'email." }
@@ -372,7 +372,7 @@
                 { "text": "Una videochiamata permette di parlare vedendosi: WhatsApp, Zoom e FaceTime sono esempi di servizi." },
                 { "text": "Prima di inviare un messaggio o iniziare una chiamata, controlla il nome del contatto." }
               ],
-              "realLife": { "title": "Voce e immagini a distanza", "text": "Una nota vocale è come lasciare un breve messaggio registrato; una videochiamata aggiunge il volto alla telefonata." },
+              "realLife": { "title": "Inviare un messaggio o avviare una chiamata", "text": "In WhatsApp puoi tenere premuto il microfono per registrare una nota vocale; per una videochiamata, apri la chat del contatto verificato e tocca l'icona della videocamera." },
               "quiz": [
                 { "id": "comm-i-1", "type": "choice", "prompt": "Che cosa permette una videochiamata?", "options": ["Parlare vedendo l'altra persona", "Modificare un foglio di calcolo", "Scaricare un caricabatterie"], "answer": 0, "explanation": "La videochiamata trasmette voce e immagini in tempo reale." },
                 { "id": "comm-i-2", "type": "truefalse", "prompt": "Una nota vocale è un messaggio registrato con la voce.", "answer": true, "explanation": "Puoi registrare e inviare la tua voce come messaggio." }
@@ -392,7 +392,7 @@
                 { "text": "Prima di pubblicare, pensa a chi può vedere il contenuto e controlla le impostazioni di privacy." },
                 { "text": "Non condividere codici, indirizzo, documenti o informazioni personali con persone che non conosci." }
               ],
-              "realLife": { "title": "Una piazza con un pubblico", "text": "Un contenuto pubblico può raggiungere molte persone: scegli con attenzione cosa vuoi rendere visibile." },
+              "realLife": { "title": "Scegliere chi vede una pubblicazione", "text": "Prima di pubblicare una foto su Instagram, controlla se il profilo è pubblico o privato e rimuovi dettagli personali che non vuoi rendere visibili." },
               "quiz": [
                 { "id": "comm-p-1", "type": "choice", "prompt": "Cosa conviene fare prima di pubblicare informazioni personali?", "options": ["Controllare chi può vedere il contenuto", "Pubblicarle per tutti", "Aggiungere anche i codici di accesso"], "answer": 0, "explanation": "Le impostazioni di privacy aiutano a limitare il pubblico, ma è meglio non pubblicare dati riservati." },
                 { "id": "comm-p-2", "type": "truefalse", "prompt": "I contenuti pubblicati online possono essere visti o copiati da altre persone.", "answer": true, "explanation": "Anche i contenuti condivisi con un pubblico limitato possono essere copiati o inoltrati." }
@@ -419,7 +419,7 @@
                 { "text": "Segui le istruzioni del sito ufficiale e del gestore; può essere richiesta una conferma tramite app o codice." },
                 { "text": "Non comunicare password o codici di accesso a chi ti contatta inaspettatamente." }
               ],
-              "realLife": { "title": "Identificarsi online", "text": "SPID e CIE sono come mostrare un documento allo sportello, ma attraverso una procedura digitale." },
+              "realLife": { "title": "Accedere con SPID o CIE", "text": "Per consultare un servizio online della Pubblica Amministrazione, seleziona SPID o CIE sul sito ufficiale e completa la conferma richiesta senza comunicare codici ad altre persone." },
               "quiz": [
                 { "id": "serv-b-1", "type": "choice", "prompt": "A cosa servono spesso SPID e CIE?", "options": ["Ad accedere ai servizi online", "A ricaricare la batteria", "A fare videochiamate"], "answer": 0, "explanation": "Sono strumenti di identità digitale per accedere a servizi che li supportano." },
                 { "id": "serv-b-2", "type": "truefalse", "prompt": "È sicuro comunicare il codice SPID a chi ti chiama senza preavviso.", "answer": false, "explanation": "Non condividere password o codici; verifica la richiesta tramite canali ufficiali." }
@@ -439,7 +439,7 @@
                 { "text": "Ricette e documenti sanitari possono essere consultabili dal telefono tramite i servizi ufficiali." },
                 { "text": "Le informazioni sanitarie sono riservate: proteggi il telefono e usa solo app o siti ufficiali." }
               ],
-              "realLife": { "title": "Documenti sanitari ordinati", "text": "Il fascicolo digitale è come una cartella sanitaria consultabile online con le credenziali previste." },
+              "realLife": { "title": "Consultare il fascicolo sanitario", "text": "Accedi al Fascicolo Sanitario Elettronico tramite il portale ufficiale della tua regione per consultare una ricetta o un documento sanitario disponibile." },
               "quiz": [
                 { "id": "serv-i-1", "type": "choice", "prompt": "Dove consultare in sicurezza i propri documenti sanitari digitali?", "options": ["Nel servizio sanitario ufficiale", "In un link casuale ricevuto via SMS", "Sul profilo social di uno sconosciuto"], "answer": 0, "explanation": "Usa i servizi sanitari ufficiali e proteggi le credenziali." },
                 { "id": "serv-i-2", "type": "truefalse", "prompt": "Le informazioni sanitarie personali richiedono particolare attenzione.", "answer": true, "explanation": "Sono dati riservati: proteggi l'accesso e condividili solo quando necessario." }
@@ -459,7 +459,7 @@
                 { "text": "Negli acquisti online verifica sito, importo e metodo di pagamento. Il contactless usa la carta o il telefono vicino al POS; NFC è una tecnologia di comunicazione a breve distanza." },
                 { "text": "Le app di mappe come Google Maps aiutano a orientarsi; alcune app permettono di acquistare biglietti dei trasporti o fare la spesa online." }
               ],
-              "realLife": { "title": "Sportelli e biglietterie sul telefono", "text": "Le app possono riunire servizi che prima richiedevano uno sportello, ma bisogna sempre verificare destinatario e importo." },
+              "realLife": { "title": "Verificare un pagamento o un biglietto", "text": "Nell'app ufficiale della banca controlla beneficiario e importo prima di autorizzare un pagamento; nell'app del trasporto verifica data e tratta prima di acquistare un biglietto." },
               "quiz": [
                 { "id": "serv-p-1", "type": "choice", "prompt": "Cosa controlli prima di confermare un pagamento online?", "options": ["Sito, importo e destinatario", "Solo il colore del pulsante", "Niente, se il messaggio è urgente"], "answer": 0, "explanation": "Verifica il sito e i dettagli del pagamento prima di confermare." },
                 { "id": "serv-p-2", "type": "truefalse", "prompt": "NFC può essere usato per pagamenti contactless vicino a un POS.", "answer": true, "explanation": "NFC è una tecnologia usata per comunicazioni a breve distanza, anche nei pagamenti contactless." }
@@ -486,7 +486,7 @@
                 { "text": "Le cartelle aiutano a raggruppare i file, per esempio per argomento o anno." },
                 { "text": "I download sono elementi scaricati da internet; spesso li trovi nella cartella Download o nell'app File." }
               ],
-              "realLife": { "title": "Un archivio ordinato", "text": "I file sono fogli e fotografie; le cartelle sono raccoglitori che aiutano a ritrovarli." },
+              "realLife": { "title": "Organizzare i file", "text": "Nell'app File crea una cartella «Foto viaggio» e sposta al suo interno le immagini scaricate; usa Download per ritrovare i file appena salvati da internet." },
               "quiz": [
                 { "id": "file-b-1", "type": "choice", "prompt": "Dove si trovano spesso i file scaricati da internet?", "options": ["Nella cartella Download", "Nella batteria", "Nella tastiera"], "answer": 0, "explanation": "Molti dispositivi raccolgono i file scaricati nella cartella Download." },
                 { "id": "file-b-2", "type": "truefalse", "prompt": "Una cartella può aiutare a organizzare i file.", "answer": true, "explanation": "Le cartelle raggruppano i file e li rendono più facili da ritrovare." }
@@ -506,7 +506,7 @@
                 { "text": "Foto, video e app occupano spazio. Controlla cosa vuoi conservare prima di cancellare elementi." },
                 { "text": "Una copia di sicurezza in un posto separato aiuta a recuperare file se il dispositivo si rompe o si perde." }
               ],
-              "realLife": { "title": "Un armadio con spazio limitato", "text": "La memoria locale è come un armadio: puoi controllare cosa contiene e liberare spazio scegliendo con attenzione." },
+              "realLife": { "title": "Liberare memoria sul dispositivo", "text": "Apri le impostazioni di archiviazione per individuare video molto grandi; salva quelli da conservare in una copia separata prima di eliminarli dal telefono." },
               "quiz": [
                 { "id": "file-i-1", "type": "choice", "prompt": "Cosa fai prima di cancellare file per liberare spazio?", "options": ["Controllo che non mi servano e che ne abbia una copia", "Cancello tutto", "Invio i file a uno sconosciuto"], "answer": 0, "explanation": "Verifica il contenuto e conserva una copia dei file importanti prima di eliminarli." },
                 { "id": "file-i-2", "type": "truefalse", "prompt": "Foto e video possono occupare spazio nella memoria del dispositivo.", "answer": true, "explanation": "I file multimediali possono richiedere molto spazio." }
@@ -526,7 +526,7 @@
                 { "text": "Controlla quale account usi, chi può vedere i file e se la sincronizzazione è attiva." },
                 { "text": "La sincronizzazione non è sempre una copia di sicurezza indipendente: eliminare un file può eliminarlo anche dagli altri dispositivi collegati. Verifica le opzioni di backup e recupero." }
               ],
-              "realLife": { "title": "Un archivio fuori casa", "text": "Il cloud è come un archivio remoto: può rendere i documenti accessibili, ma proteggi l'account e controlla le copie." },
+              "realLife": { "title": "Salvare e sincronizzare nel cloud", "text": "Carica un documento su Google Drive o iCloud e aprilo da un altro dispositivo autorizzato; verifica le impostazioni di sincronizzazione e conserva una copia indipendente dei file importanti." },
               "quiz": [
                 { "id": "file-p-1", "type": "choice", "prompt": "Quale servizio è un esempio di cloud?", "options": ["Google Drive", "La tastiera", "Il cestino della scrivania"], "answer": 0, "explanation": "Google Drive e iCloud sono servizi che conservano file online." },
                 { "id": "file-p-2", "type": "truefalse", "prompt": "La sincronizzazione garantisce sempre una copia indipendente anche se elimino un file.", "answer": false, "explanation": "La cancellazione può sincronizzarsi: controlla la funzione di backup e il recupero dei file." }
@@ -553,7 +553,7 @@
                 { "text": "Un gestore di password è un archivio digitale protetto che può aiutarti a ricordare password uniche." },
                 { "text": "L'autenticazione a due fattori (2FA) aggiunge una conferma, per esempio tramite app o codice, oltre alla password." }
               ],
-              "realLife": { "title": "Chiavi diverse e una seconda serratura", "text": "Password uniche sono chiavi diverse; la 2FA aggiunge un secondo controllo all'ingresso." },
+              "realLife": { "title": "Proteggere un account", "text": "Usa una password diversa per l'email e per la banca; attiva la verifica in due passaggi e conferma solo gli accessi che hai avviato." },
               "quiz": [
                 { "id": "sec-b-1", "type": "choice", "prompt": "Qual è una buona abitudine per le password?", "options": ["Usarne una diversa per ogni servizio", "Usare sempre 123456", "Mandarle in chat"], "answer": 0, "explanation": "Password lunghe e diverse limitano i danni se un account viene compromesso." },
                 { "id": "sec-b-2", "type": "truefalse", "prompt": "La 2FA aggiunge un controllo oltre alla password.", "answer": true, "explanation": "Il secondo fattore rende più difficile accedere al solo possessore della password." }
@@ -574,7 +574,7 @@
                 { "text": "Controlla l'indirizzo email o il numero del mittente, non solo il nome visualizzato. Vincite e premi inattesi sono segnali d'allarme." },
                 { "text": "Non aprire link sospetti, specialmente se il messaggio dice di venire dalla banca o dalle Poste." }
               ],
-              "realLife": { "title": "Una richiesta da verificare", "text": "Un messaggio urgente è come uno sconosciuto che chiede le chiavi: non agire di fretta e richiama usando un numero ufficiale." },
+              "realLife": { "title": "Verificare un messaggio sospetto", "text": "Se ricevi un SMS che minaccia di bloccare il conto e include un link, non aprirlo: accedi all'app ufficiale della banca o chiama il numero pubblicato sul suo sito." },
               "quiz": [
                 { "id": "sec-i-1", "type": "choice", "prompt": "Ricevi un SMS: «Conto bloccato, clicca subito». Cosa fai?", "options": ["Non clicco e verifico contattando la banca da un canale ufficiale", "Inserisco subito la password", "Rispondo con il codice ricevuto"], "answer": 0, "explanation": "L'urgenza e il link inatteso sono segnali d'allarme: usa il numero ufficiale della banca." },
                 { "id": "sec-i-2", "type": "truefalse", "prompt": "Il nome visualizzato del mittente basta per dimostrare che un messaggio è autentico.", "answer": false, "explanation": "Controlla l'indirizzo o il numero e verifica la richiesta attraverso un canale ufficiale." },
@@ -596,7 +596,7 @@
                 { "text": "HTTPS cifra la connessione al sito, ma il lucchetto non dimostra da solo che il sito sia affidabile: controlla con attenzione il nome del dominio." },
                 { "text": "Se hai un dubbio, fermati e chiudi il messaggio; poi chiama un familiare o il numero ufficiale della banca trovato da te." }
               ],
-              "realLife": { "title": "Fermarsi e verificare", "text": "Come per una porta di casa, non basta vedere un lucchetto: controlla chi c'è dall'altra parte prima di consegnare le chiavi." },
+              "realLife": { "title": "Controllare un sito prima di inserire dati", "text": "Prima di accedere al conto, leggi per intero il dominio nella barra del browser: HTTPS cifra la connessione, ma non garantisce che il sito appartenga davvero alla banca." },
               "quiz": [
                 { "id": "sec-p-1", "type": "choice", "prompt": "Che cosa indica HTTPS nel browser?", "options": ["La connessione è cifrata, ma il sito va comunque verificato", "Il sito è sempre onesto", "La password è già al sicuro qualunque cosa accada"], "answer": 0, "explanation": "HTTPS protegge la connessione, ma non certifica che il sito o il suo contenuto siano affidabili." },
                 { "id": "sec-p-2", "type": "truefalse", "prompt": "Se hai dubbi su un SMS della banca, puoi chiudere il messaggio e chiamare il numero ufficiale.", "answer": true, "explanation": "Non usare il link o il numero nel messaggio: cerca tu il contatto ufficiale." }

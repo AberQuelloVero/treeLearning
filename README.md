@@ -25,5 +25,5 @@ I contenuti sono elaborati in forma didattica a partire dalle aree del framework
 ## Comandi
 `npm install`, `npm start`, `npm run typecheck`, `npm test`.
 
-Per aggiungere contenuti modifica `content.json`: ogni capitolo ha `steps`, `realLife` (analogia) e `quiz`
+Per aggiungere contenuti modifica `content.json`: ogni capitolo ha `steps`, `realLife` (esempio pratico relativo all'argomento) e `quiz`
 (tipi `choice`, `truefalse`, `order`).
