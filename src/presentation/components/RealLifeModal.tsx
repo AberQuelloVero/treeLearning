@@ -15,7 +15,7 @@ export function RealLifeModal({ visible, title, text, onClose }: Props) {
     <Modal visible={visible} transparent animationType="fade" onRequestClose={onClose}>
       <View style={styles.backdrop}>
         <View style={styles.card}>
-          <Text style={styles.title}>🏠 {title}</Text>
+          <Text style={styles.title}>{title}</Text>
           <Text style={styles.text}>{text}</Text>
           <BigButton label="Ho capito" onPress={onClose} />
         </View>

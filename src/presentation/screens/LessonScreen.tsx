@@ -32,7 +32,7 @@ export function LessonScreen({ chapter, startWithQuiz = false, onQuizDone, onBac
           {chapter.steps.map((st, i) => (
             <Text key={i} style={styles.step}>{i + 1}. {st.text}</Text>
           ))}
-          <BigButton label="🏠 Vita Reale" variant="secondary" onPress={() => setShowRealLife(true)} />
+          <BigButton label="Esempio pratico" variant="secondary" onPress={() => setShowRealLife(true)} />
           <BigButton label="Fai il quiz" onPress={() => setMode('quiz')} />
         </>
       )}
@@ -51,7 +51,7 @@ export function LessonScreen({ chapter, startWithQuiz = false, onQuizDone, onBac
               } else force((n) => n + 1);
             }}
           />
-          <BigButton label="🏠 Vita Reale" variant="secondary" onPress={() => setShowRealLife(true)} />
+          <BigButton label="Esempio pratico" variant="secondary" onPress={() => setShowRealLife(true)} />
         </>
       )}
 
