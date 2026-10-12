@@ -1070,6 +1070,258 @@
           { "id": "communication-moderation-q7", "type": "choice", "prompt": "Cosa controlli prima di pubblicare un contenuto personale?", "options": ["Pubblico e impostazioni di visibilità", "Il PIN della SIM", "Il volume degli altoparlanti"], "answer": 0, "explanation": "Le impostazioni determinano chi può vedere il contenuto." }
         ]
       }
+    },
+    {
+      "topicId": "daily-services",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "services-online-forms-and-documents",
+        "title": "Moduli online e documenti digitali",
+        "steps": [
+          { "text": "Un modulo online raccoglie informazioni in campi come nome, data o recapito; compila solo quelli richiesti." },
+          { "text": "Prima di inserire dati personali, verifica che il portale appartenga all'ente o servizio che ti interessa." },
+          { "text": "Leggi le istruzioni del campo: alcune date o numeri richiedono un formato specifico." },
+          { "text": "Controlla attentamente gli allegati selezionati prima di caricarli e inviarli." },
+          { "text": "Rileggi i dati prima della conferma: dopo l'invio una correzione può richiedere una nuova procedura." },
+          { "text": "Salva o scarica la ricevuta di invio se il portale la fornisce." },
+          { "text": "Non inviare documenti d'identità tramite link ricevuti senza richiesta; raggiungi il servizio dal sito ufficiale." },
+          { "text": "Se una procedura non è chiara, chiedi assistenza all'ente usando i recapiti pubblicati sul sito ufficiale." }
+        ],
+        "realLife": { "title": "Inviare una richiesta semplice", "text": "Apri il portale ufficiale, compila i campi richiesti, controlla l'allegato e conserva la ricevuta dopo l'invio." },
+        "quiz": [
+          { "id": "services-forms-q1", "type": "choice", "prompt": "Prima di inserire dati in un modulo online, cosa verifichi?", "options": ["Che il portale sia quello ufficiale", "Il colore del pulsante", "Il livello della batteria"], "answer": 0, "explanation": "La fonte ufficiale è importante prima di fornire dati personali." },
+          { "id": "services-forms-q2", "type": "truefalse", "prompt": "È utile rileggere i dati prima di inviare un modulo.", "answer": true, "explanation": "La revisione riduce errori difficili da correggere." },
+          { "id": "services-forms-q3", "type": "choice", "prompt": "Il portale fornisce una ricevuta dopo l'invio. Cosa fai?", "options": ["La salvi o scarichi", "La pubblichi sui social", "Condividi la password"], "answer": 0, "explanation": "La ricevuta può documentare la richiesta inviata." },
+          { "id": "services-forms-q4", "type": "truefalse", "prompt": "Un link inatteso che chiede il documento d'identità va verificato dal sito ufficiale.", "answer": true, "explanation": "Non inviare documenti tramite richieste non verificate." },
+          { "id": "services-forms-q5", "type": "choice", "prompt": "Un campo indica un formato specifico per la data. Come procedi?", "options": ["Segui il formato indicato", "Inserisci un dato casuale", "Lasci la data di un'altra persona"], "answer": 0, "explanation": "Il formato richiesto consente al sistema di leggere correttamente la data." },
+          { "id": "services-forms-q6", "type": "truefalse", "prompt": "Un modulo online va compilato anche nei campi non richiesti.", "answer": false, "explanation": "Fornisci solo le informazioni richieste e necessarie." },
+          { "id": "services-forms-q7", "type": "choice", "prompt": "Non capisci un passaggio. Dove chiedi aiuto?", "options": ["All'ente tramite un recapito ufficiale", "A un numero in un pop-up", "A uno sconosciuto in chat"], "answer": 0, "explanation": "Usa i contatti pubblicati dal servizio ufficiale." }
+        ]
+      }
+    },
+    {
+      "topicId": "daily-services",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "services-health-privacy-and-results",
+        "title": "Referti, appuntamenti e riservatezza digitale",
+        "steps": [
+          { "text": "I portali sanitari consentono, a seconda del servizio, di consultare appuntamenti, documenti o richieste." },
+          { "text": "Accedi al portale sanitario digitando l'indirizzo ufficiale o usando un'app verificata dell'ente." },
+          { "text": "I referti contengono dati sensibili: non lasciarli aperti su dispositivi condivisi e blocca lo schermo quando ti allontani." },
+          { "text": "Prima di scaricare o stampare un documento, verifica che il dispositivo e la stampante siano sotto il tuo controllo." },
+          { "text": "Controlla il nome e la data del documento per non confondere referti o appuntamenti." },
+          { "text": "Condividi un documento sanitario solo con il professionista o la persona autorizzata e tramite un canale adeguato." },
+          { "text": "Non interpretare un referto in base a notifiche o messaggi automatici: per dubbi clinici chiedi al professionista sanitario." },
+          { "text": "Esci dal portale dopo l'uso e non salvare credenziali su un computer pubblico o condiviso." }
+        ],
+        "realLife": { "title": "Consultare un documento sanitario", "text": "Accedi al portale ufficiale, controlla intestazione e data del documento, scaricalo solo su un dispositivo affidabile e disconnettiti." },
+        "quiz": [
+          { "id": "services-health-privacy-q1", "type": "choice", "prompt": "Come raggiungi il portale sanitario?", "options": ["Dal sito ufficiale o da un'app verificata", "Da un link urgente non richiesto", "Da un allegato sconosciuto"], "answer": 0, "explanation": "Un canale verificato protegge l'accesso ai dati sanitari." },
+          { "id": "services-health-privacy-q2", "type": "truefalse", "prompt": "Un referto può contenere dati sensibili.", "answer": true, "explanation": "I documenti sanitari richiedono particolare riservatezza." },
+          { "id": "services-health-privacy-q3", "type": "choice", "prompt": "Prima di stampare un documento sanitario, cosa verifichi?", "options": ["Di avere il controllo della stampante", "Che sia in una sala pubblica", "Che il computer sia sbloccato"], "answer": 0, "explanation": "Una stampante condivisa può lasciare il documento visibile ad altri." },
+          { "id": "services-health-privacy-q4", "type": "truefalse", "prompt": "È opportuno condividere un referto con chiunque lo chieda in chat.", "answer": false, "explanation": "Condividilo solo con persone autorizzate e tramite canali adeguati." },
+          { "id": "services-health-privacy-q5", "type": "choice", "prompt": "Hai dubbi sul significato clinico di un referto. A chi ti rivolgi?", "options": ["Al professionista sanitario", "A un messaggio automatico", "A un profilo sconosciuto"], "answer": 0, "explanation": "Il professionista sanitario può rispondere ai dubbi clinici." },
+          { "id": "services-health-privacy-q6", "type": "truefalse", "prompt": "È prudente uscire dal portale dopo averlo usato su un dispositivo condiviso.", "answer": true, "explanation": "La disconnessione riduce il rischio di accessi successivi." },
+          { "id": "services-health-privacy-q7", "type": "choice", "prompt": "Come eviti di confondere due documenti scaricati?", "options": ["Controlli nome e data", "Li invii entrambi a tutti", "Rinomini entrambi allo stesso modo"], "answer": 0, "explanation": "Nome e data aiutano a identificare correttamente il documento." }
+        ]
+      }
+    },
+    {
+      "topicId": "daily-services",
+      "levelId": "pro",
+      "chapter": {
+        "id": "services-banking-verification-and-receipts",
+        "title": "Operazioni digitali, verifiche e ricevute",
+        "steps": [
+          { "text": "Accedi alla banca digitando l'indirizzo ufficiale o usando l'app installata dallo store ufficiale." },
+          { "text": "Prima di autorizzare un pagamento, controlla beneficiario, importo e causale sul riepilogo mostrato dalla banca." },
+          { "text": "Non comunicare codici temporanei o notifiche di conferma a chi ti contatta, nemmeno se conosce alcuni tuoi dati." },
+          { "text": "Un pagamento non atteso o un accesso insolito va segnalato alla banca usando il numero ufficiale." },
+          { "text": "La ricevuta digitale può documentare una transazione; salvala in una cartella protetta e riconoscibile." },
+          { "text": "Controlla periodicamente i movimenti e segnala rapidamente quelli che non riconosci." },
+          { "text": "Evita di operare su reti o dispositivi pubblici; se necessario, usa un dispositivo affidabile e aggiornato." },
+          { "text": "Al termine esci dall'app o dal sito e non lasciare visibili i dati della transazione." }
+        ],
+        "realLife": { "title": "Verificare un pagamento", "text": "Prima della conferma confronta beneficiario e importo, autorizza solo l'operazione prevista e conserva la ricevuta senza condividerla pubblicamente." },
+        "quiz": [
+          { "id": "services-banking-q1", "type": "choice", "prompt": "Prima di autorizzare un bonifico, cosa controlli?", "options": ["Beneficiario e importo", "Solo il colore del pulsante", "La lista dei contatti"], "answer": 0, "explanation": "Confronta i dettagli della transazione prima della conferma." },
+          { "id": "services-banking-q2", "type": "truefalse", "prompt": "Un codice temporaneo bancario può essere comunicato a chi chiama.", "answer": false, "explanation": "Non condividere mai codici di autorizzazione." },
+          { "id": "services-banking-q3", "type": "choice", "prompt": "Noti un movimento che non riconosci. Cosa fai?", "options": ["Contatti la banca tramite un recapito ufficiale", "Rispondi a un SMS con il PIN", "Aspetti e invii il codice a un chiamante"], "answer": 0, "explanation": "La banca può indicare le misure da adottare per l'operazione." },
+          { "id": "services-banking-q4", "type": "truefalse", "prompt": "È utile salvare la ricevuta di una transazione in un luogo protetto.", "answer": true, "explanation": "La ricevuta può aiutare a documentare l'operazione." },
+          { "id": "services-banking-q5", "type": "choice", "prompt": "Dove accedi in modo prudente al servizio bancario?", "options": ["Nell'app ufficiale o digitando il sito noto", "Da un link casuale", "Da un annuncio che chiede i codici"], "answer": 0, "explanation": "Usa un canale ufficiale invece di link inattesi." },
+          { "id": "services-banking-q6", "type": "truefalse", "prompt": "Controllare i movimenti periodicamente può aiutare a notare operazioni insolite.", "answer": true, "explanation": "La revisione tempestiva facilita la segnalazione di addebiti non riconosciuti." },
+          { "id": "services-banking-q7", "type": "choice", "prompt": "Come concludi l'uso dell'app bancaria?", "options": ["Esci e chiudi la sessione", "Lasci il dispositivo sbloccato", "Condividi la ricevuta pubblicamente"], "answer": 0, "explanation": "Chiudere la sessione riduce l'accesso non autorizzato." }
+        ]
+      }
+    },
+    {
+      "topicId": "files",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "files-names-search-and-extensions",
+        "title": "Nomi, tipi di file e ricerca",
+        "steps": [
+          { "text": "Un nome descrittivo aiuta a capire il contenuto, per esempio aggiungendo argomento e data." },
+          { "text": "L'estensione dopo il punto, come .pdf o .jpg, indica spesso il tipo di file." },
+          { "text": "Un'icona o un'estensione da sola non garantisce che un file sia sicuro o autentico." },
+          { "text": "La ricerca del dispositivo può trovare file usando parte del nome o della cartella." },
+          { "text": "Ordina i risultati per nome, data o tipo per restringere la ricerca." },
+          { "text": "Apri i file solo se ne riconosci la provenienza, soprattutto se arrivano come allegati inattesi." },
+          { "text": "Evita nomi ambigui come 'documento finale nuovo': includi dettagli che distinguano le versioni." },
+          { "text": "Prima di rinominare, mantieni l'estensione corretta e verifica che il file continui ad aprirsi." }
+        ],
+        "realLife": { "title": "Ritrovare una ricevuta", "text": "Cerca parte del nome o la data, controlla cartella e tipo di file e rinomina la ricevuta con un titolo descrittivo." },
+        "quiz": [
+          { "id": "files-search-q1", "type": "choice", "prompt": "Quale nome rende più facile ritrovare un documento?", "options": ["Ricevuta_luce_marzo_2026", "Nuovo", "File"], "answer": 0, "explanation": "Un nome con argomento e data è più descrittivo." },
+          { "id": "files-search-q2", "type": "truefalse", "prompt": "L'estensione da sola dimostra che un file è sicuro.", "answer": false, "explanation": "Verifica anche la provenienza e il contesto del file." },
+          { "id": "files-search-q3", "type": "choice", "prompt": "Cosa può aiutare a trovare un file?", "options": ["Cercarne parte del nome", "Alzare il volume", "Disattivare il blocco schermo"], "answer": 0, "explanation": "La ricerca trova spesso file a partire dal nome o dalla cartella." },
+          { "id": "files-search-q4", "type": "truefalse", "prompt": "Rinominando un file è bene mantenere la sua estensione.", "answer": true, "explanation": "Cambiare o rimuovere l'estensione può influire sull'apertura." },
+          { "id": "files-search-q5", "type": "choice", "prompt": "Ricevi un allegato inatteso. Cosa fai prima di aprirlo?", "options": ["Verifichi mittente e motivo", "Lo apri immediatamente", "Lo inoltri a tutti"], "answer": 0, "explanation": "La verifica della provenienza è un primo controllo prudente." },
+          { "id": "files-search-q6", "type": "truefalse", "prompt": "Puoi ordinare i risultati di ricerca per data o tipo.", "answer": true, "explanation": "Le opzioni di ordinamento aiutano a individuare il risultato corretto." },
+          { "id": "files-search-q7", "type": "choice", "prompt": "Hai molti file simili. Quale nome è più utile?", "options": ["Un nome con argomento e data", "Lo stesso nome per tutti", "Nessun nome"], "answer": 0, "explanation": "Dettagli distintivi riducono la confusione tra versioni." }
+        ]
+      }
+    },
+    {
+      "topicId": "files",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "files-archive-and-compression",
+        "title": "Archivi, compressione e copie di lavoro",
+        "steps": [
+          { "text": "Un archivio compresso raccoglie uno o più file in un contenitore, spesso con estensione .zip." },
+          { "text": "Prima di estrarre un archivio, verifica chi lo ha inviato e perché; gli archivi possono contenere più file." },
+          { "text": "Scegli una cartella di destinazione riconoscibile e controlla i nomi dei file estratti." },
+          { "text": "Un file compresso non è automaticamente sicuro: evita contenuti inattesi o richieste di installare programmi." },
+          { "text": "La compressione riduce la dimensione di alcuni file, ma il risultato dipende dal tipo di contenuto." },
+          { "text": "Per lavorare su documenti importanti, conserva l'originale e modifica una copia." },
+          { "text": "Confronta nome, data e dimensione delle copie per distinguere una versione nuova da una vecchia." },
+          { "text": "Dopo aver verificato i file estratti, archivia o elimina il contenitore secondo le tue necessità." }
+        ],
+        "realLife": { "title": "Estrarre un archivio ricevuto", "text": "Verifica il mittente e il motivo, estrai lo ZIP in una cartella dedicata e controlla i file prima di aprirli." },
+        "quiz": [
+          { "id": "files-archive-q1", "type": "choice", "prompt": "Che cosa contiene spesso un archivio ZIP?", "options": ["Uno o più file raccolti insieme", "Solo una password", "La batteria del dispositivo"], "answer": 0, "explanation": "Un archivio raggruppa file e può ridurne la dimensione." },
+          { "id": "files-archive-q2", "type": "truefalse", "prompt": "Un archivio inatteso è sicuro solo perché è compresso.", "answer": false, "explanation": "Controlla mittente e contenuto prima di estrarre o aprire." },
+          { "id": "files-archive-q3", "type": "choice", "prompt": "Dove estrai un archivio per ritrovare facilmente i file?", "options": ["In una cartella dedicata", "In una cartella casuale", "Sul desktop di un'altra persona"], "answer": 0, "explanation": "Una destinazione chiara aiuta a organizzare i file estratti." },
+          { "id": "files-archive-q4", "type": "truefalse", "prompt": "È prudente conservare l'originale prima di modificare un documento importante.", "answer": true, "explanation": "Una copia di lavoro permette di recuperare la versione iniziale." },
+          { "id": "files-archive-q5", "type": "choice", "prompt": "Come distingui due versioni simili?", "options": ["Controlli nome, data e dimensione", "Le apri tutte da un link sconosciuto", "Elimini quella più recente"], "answer": 0, "explanation": "I dettagli del file aiutano a riconoscere le versioni." },
+          { "id": "files-archive-q6", "type": "truefalse", "prompt": "La compressione riduce sempre la dimensione di ogni tipo di file.", "answer": false, "explanation": "Il risultato dipende dal contenuto e dal formato." },
+          { "id": "files-archive-q7", "type": "choice", "prompt": "Un archivio contiene un programma inatteso. Cosa fai?", "options": ["Non lo avvii e verifichi con il mittente", "Lo installi subito", "Lo invii a tutti"], "answer": 0, "explanation": "Verifica contenuti inattesi prima di eseguirli." }
+        ]
+      }
+    },
+    {
+      "topicId": "files",
+      "levelId": "pro",
+      "chapter": {
+        "id": "files-permissions-and-retention",
+        "title": "Permessi, versioni e conservazione dei file",
+        "steps": [
+          { "text": "Un file condiviso può avere permessi di lettura, commento o modifica; assegna solo quelli necessari." },
+          { "text": "Controlla i destinatari e la scadenza di un link condiviso, soprattutto per documenti riservati." },
+          { "text": "Rivedi i link pubblici o non più necessari e revoca l'accesso quando termina la collaborazione." },
+          { "text": "La cronologia delle versioni può aiutare a recuperare modifiche precedenti, se il servizio la supporta." },
+          { "text": "Non sovrascrivere l'unica copia di un documento importante prima di averne verificato la copia di sicurezza." },
+          { "text": "Stabilisci quali file conservare e per quanto tempo, rispettando gli obblighi applicabili ai documenti." },
+          { "text": "Quando elimini dati, considera cestino, copie sincronizzate e backup: la rimozione può non essere immediata." },
+          { "text": "Prima di cedere o dismettere un dispositivo, usa la procedura ufficiale per rimuovere gli account e i dati personali." }
+        ],
+        "realLife": { "title": "Condividere un documento di progetto", "text": "Concedi l'accesso solo ai collaboratori necessari, scegli permessi limitati e revoca il collegamento quando il progetto termina." },
+        "quiz": [
+          { "id": "files-permissions-q1", "type": "choice", "prompt": "Quali permessi scegli per chi deve solo leggere un documento?", "options": ["Sola lettura", "Modifica completa", "Accesso pubblico permanente"], "answer": 0, "explanation": "Concedi il livello minimo necessario." },
+          { "id": "files-permissions-q2", "type": "truefalse", "prompt": "È utile revocare un link condiviso quando non serve più.", "answer": true, "explanation": "Revocare l'accesso limita la disponibilità futura del file." },
+          { "id": "files-permissions-q3", "type": "choice", "prompt": "Cosa può aiutare a recuperare modifiche precedenti?", "options": ["La cronologia delle versioni, se disponibile", "Il volume", "La schermata di blocco"], "answer": 0, "explanation": "Alcuni servizi conservano versioni precedenti del documento." },
+          { "id": "files-permissions-q4", "type": "truefalse", "prompt": "Eliminare un file dal dispositivo cancella sempre tutte le copie sincronizzate.", "answer": false, "explanation": "Controlla cestino, sincronizzazione e backup." },
+          { "id": "files-permissions-q5", "type": "choice", "prompt": "Prima di sovrascrivere l'unica copia di un file importante, cosa fai?", "options": ["Verifichi che esista una copia di sicurezza", "Elimini il backup", "Condividi il link pubblicamente"], "answer": 0, "explanation": "Una copia verificata protegge dalla perdita accidentale." },
+          { "id": "files-permissions-q6", "type": "truefalse", "prompt": "Un link pubblico è sempre appropriato per un documento riservato.", "answer": false, "explanation": "Limita destinatari e permessi quando il contenuto è riservato." },
+          { "id": "files-permissions-q7", "type": "choice", "prompt": "Prima di dismettere un dispositivo, cosa fai con i dati personali?", "options": ["Segui la procedura ufficiale per rimuoverli", "Lasci account e file accessibili", "Condividi il PIN"], "answer": 0, "explanation": "Usa i passaggi ufficiali per rimuovere gli account e i dati." }
+        ]
+      }
+    },
+    {
+      "topicId": "security",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "security-public-wifi-and-privacy",
+        "title": "Reti pubbliche e informazioni personali",
+        "steps": [
+          { "text": "Una rete Wi-Fi pubblica può essere usata da molte persone; verifica il nome della rete con il gestore del luogo." },
+          { "text": "Evita operazioni sensibili su reti o dispositivi che non controlli, soprattutto se la rete non richiede una protezione adeguata." },
+          { "text": "Disattiva la connessione automatica alle reti aperte se il dispositivo si collega senza chiedere." },
+          { "text": "Non condividere documenti o cartelle sulla rete pubblica, a meno che tu non sappia come limitarne l'accesso." },
+          { "text": "Le impostazioni di privacy permettono di controllare quali informazioni personali sono visibili nei profili." },
+          { "text": "Condividi online solo i dati necessari: indirizzo, documenti e codici non sono informazioni da pubblicare." },
+          { "text": "Un messaggio che chiede un codice o una password va verificato tramite il servizio ufficiale." },
+          { "text": "Quando hai finito, disconnettiti dalla rete pubblica e disattiva la condivisione se non serve più." }
+        ],
+        "realLife": { "title": "Usare una rete in un luogo pubblico", "text": "Verifica il nome della rete con il personale, evita operazioni delicate e disattiva la connessione automatica dopo l'uso." },
+        "quiz": [
+          { "id": "security-public-wifi-q1", "type": "choice", "prompt": "Come verifichi il nome della rete Wi-Fi di un locale?", "options": ["Chiedi al personale o controlli le indicazioni ufficiali", "Ti colleghi alla prima rete con nome simile", "Invii un codice a uno sconosciuto"], "answer": 0, "explanation": "Il gestore può confermare il nome della rete corretta." },
+          { "id": "security-public-wifi-q2", "type": "truefalse", "prompt": "È prudente disattivare la connessione automatica a reti aperte non note.", "answer": true, "explanation": "La connessione automatica può portare a reti non verificate." },
+          { "id": "security-public-wifi-q3", "type": "choice", "prompt": "Un messaggio inatteso chiede il codice di accesso. Cosa fai?", "options": ["Verifichi dalla app o dal sito ufficiale", "Rispondi subito col codice", "Lo pubblichi"], "answer": 0, "explanation": "Codici e password non vanno comunicati tramite richieste inattese." },
+          { "id": "security-public-wifi-q4", "type": "truefalse", "prompt": "Indirizzo e documenti personali possono essere pubblicati senza rischi.", "answer": false, "explanation": "Condividi online solo le informazioni necessarie." },
+          { "id": "security-public-wifi-q5", "type": "choice", "prompt": "Cosa fai con la condivisione di file mentre sei su una rete pubblica?", "options": ["La disattivi se non serve", "La attivi per chiunque", "Condividi tutte le cartelle"], "answer": 0, "explanation": "Limitare la condivisione riduce l'esposizione dei file." },
+          { "id": "security-public-wifi-q6", "type": "truefalse", "prompt": "Una rete pubblica può essere usata da persone che non conosci.", "answer": true, "explanation": "Molti utenti possono collegarsi alla stessa rete." },
+          { "id": "security-public-wifi-q7", "type": "choice", "prompt": "Dopo aver usato una rete pubblica, cosa puoi fare?", "options": ["Disconnetterti e disattivare la condivisione non necessaria", "Lasciare ogni cartella aperta", "Salvare la password in un messaggio pubblico"], "answer": 0, "explanation": "Disconnessione e condivisione limitata riducono i rischi residui." }
+        ]
+      }
+    },
+    {
+      "topicId": "security",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "security-multifactor-and-alerts",
+        "title": "Verifica in più passaggi e avvisi di accesso",
+        "steps": [
+          { "text": "La verifica in più passaggi richiede un ulteriore elemento oltre alla password, come un'app di autenticazione o una chiave." },
+          { "text": "Attiva la verifica aggiuntiva dalle impostazioni ufficiali dell'account, non da link ricevuti in messaggi." },
+          { "text": "Conserva i codici di recupero in un luogo privato e separato dal dispositivo che usi per accedere." },
+          { "text": "Un avviso di accesso che non riconosci può indicare un tentativo: non approvare la richiesta e cambia la password dal sito ufficiale." },
+          { "text": "Non approvare richieste ripetute di autenticazione che non hai avviato: potrebbero voler indurti a confermare." },
+          { "text": "Controlla periodicamente dispositivi e sessioni connessi e rimuovi quelli che non riconosci." },
+          { "text": "Verifica che email e numero di recupero siano aggiornati e accessibili solo a te." },
+          { "text": "Se perdi il secondo fattore, usa la procedura ufficiale di recupero e non pagare persone che promettono di sbloccare l'account." }
+        ],
+        "realLife": { "title": "Gestire un avviso inatteso", "text": "Non approvare una richiesta di accesso che non hai iniziato; apri il servizio ufficiale, cambia la password e controlla le sessioni attive." },
+        "quiz": [
+          { "id": "security-mfa-q1", "type": "choice", "prompt": "Che cosa aggiunge la verifica in più passaggi?", "options": ["Un controllo ulteriore oltre alla password", "Una password pubblica", "Un annuncio"], "answer": 0, "explanation": "Un secondo fattore rende più difficile accedere con la sola password." },
+          { "id": "security-mfa-q2", "type": "truefalse", "prompt": "Devi approvare ogni richiesta di accesso che appare sul telefono.", "answer": false, "explanation": "Approva solo richieste che hai avviato tu." },
+          { "id": "security-mfa-q3", "type": "choice", "prompt": "Dove conservi i codici di recupero?", "options": ["In un luogo privato e separato", "In un post pubblico", "In un messaggio a uno sconosciuto"], "answer": 0, "explanation": "I codici consentono il recupero e vanno protetti." },
+          { "id": "security-mfa-q4", "type": "truefalse", "prompt": "È utile controllare periodicamente le sessioni connesse all'account.", "answer": true, "explanation": "Puoi individuare accessi o dispositivi che non riconosci." },
+          { "id": "security-mfa-q5", "type": "choice", "prompt": "Ricevi richieste di autenticazione che non hai avviato. Cosa fai?", "options": ["Non approvi e controlli l'account dal sito ufficiale", "Le approvi tutte", "Condividi il codice"], "answer": 0, "explanation": "Le richieste inattese vanno rifiutate e verificate." },
+          { "id": "security-mfa-q6", "type": "truefalse", "prompt": "I dati di recupero devono essere aggiornati e accessibili solo a te.", "answer": true, "explanation": "Informazioni corrette e private aiutano a recuperare l'account." },
+          { "id": "security-mfa-q7", "type": "choice", "prompt": "Per attivare la verifica aggiuntiva, quale percorso usi?", "options": ["Le impostazioni ufficiali dell'account", "Un link casuale ricevuto", "Un annuncio pop-up"], "answer": 0, "explanation": "Le impostazioni ufficiali sono il luogo appropriato per la configurazione." }
+        ]
+      }
+    },
+    {
+      "topicId": "security",
+      "levelId": "pro",
+      "chapter": {
+        "id": "security-device-disposal-and-data-exposure",
+        "title": "Dismissione dei dispositivi e riduzione dell'esposizione",
+        "steps": [
+          { "text": "Prima di cedere o riciclare un dispositivo, salva i dati importanti e verifica che la copia sia leggibile." },
+          { "text": "Esci dagli account, rimuovi il dispositivo dai servizi collegati e disattiva eventuali funzioni di localizzazione o blocco remoto secondo la procedura ufficiale." },
+          { "text": "Usa le istruzioni del produttore per cancellare i dati e ripristinare il dispositivo; una semplice eliminazione dei file può non bastare." },
+          { "text": "Rimuovi schede SIM e schede di memoria e verifica come smaltirle o riutilizzarle in modo sicuro." },
+          { "text": "Revoca l'accesso ai dispositivi che non possiedi più dalle impostazioni degli account." },
+          { "text": "Riduci i dati personali conservati nei servizi online e cancella copie obsolete quando hai verificato che non servano." },
+          { "text": "Controlla periodicamente quali app e siti hanno accesso agli account tramite collegamenti o autorizzazioni." },
+          { "text": "Per dati aziendali o particolarmente sensibili, segui le procedure dell'organizzazione o chiedi assistenza qualificata." }
+        ],
+        "realLife": { "title": "Preparare un telefono per il riciclo", "text": "Verifica il backup, esci dagli account, rimuovi SIM e memoria e segui le istruzioni ufficiali per cancellare i dati prima del riciclo." },
+        "quiz": [
+          { "id": "security-disposal-q1", "type": "choice", "prompt": "Prima di cancellare un dispositivo, cosa verifichi?", "options": ["Che i dati importanti siano salvati e recuperabili", "Che il backup non esista", "Che tutti gli account siano pubblici"], "answer": 0, "explanation": "Una copia verificata evita di perdere dati utili." },
+          { "id": "security-disposal-q2", "type": "truefalse", "prompt": "Eliminare alcuni file a mano è sempre sufficiente prima di cedere il dispositivo.", "answer": false, "explanation": "Segui le istruzioni ufficiali per cancellare e ripristinare il dispositivo." },
+          { "id": "security-disposal-q3", "type": "choice", "prompt": "Cosa fai con un dispositivo che non possiedi più ma compare nell'account?", "options": ["Revochi la sessione o l'accesso dalle impostazioni", "Lasci l'accesso attivo", "Invii la password al nuovo proprietario"], "answer": 0, "explanation": "Rimuovi dispositivi non più in tuo possesso dagli account." },
+          { "id": "security-disposal-q4", "type": "truefalse", "prompt": "È utile rimuovere SIM e schede di memoria prima del riciclo.", "answer": true, "explanation": "Le schede possono contenere dati o consentire l'accesso a servizi." },
+          { "id": "security-disposal-q5", "type": "choice", "prompt": "Quale fonte consulti per il ripristino sicuro del dispositivo?", "options": ["Le istruzioni ufficiali del produttore", "Un link casuale", "Un annuncio che chiede credenziali"], "answer": 0, "explanation": "Le istruzioni ufficiali descrivono la procedura corretta per il modello." },
+          { "id": "security-disposal-q6", "type": "truefalse", "prompt": "È utile controllare quali app possono accedere ai tuoi account.", "answer": true, "explanation": "Rivedere i collegamenti permette di revocare accessi non più necessari." },
+          { "id": "security-disposal-q7", "type": "choice", "prompt": "Devi dismettere un dispositivo con dati aziendali. Cosa fai?", "options": ["Segui le procedure dell'organizzazione", "Lo cedi senza avvisare", "Condividi le credenziali"], "answer": 0, "explanation": "I dati aziendali possono richiedere procedure specifiche." }
+        ]
+      }
     }
   ]
 }
