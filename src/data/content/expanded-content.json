@@ -21,6 +21,258 @@
         ]
       }
     },
+          {
+            "topicId": "devices",
+            "levelId": "beginner",
+            "chapter": {
+              "id": "devices-connect-inputs",
+              "title": "Usare tastiera, mouse e schermo tattile",
+              "steps": [
+                { "text": "La tastiera permette di inserire lettere, numeri e simboli; il tasto Maiusc scrive una maiuscola mentre è premuto." },
+                { "text": "Il tasto Bloc Maiusc mantiene le maiuscole attive: controlla la spia o il testo se le lettere risultano diverse dal previsto." },
+                { "text": "Il mouse muove un puntatore; un clic seleziona, mentre un doppio clic apre spesso file e cartelle." },
+                { "text": "La rotellina del mouse scorre una pagina senza spostare il puntatore." },
+                { "text": "Su uno schermo tattile, un tocco seleziona e uno scorrimento sposta la pagina." },
+                { "text": "Se un comando non funziona, controlla che il dispositivo sia acceso e collegato prima di riprovare." },
+                { "text": "Per inserire testo, tocca o fai clic nel campo giusto e verifica che appaia il cursore." },
+                { "text": "Procedi con calma: se hai selezionato l'elemento sbagliato, fai clic in un'area vuota e ricomincia." }
+              ],
+              "realLife": { "title": "Scrivere e selezionare", "text": "Apri un campo di ricerca, digita una parola e correggila con Backspace; poi seleziona un'icona con un clic senza aprirla." },
+              "quiz": [
+                { "id": "devices-inputs-q1", "type": "choice", "prompt": "Quale tasto cancella normalmente il carattere prima del cursore?", "options": ["Backspace", "Maiusc", "Tab"], "answer": 0, "explanation": "Backspace cancella in genere il carattere che precede il cursore." },
+                { "id": "devices-inputs-q2", "type": "truefalse", "prompt": "Un clic singolo può selezionare un elemento sul computer.", "answer": true, "explanation": "Il clic singolo seleziona spesso file e icone." },
+                { "id": "devices-inputs-q3", "type": "choice", "prompt": "A cosa serve la rotellina del mouse?", "options": ["A scorrere una pagina", "A spegnere il computer", "A digitare una password"], "answer": 0, "explanation": "La rotellina permette di spostarsi lungo il contenuto di una pagina." },
+                { "id": "devices-inputs-q4", "type": "truefalse", "prompt": "Prima di scrivere in un campo, è utile verificare che sia selezionato.", "answer": true, "explanation": "Il cursore indica il punto in cui verrà inserito il testo." },
+                { "id": "devices-inputs-q5", "type": "choice", "prompt": "Le lettere appaiono tutte maiuscole: cosa controlli?", "options": ["Il tasto Bloc Maiusc", "La rotellina del mouse", "Il volume"], "answer": 0, "explanation": "Bloc Maiusc può mantenere attive le maiuscole." },
+                { "id": "devices-inputs-q6", "type": "truefalse", "prompt": "Uno scorrimento sul touch screen può spostare la pagina.", "answer": true, "explanation": "Lo scorrimento mostra parti del contenuto fuori dallo schermo." },
+                { "id": "devices-inputs-q7", "type": "choice", "prompt": "Un mouse o una tastiera non risponde: qual è un controllo iniziale?", "options": ["Verificare alimentazione e collegamento", "Formattare il computer", "Eliminare i documenti"], "answer": 0, "explanation": "Controlli semplici e non distruttivi sono il primo passo." }
+              ]
+            }
+          },
+          {
+            "topicId": "devices",
+            "levelId": "intermediate",
+            "chapter": {
+              "id": "devices-ports-and-display",
+              "title": "Porte, schermi e periferiche",
+              "steps": [
+                { "text": "Le porte collegano dispositivi esterni: USB serve spesso per accessori e dati, mentre HDMI trasmette audio e video." },
+                { "text": "La forma del connettore aiuta a riconoscere la porta, ma non garantisce da sola che ogni funzione sia supportata." },
+                { "text": "Collega una periferica senza forzare; se non entra, controlla orientamento, tipo di porta e istruzioni." },
+                { "text": "Un monitor esterno può duplicare lo schermo o estendere il desktop; la scelta si trova nelle impostazioni video." },
+                { "text": "La risoluzione indica quanti punti compongono l'immagine: una risoluzione diversa può cambiare nitidezza e dimensione degli elementi." },
+                { "text": "Se non compare l'immagine, controlla che monitor e computer siano accesi e che sia selezionato l'ingresso corretto." },
+                { "text": "Rimuovi una memoria USB usando la funzione di espulsione quando disponibile, così riduci il rischio di interrompere una scrittura." },
+                { "text": "Per una periferica sconosciuta, consulta le istruzioni del produttore prima di installare programmi o driver." }
+              ],
+              "realLife": { "title": "Collegare un monitor", "text": "Collega il monitor con il cavo compatibile, seleziona l'ingresso usato e scegli dalle impostazioni se duplicare o estendere lo schermo." },
+              "quiz": [
+                { "id": "devices-ports-q1", "type": "choice", "prompt": "Quale collegamento trasmette spesso audio e video a un monitor?", "options": ["HDMI", "Jack delle cuffie", "Cavo di alimentazione"], "answer": 0, "explanation": "HDMI trasporta comunemente sia immagine sia audio." },
+                { "id": "devices-ports-q2", "type": "truefalse", "prompt": "Se un connettore non entra, è meglio forzarlo.", "answer": false, "explanation": "Controlla tipo e orientamento per evitare danni." },
+                { "id": "devices-ports-q3", "type": "choice", "prompt": "Il monitor è acceso ma resta nero. Quale controllo è utile?", "options": ["Verificare l'ingresso selezionato", "Cancellare i file", "Cambiare la password"], "answer": 0, "explanation": "Il monitor deve mostrare l'ingresso a cui è collegato il computer." },
+                { "id": "devices-ports-q4", "type": "truefalse", "prompt": "Un desktop esteso permette di usare il monitor come spazio aggiuntivo.", "answer": true, "explanation": "L'estensione amplia l'area di lavoro tra più schermi." },
+                { "id": "devices-ports-q5", "type": "choice", "prompt": "Cosa indica la risoluzione dello schermo?", "options": ["La quantità di punti che compongono l'immagine", "La durata della batteria", "La velocità del Wi-Fi"], "answer": 0, "explanation": "La risoluzione descrive la griglia di punti dell'immagine." },
+                { "id": "devices-ports-q6", "type": "truefalse", "prompt": "È prudente espellere una memoria USB prima di rimuoverla, se la funzione è disponibile.", "answer": true, "explanation": "L'espulsione aiuta a completare le operazioni di scrittura." },
+                { "id": "devices-ports-q7", "type": "choice", "prompt": "Per un dispositivo sconosciuto, dove cerchi istruzioni affidabili?", "options": ["Nel manuale o nel sito del produttore", "In un allegato casuale", "In un messaggio che chiede la password"], "answer": 0, "explanation": "Le istruzioni ufficiali aiutano a configurare la periferica correttamente." }
+              ]
+            }
+          },
+          {
+            "topicId": "devices",
+            "levelId": "pro",
+            "chapter": {
+              "id": "devices-network-and-maintenance",
+              "title": "Reti, periferiche e manutenzione consapevole",
+              "steps": [
+                { "text": "Bluetooth collega accessori vicini senza cavo; attivalo solo quando serve e associa dispositivi riconosciuti." },
+                { "text": "Prima di associare cuffie o tastiere, controlla il nome visualizzato e conferma l'abbinamento sul dispositivo corretto." },
+                { "text": "Una stampante può essere collegata via cavo o rete; verifica che computer e stampante usino il collegamento previsto." },
+                { "text": "Una coda di stampa mostra documenti in attesa: annulla solo i lavori che riconosci e che non vuoi più stampare." },
+                { "text": "La ventilazione evita il surriscaldamento: non coprire le prese d'aria e mantieni il dispositivo su una superficie stabile." },
+                { "text": "Pulisci gli schermi con un panno adatto e asciutto, seguendo le indicazioni del produttore; non spruzzare liquidi direttamente." },
+                { "text": "Un riavvio può risolvere problemi temporanei, ma salva prima il lavoro aperto per non perdere modifiche." },
+                { "text": "Se un guasto persiste o il dispositivo si surriscalda, interrompi l'uso e rivolgiti all'assistenza qualificata." }
+              ],
+              "realLife": { "title": "Risoluzione di un problema di stampa", "text": "Controlla alimentazione, collegamento e coda di stampa; annulla un lavoro solo se lo riconosci e salva gli altri documenti prima di riavviare." },
+              "quiz": [
+                { "id": "devices-maint-q1", "type": "choice", "prompt": "Cosa controlli prima di accettare un abbinamento Bluetooth?", "options": ["Che il nome corrisponda all'accessorio desiderato", "Che la batteria sia al 100%", "Che tutti i contatti siano condivisi"], "answer": 0, "explanation": "Verificare il dispositivo evita di associarsi a quello sbagliato." },
+                { "id": "devices-maint-q2", "type": "truefalse", "prompt": "Le prese d'aria del computer vanno lasciate libere.", "answer": true, "explanation": "La ventilazione aiuta a disperdere il calore." },
+                { "id": "devices-maint-q3", "type": "choice", "prompt": "Prima di riavviare un computer con documenti aperti, cosa fai?", "options": ["Salvi il lavoro", "Scolleghi tutti i cavi", "Elimini la cartella Documenti"], "answer": 0, "explanation": "Salvare riduce il rischio di perdere le modifiche non registrate." },
+                { "id": "devices-maint-q4", "type": "truefalse", "prompt": "È consigliabile spruzzare il detergente direttamente sullo schermo.", "answer": false, "explanation": "Segui le istruzioni e non spruzzare liquidi direttamente sul dispositivo." },
+                { "id": "devices-maint-q5", "type": "choice", "prompt": "La stampante non produce documenti: quale verifica iniziale è sensata?", "options": ["Controllare collegamento e coda di stampa", "Reinstallare il sistema operativo", "Condividere il PIN"], "answer": 0, "explanation": "Controlli mirati aiutano a individuare un problema comune senza rischi." },
+                { "id": "devices-maint-q6", "type": "truefalse", "prompt": "Un dispositivo che si surriscalda in modo anomalo va ignorato.", "answer": false, "explanation": "Interrompi l'uso e chiedi assistenza qualificata." },
+                { "id": "devices-maint-q7", "type": "choice", "prompt": "A cosa serve la coda di stampa?", "options": ["A mostrare i documenti in attesa", "A memorizzare password", "A regolare il Wi-Fi"], "answer": 0, "explanation": "La coda elenca i lavori inviati alla stampante." }
+              ]
+            }
+          },
+          {
+            "topicId": "operating-system",
+            "levelId": "beginner",
+            "chapter": {
+              "id": "os-files-and-windows",
+              "title": "Finestre, menu e passaggi tra app",
+              "steps": [
+                { "text": "Una finestra mostra il contenuto di un'app; la barra del titolo ne indica spesso il nome." },
+                { "text": "I pulsanti in alto possono ridurre, ingrandire o chiudere una finestra; chiudere una finestra non sempre spegne l'app." },
+                { "text": "Il menu contiene comandi come Apri, Salva e Stampa; le voci possono cambiare in base all'app." },
+                { "text": "La barra delle applicazioni o il Dock mostrano app aperte e collegamenti, a seconda del sistema." },
+                { "text": "Puoi passare a un'altra app selezionandola dalla barra o dalla schermata delle app recenti." },
+                { "text": "Un avviso di salvataggio appare se ci sono modifiche non salvate: scegli con attenzione se salvarle o scartarle." },
+                { "text": "Se una finestra scompare, controlla se è stata ridotta a icona prima di riaprire l'app." },
+                { "text": "Le icone e i menu variano tra dispositivi: cerca il nome del comando e leggi le opzioni prima di confermare." }
+              ],
+              "realLife": { "title": "Passare tra due app", "text": "Apri un documento e il browser, poi passa dall'una all'altro usando la barra delle applicazioni o le app recenti senza chiudere il documento." },
+              "quiz": [
+                { "id": "os-windows-q1", "type": "choice", "prompt": "Cosa mostra in genere una finestra?", "options": ["Il contenuto di un'app", "La carica della tastiera soltanto", "La rete elettrica"], "answer": 0, "explanation": "La finestra è un'area in cui un'app mostra documenti o comandi." },
+                { "id": "os-windows-q2", "type": "truefalse", "prompt": "Chiudere una finestra significa sempre spegnere il dispositivo.", "answer": false, "explanation": "Si chiude una finestra o app, non il computer." },
+                { "id": "os-windows-q3", "type": "choice", "prompt": "Compare la richiesta di salvare le modifiche: cosa fai?", "options": ["Valuti se vuoi conservarle e scegli di conseguenza", "Confermi sempre senza leggere", "Scolleghi il computer"], "answer": 0, "explanation": "Le modifiche non salvate possono andare perse se vengono scartate." },
+                { "id": "os-windows-q4", "type": "truefalse", "prompt": "La barra delle applicazioni può aiutare a tornare a un'app aperta.", "answer": true, "explanation": "La barra o il Dock offrono accesso alle app." },
+                { "id": "os-windows-q5", "type": "choice", "prompt": "Una finestra non è più visibile. Quale tentativo è utile?", "options": ["Controllare se è ridotta a icona", "Eliminare l'app", "Resettare il dispositivo"], "answer": 0, "explanation": "La finestra potrebbe essere ancora aperta ma ridotta a icona." },
+                { "id": "os-windows-q6", "type": "truefalse", "prompt": "I menu e le icone sono identici su tutti i sistemi operativi.", "answer": false, "explanation": "L'aspetto cambia, ma i comandi hanno spesso nomi simili." },
+                { "id": "os-windows-q7", "type": "choice", "prompt": "Dove trovi spesso comandi come Apri o Salva?", "options": ["Nel menu dell'app", "Nel caricabatterie", "Nella fotocamera"], "answer": 0, "explanation": "I menu raccolgono comandi relativi all'app o al documento." }
+              ]
+            }
+          },
+          {
+            "topicId": "operating-system",
+            "levelId": "intermediate",
+            "chapter": {
+              "id": "os-search-and-desktop",
+              "title": "Ricerca, desktop e scorciatoie",
+              "steps": [
+                { "text": "La ricerca del sistema può trovare app, file e impostazioni; scrivi una parola riconoscibile invece di aprire molti menu." },
+                { "text": "Controlla il percorso o la posizione dei risultati prima di aprire un file con un nome generico." },
+                { "text": "Il desktop è uno spazio di lavoro, non una copia di sicurezza: i file salvati lì restano sul dispositivo." },
+                { "text": "Le scorciatoie da tastiera combinano tasti per eseguire comandi, ma alcune combinazioni dipendono dal sistema." },
+                { "text": "Copia duplica temporaneamente un elemento negli appunti; Incolla lo inserisce nella destinazione scelta." },
+                { "text": "Taglia e incolla sposta un elemento in molti programmi: verifica cartella e nome prima di completare." },
+                { "text": "Organizza le finestre per confrontare documenti, ma salva i file prima di chiudere o cambiare app." },
+                { "text": "Se non riconosci un file o un'impostazione, evita di cancellarlo: controlla dettagli e chiedi supporto." }
+              ],
+              "realLife": { "title": "Trovare un documento", "text": "Cerca una parola del nome del file, controlla la cartella indicata nel risultato e aprilo solo dopo aver verificato che sia quello giusto." },
+              "quiz": [
+                { "id": "os-search-q1", "type": "choice", "prompt": "Cosa può trovare la ricerca del sistema?", "options": ["App, file e impostazioni", "Solo siti web", "Solo fotografie"], "answer": 0, "explanation": "La ricerca integrata può indicizzare diversi elementi del dispositivo." },
+                { "id": "os-search-q2", "type": "truefalse", "prompt": "Il desktop è automaticamente una copia di sicurezza esterna.", "answer": false, "explanation": "Il desktop è normalmente uno spazio sul dispositivo, non un backup separato." },
+                { "id": "os-search-q3", "type": "choice", "prompt": "Prima di aprire un risultato con nome generico, cosa controlli?", "options": ["La sua posizione o il percorso", "Il colore del desktop", "Il volume"], "answer": 0, "explanation": "Il percorso aiuta a riconoscere il file corretto." },
+                { "id": "os-search-q4", "type": "truefalse", "prompt": "Copia e Incolla possono duplicare un contenuto in un'altra destinazione.", "answer": true, "explanation": "Gli appunti conservano temporaneamente l'elemento copiato." },
+                { "id": "os-search-q5", "type": "choice", "prompt": "Quale operazione può spostare un file in un'altra cartella?", "options": ["Taglia e poi Incolla", "Aumentare il volume", "Bloccare lo schermo"], "answer": 0, "explanation": "Taglia e Incolla spostano spesso un elemento; verifica la destinazione." },
+                { "id": "os-search-q6", "type": "truefalse", "prompt": "È prudente cancellare un file che non riconosci senza controllarlo.", "answer": false, "explanation": "Controlla dettagli e chiedi aiuto se non sai a cosa serve." },
+                { "id": "os-search-q7", "type": "choice", "prompt": "A cosa servono spesso le scorciatoie da tastiera?", "options": ["A eseguire comandi con combinazioni di tasti", "A ricaricare la batteria", "A creare automaticamente un backup"], "answer": 0, "explanation": "Le scorciatoie accelerano alcuni comandi, con combinazioni dipendenti dal sistema." }
+              ]
+            }
+          },
+          {
+            "topicId": "operating-system",
+            "levelId": "pro",
+            "chapter": {
+              "id": "os-accounts-and-sync",
+              "title": "Profili utente, sincronizzazione e aggiornamenti",
+              "steps": [
+                { "text": "Un profilo utente separa alcune preferenze e file personali dagli altri profili sullo stesso computer." },
+                { "text": "Blocca la sessione quando ti allontani, soprattutto su un dispositivo condiviso o in un luogo pubblico." },
+                { "text": "Un account online può sincronizzare impostazioni e file tra dispositivi; verifica quali contenuti vengono sincronizzati." },
+                { "text": "La sincronizzazione non è sempre un archivio storico: una cancellazione può propagarsi agli altri dispositivi." },
+                { "text": "Aggiorna il sistema usando le impostazioni ufficiali e controlla che il dispositivo abbia alimentazione sufficiente." },
+                { "text": "Prima di aggiornamenti importanti salva i documenti aperti e assicurati di poter accedere all'account richiesto." },
+                { "text": "Un aggiornamento autentico non richiede di inviare la password in risposta a un messaggio o telefonata inattesa." },
+                { "text": "Dopo l'aggiornamento verifica che le funzioni importanti siano disponibili e annota eventuali messaggi di errore." }
+              ],
+              "realLife": { "title": "Preparare un aggiornamento", "text": "Salva i documenti, verifica alimentazione e accesso all'account, poi avvia l'aggiornamento dalle impostazioni ufficiali e controlla il risultato." },
+              "quiz": [
+                { "id": "os-accounts-q1", "type": "choice", "prompt": "Cosa fai prima di lasciare un computer condiviso?", "options": ["Blocchi la sessione", "Disattivi gli aggiornamenti", "Condividi la password"], "answer": 0, "explanation": "Bloccare la sessione limita l'accesso agli altri." },
+                { "id": "os-accounts-q2", "type": "truefalse", "prompt": "Una cancellazione può propagarsi tramite sincronizzazione.", "answer": true, "explanation": "La sincronizzazione può replicare anche le modifiche e le eliminazioni." },
+                { "id": "os-accounts-q3", "type": "choice", "prompt": "Dove avvii un aggiornamento di sistema?", "options": ["Nelle impostazioni ufficiali", "Da un link inatteso via SMS", "Da un allegato sconosciuto"], "answer": 0, "explanation": "Le impostazioni ufficiali sono il percorso raccomandato." },
+                { "id": "os-accounts-q4", "type": "truefalse", "prompt": "Prima di un aggiornamento importante conviene salvare il lavoro aperto.", "answer": true, "explanation": "Salvare riduce il rischio di perdere modifiche." },
+                { "id": "os-accounts-q5", "type": "choice", "prompt": "Un chiamante inatteso chiede la password per un aggiornamento. Come reagisci?", "options": ["Non comunicarla e verifica tramite il canale ufficiale", "Comunicala subito", "Inviala a tutti i colleghi"], "answer": 0, "explanation": "Non condividere password; contatta il servizio usando recapiti ufficiali." },
+                { "id": "os-accounts-q6", "type": "truefalse", "prompt": "Profili distinti possono aiutare a separare le preferenze degli utenti.", "answer": true, "explanation": "I profili offrono ambienti e impostazioni personali separate." },
+                { "id": "os-accounts-q7", "type": "choice", "prompt": "Cosa verifichi dopo un aggiornamento?", "options": ["Che il sistema funzioni e non mostri errori", "Che la password sia pubblica", "Che tutti i file siano cancellati"], "answer": 0, "explanation": "Un controllo finale permette di individuare eventuali problemi." }
+              ]
+            }
+          },
+          {
+            "topicId": "apps",
+            "levelId": "beginner",
+            "chapter": {
+              "id": "apps-first-use",
+              "title": "Primi passi e schermate delle applicazioni",
+              "steps": [
+                { "text": "Dopo l'installazione, un'app può mostrare una schermata introduttiva con descrizione delle sue funzioni." },
+                { "text": "Leggi il nome del servizio e dello sviluppatore prima di creare un account o inserire dati personali." },
+                { "text": "Un'app può chiedere permessi durante il primo utilizzo; concedi solo quelli utili alla funzione che vuoi usare." },
+                { "text": "Puoi spesso rimandare un permesso e decidere più tardi dalle impostazioni." },
+                { "text": "Il pulsante Indietro torna alla schermata precedente, ma il comportamento dipende dall'app e dal dispositivo." },
+                { "text": "Cerca le sezioni Guida o Assistenza nell'app, evitando numeri di supporto mostrati da annunci casuali." },
+                { "text": "Se un'app chiede un pagamento, controlla importo, frequenza e conferma prima di proseguire." },
+                { "text": "Per chiudere un'app usa i comandi del dispositivo; non cancellare i dati per risolvere un dubbio iniziale." }
+              ],
+              "realLife": { "title": "Configurare un'app con attenzione", "text": "Apri un'app appena installata, leggi a cosa servono i permessi richiesti e concedi solo quelli necessari al compito che vuoi svolgere." },
+              "quiz": [
+                { "id": "apps-first-q1", "type": "choice", "prompt": "Un'app chiede accesso alla posizione ma vuoi solo leggere un articolo. Cosa puoi fare?", "options": ["Negare o rimandare il permesso se non serve", "Condividere la password", "Concedere ogni permesso senza leggere"], "answer": 0, "explanation": "Un permesso non necessario può essere negato; le scelte si possono spesso rivedere." },
+                { "id": "apps-first-q2", "type": "truefalse", "prompt": "È utile leggere chi ha sviluppato l'app prima di inserire dati personali.", "answer": true, "explanation": "Nome e informazioni dello sviluppatore aiutano a verificare l'app." },
+                { "id": "apps-first-q3", "type": "choice", "prompt": "Dove cerchi aiuto per una funzione dell'app?", "options": ["Nella guida o assistenza ufficiale", "In un annuncio casuale", "In un link ricevuto da uno sconosciuto"], "answer": 0, "explanation": "I canali ufficiali riducono il rischio di contatti ingannevoli." },
+                { "id": "apps-first-q4", "type": "truefalse", "prompt": "Un permesso negato può spesso essere riesaminato in seguito.", "answer": true, "explanation": "Molti dispositivi consentono di modificare i permessi nelle impostazioni." },
+                { "id": "apps-first-q5", "type": "choice", "prompt": "Prima di confermare un pagamento nell'app, cosa controlli?", "options": ["Importo e frequenza del pagamento", "Colore dell'icona", "Livello del volume"], "answer": 0, "explanation": "Leggi importo, rinnovo e condizioni prima di autorizzare." },
+                { "id": "apps-first-q6", "type": "truefalse", "prompt": "Tutte le app funzionano esattamente nello stesso modo.", "answer": false, "explanation": "Le schermate e i comandi variano da app ad app." },
+                { "id": "apps-first-q7", "type": "choice", "prompt": "Non capisci una schermata iniziale. Qual è un passo prudente?", "options": ["Leggere la guida ufficiale o chiedere aiuto", "Cancellare tutti i dati", "Inserire codici a caso"], "answer": 0, "explanation": "La guida aiuta a capire le opzioni senza modifiche rischiose." }
+              ]
+            }
+          },
+          {
+            "topicId": "apps",
+            "levelId": "intermediate",
+            "chapter": {
+              "id": "apps-data-and-notifications",
+              "title": "Dati, notifiche e uso responsabile delle app",
+              "steps": [
+                { "text": "Un'app può usare dati mobili quando non sei collegato al Wi-Fi; controlla i consumi nelle impostazioni del dispositivo." },
+                { "text": "La riproduzione automatica di video può consumare dati e batteria: disattivala se non ti serve." },
+                { "text": "Le notifiche si possono personalizzare per categoria, per esempio lasciando attivi solo gli avvisi importanti." },
+                { "text": "Un'app che invia avvisi di pagamento o accesso va verificata aprendo direttamente l'app ufficiale." },
+                { "text": "La cache contiene dati temporanei che aiutano l'app; cancellarla può richiedere nuovi caricamenti o accessi." },
+                { "text": "Cancella i dati di un'app solo dopo aver capito cosa viene rimosso e aver verificato eventuali copie." },
+                { "text": "Se un'app consuma molta batteria, controlla le statistiche e limita l'attività in background se appropriato." },
+                { "text": "Confronta le impostazioni prima e dopo una modifica, così puoi ripristinare quella precedente se serve." }
+              ],
+              "realLife": { "title": "Ridurre consumo e notifiche", "text": "Controlla i dati e la batteria usati da un'app, poi disattiva le notifiche non essenziali senza eliminare account o contenuti." },
+              "quiz": [
+                { "id": "apps-data-q1", "type": "choice", "prompt": "Dove controlli quanti dati mobili usa un'app?", "options": ["Nelle impostazioni di rete o utilizzo dati", "Nella rubrica", "Nel cestino"], "answer": 0, "explanation": "Le impostazioni mostrano spesso il consumo per app." },
+                { "id": "apps-data-q2", "type": "truefalse", "prompt": "La riproduzione automatica di video può consumare dati mobili.", "answer": true, "explanation": "I video possono usare una quantità significativa di dati." },
+                { "id": "apps-data-q3", "type": "choice", "prompt": "Una notifica chiede di pagare tramite un link. Come la verifichi?", "options": ["Apri direttamente l'app o il sito ufficiale", "Inserisci subito i dati della carta", "Inoltri il link ai contatti"], "answer": 0, "explanation": "Verifica le richieste fuori dalla notifica usando un canale ufficiale." },
+                { "id": "apps-data-q4", "type": "truefalse", "prompt": "Cancellare i dati di un'app può rimuovere contenuti o richiedere un nuovo accesso.", "answer": true, "explanation": "Prima verifica cosa viene cancellato e se esiste una copia." },
+                { "id": "apps-data-q5", "type": "choice", "prompt": "Vuoi ridurre le notifiche senza disinstallare l'app. Cosa puoi fare?", "options": ["Disattivare le categorie non essenziali", "Cancellare tutti i documenti", "Cambiare il PIN"], "answer": 0, "explanation": "Le impostazioni delle notifiche spesso permettono di scegliere quali avvisi ricevere." },
+                { "id": "apps-data-q6", "type": "truefalse", "prompt": "La cache è composta da dati temporanei usati dall'app.", "answer": true, "explanation": "La cache può rendere più rapidi caricamenti successivi." },
+                { "id": "apps-data-q7", "type": "choice", "prompt": "Prima di cambiare una preferenza, cosa rende più facile tornare indietro?", "options": ["Annotare il valore precedente", "Cambiare molte opzioni insieme", "Condividere il codice di accesso"], "answer": 0, "explanation": "Annotare il valore iniziale permette di ripristinarlo." }
+              ]
+            }
+          },
+          {
+            "topicId": "apps",
+            "levelId": "pro",
+            "chapter": {
+              "id": "apps-account-and-data-audit",
+              "title": "Account, dati e ciclo di vita di un'app",
+              "steps": [
+                { "text": "Prima di creare un account in un'app, valuta se è necessario e quali dati personali verranno richiesti." },
+                { "text": "Usa una password unica e attiva una verifica aggiuntiva quando il servizio la offre." },
+                { "text": "Controlla le impostazioni di privacy per limitare profilazione, condivisione e accessi non indispensabili." },
+                { "text": "Una copia dei dati esportata dall'app può aiutare a conservarli, ma verifica formato e completezza." },
+                { "text": "Disconnettersi rimuove la sessione sul dispositivo; eliminare l'account è un'operazione diversa e spesso definitiva." },
+                { "text": "Prima di eliminare un account, scarica ciò che vuoi conservare e leggi le conseguenze per acquisti o abbonamenti." },
+                { "text": "Revoca i permessi dell'app dopo aver smesso di usare funzioni che li richiedevano." },
+                { "text": "Se un servizio non è più necessario, rimuovi l'app e gestisci separatamente account, dati e pagamenti ricorrenti." }
+              ],
+              "realLife": { "title": "Chiudere un account inutilizzato", "text": "Esporta i dati importanti, controlla abbonamenti e acquisti, poi segui la procedura ufficiale per eliminare l'account e verifica la conferma." },
+              "quiz": [
+                { "id": "apps-audit-q1", "type": "choice", "prompt": "Quale password è più sicura da riutilizzare per un account nuovo?", "options": ["Una password unica per quel servizio", "La stessa password di tutti gli account", "Il proprio nome"], "answer": 0, "explanation": "Password uniche limitano l'impatto se un servizio viene compromesso." },
+                { "id": "apps-audit-q2", "type": "truefalse", "prompt": "Disconnettersi ed eliminare un account sono la stessa operazione.", "answer": false, "explanation": "La disconnessione termina una sessione; la cancellazione può essere permanente." },
+                { "id": "apps-audit-q3", "type": "choice", "prompt": "Prima di eliminare un account, cosa conviene fare?", "options": ["Salvare i dati desiderati e controllare abbonamenti", "Condividere la password", "Disinstallare senza verificare altro"], "answer": 0, "explanation": "Verifica dati, acquisti e pagamenti prima di una cancellazione definitiva." },
+                { "id": "apps-audit-q4", "type": "truefalse", "prompt": "È utile limitare la condivisione dei dati nelle impostazioni di privacy.", "answer": true, "explanation": "Le impostazioni permettono spesso di ridurre la raccolta o condivisione." },
+                { "id": "apps-audit-q5", "type": "choice", "prompt": "Non usi più una funzione che richiede la posizione. Cosa puoi fare?", "options": ["Revocare il permesso se non è più necessario", "Condividere le credenziali", "Lasciare il dispositivo sbloccato"], "answer": 0, "explanation": "Rivedere periodicamente i permessi è una buona pratica." },
+                { "id": "apps-audit-q6", "type": "truefalse", "prompt": "Esportare i dati garantisce sempre che siano completi e leggibili per sempre.", "answer": false, "explanation": "Controlla formato e completezza della copia esportata." },
+                { "id": "apps-audit-q7", "type": "choice", "prompt": "Dopo aver disinstallato un'app, cosa può restare da gestire?", "options": ["Account o abbonamenti associati", "La carica della batteria", "La rete elettrica"], "answer": 0, "explanation": "Disinstallare non elimina necessariamente l'account né annulla i pagamenti ricorrenti." }
+              ]
+            }
+          },
     {
       "topicId": "devices",
       "levelId": "intermediate",
