@@ -818,6 +818,258 @@
           { "id": "security-incident-q4", "type": "truefalse", "prompt": "Se la stessa password è stata riutilizzata, è opportuno cambiarla anche sugli altri account.", "answer": true, "explanation": "Password uniche riducono il rischio che un incidente si estenda ad altri servizi." }
         ]
       }
+    },
+    {
+      "topicId": "internet",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "internet-addresses-and-sites",
+        "title": "Indirizzi web e pagine affidabili",
+        "steps": [
+          { "text": "Un indirizzo web identifica una pagina o un servizio; il nome del dominio indica quale sito stai visitando." },
+          { "text": "Leggi il dominio completo, soprattutto prima di accedere o inserire dati: nomi simili possono indicare siti diversi." },
+          { "text": "Il lucchetto o HTTPS protegge la connessione, ma non garantisce che il sito sia onesto o quello che cercavi." },
+          { "text": "Per un servizio importante, digita l'indirizzo conosciuto o usa un segnalibro salvato da una fonte verificata." },
+          { "text": "Gli annunci possono comparire sopra i risultati di ricerca; controlla l'indirizzo prima di aprirli." },
+          { "text": "Una pagina web può contenere collegamenti ad altre pagine: controlla dove portano prima di inserire informazioni." },
+          { "text": "Se una pagina mostra avvisi urgenti o pop-up insistenti, chiudila senza scaricare programmi o chiamare numeri indicati." },
+          { "text": "Se non sei sicuro dell'indirizzo, chiedi aiuto o cerca il recapito ufficiale separatamente." }
+        ],
+        "realLife": { "title": "Aprire il sito di un servizio", "text": "Digita l'indirizzo ufficiale che conosci, controlla il dominio nella barra del browser e solo allora accedi al tuo account." },
+        "quiz": [
+          { "id": "internet-address-q1", "type": "choice", "prompt": "Prima di inserire credenziali, quale parte controlli con attenzione?", "options": ["Il dominio del sito", "Il colore dello sfondo", "La percentuale della batteria"], "answer": 0, "explanation": "Il dominio aiuta a verificare che tu sia sul servizio desiderato." },
+          { "id": "internet-address-q2", "type": "truefalse", "prompt": "La presenza di HTTPS prova che il sito è sempre affidabile.", "answer": false, "explanation": "HTTPS protegge la connessione ma non certifica la correttezza del contenuto." },
+          { "id": "internet-address-q3", "type": "choice", "prompt": "Qual è un modo prudente per aprire un servizio che usi spesso?", "options": ["Digitare l'indirizzo ufficiale o usare un segnalibro verificato", "Seguire ogni annuncio", "Aprire il primo link ricevuto"], "answer": 0, "explanation": "Un indirizzo noto riduce il rischio di finire su una copia ingannevole." },
+          { "id": "internet-address-q4", "type": "truefalse", "prompt": "I risultati sponsorizzati possono apparire tra i risultati di ricerca.", "answer": true, "explanation": "Gli annunci possono essere evidenziati vicino ai risultati normali." },
+          { "id": "internet-address-q5", "type": "choice", "prompt": "Un pop-up promette un premio e chiede di installare un programma. Cosa fai?", "options": ["Chiudi la pagina senza installare", "Installi subito", "Inserisci i dati della carta"], "answer": 0, "explanation": "Le offerte inattese e insistenti possono essere ingannevoli." },
+          { "id": "internet-address-q6", "type": "truefalse", "prompt": "Un collegamento può portare a un sito diverso da quello della pagina corrente.", "answer": true, "explanation": "Controlla la destinazione dei link prima di usarli." },
+          { "id": "internet-address-q7", "type": "choice", "prompt": "Non sei certo del sito di una banca. Qual è la scelta migliore?", "options": ["Cercare o digitare il recapito ufficiale separatamente", "Usare un link urgente in un messaggio", "Condividere il codice ricevuto"], "answer": 0, "explanation": "Raggiungi il servizio attraverso un canale noto e ufficiale." }
+        ]
+      }
+    },
+    {
+      "topicId": "internet",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "internet-downloads-and-browser-tools",
+        "title": "Download, segnalibri e strumenti del browser",
+        "steps": [
+          { "text": "Un download salva un file dal web sul dispositivo; il browser mostra spesso un elenco dei download recenti." },
+          { "text": "Prima di scaricare, controlla che il sito sia quello atteso e che il file sia necessario." },
+          { "text": "I file scaricati possono trovarsi nella cartella Download: controlla nome, tipo e provenienza prima di aprirli." },
+          { "text": "Un segnalibro salva un indirizzo per ritrovarlo; assegnagli un nome chiaro e verifica che punti al sito corretto." },
+          { "text": "La cronologia elenca pagine visitate e può contenere informazioni private su ciò che hai consultato." },
+          { "text": "Cancellare la cronologia non cancella necessariamente file scaricati, dati salvati o tracce su altri dispositivi." },
+          { "text": "Le estensioni aggiungono funzioni al browser: installale solo da fonti ufficiali e controlla i permessi richiesti." },
+          { "text": "Se il browser segnala un file o sito pericoloso, non ignorare l'avviso senza averne compreso la causa." }
+        ],
+        "realLife": { "title": "Scaricare un documento", "text": "Scarica un documento da una fonte attesa, controlla la cartella Download e il tipo di file, poi aprilo solo se riconosci la provenienza." },
+        "quiz": [
+          { "id": "internet-download-q1", "type": "choice", "prompt": "Dove si trovano spesso i file scaricati dal browser?", "options": ["Nella cartella Download", "Nella rubrica", "Nella cartella della fotocamera"], "answer": 0, "explanation": "Download è la destinazione predefinita comune, anche se può essere modificata." },
+          { "id": "internet-download-q2", "type": "truefalse", "prompt": "È prudente aprire ogni file scaricato senza verificarne la provenienza.", "answer": false, "explanation": "Controlla sito, nome e tipo di file prima di aprirlo." },
+          { "id": "internet-download-q3", "type": "choice", "prompt": "A cosa serve un segnalibro nel browser?", "options": ["A salvare un indirizzo per ritrovarlo", "A ricaricare il telefono", "A cancellare un account"], "answer": 0, "explanation": "I segnalibri permettono di tornare rapidamente a una pagina." },
+          { "id": "internet-download-q4", "type": "truefalse", "prompt": "La cronologia può rivelare quali pagine hai visitato.", "answer": true, "explanation": "La cronologia conserva un elenco delle visite recenti." },
+          { "id": "internet-download-q5", "type": "choice", "prompt": "Prima di aggiungere un'estensione, cosa controlli?", "options": ["Fonte e permessi richiesti", "Il colore del browser", "Il livello della batteria"], "answer": 0, "explanation": "Le estensioni possono accedere a dati di navigazione in base ai permessi." },
+          { "id": "internet-download-q6", "type": "truefalse", "prompt": "Cancellare la cronologia elimina sempre anche i file scaricati.", "answer": false, "explanation": "Cronologia e file scaricati sono dati distinti." },
+          { "id": "internet-download-q7", "type": "choice", "prompt": "Il browser avvisa che un download potrebbe essere dannoso. Cosa fai?", "options": ["Ti fermi e verifichi la fonte", "Ignori sempre l'avviso", "Invii il file ai contatti"], "answer": 0, "explanation": "Un avviso va valutato prima di aprire o condividere il file." }
+        ]
+      }
+    },
+    {
+      "topicId": "internet",
+      "levelId": "pro",
+      "chapter": {
+        "id": "internet-browser-data-and-profiles",
+        "title": "Profili, cookie e dati di navigazione",
+        "steps": [
+          { "text": "I cookie sono piccoli dati che un sito può salvare nel browser per ricordare preferenze o mantenere una sessione." },
+          { "text": "Alcuni cookie sono necessari al funzionamento, altri possono essere usati per misurazione o pubblicità personalizzata." },
+          { "text": "Puoi gestire cookie e autorizzazioni dalle impostazioni del browser, sapendo che bloccarli può far funzionare diversamente alcuni siti." },
+          { "text": "La navigazione privata riduce i dati salvati localmente alla chiusura, ma non rende anonimi presso siti, rete o gestore." },
+          { "text": "Profili browser separati possono distinguere account personali e di lavoro, evitando di mescolare preferenze e sessioni." },
+          { "text": "Esci dagli account quando usi un computer condiviso e non salvare le password nel profilo di altre persone." },
+          { "text": "La sincronizzazione del browser può trasferire cronologia, segnalibri e password: controlla cosa è attivo e su quali dispositivi." },
+          { "text": "Rimuovi estensioni che non usi più e rivedi regolarmente i permessi concessi." }
+        ],
+        "realLife": { "title": "Usare un browser condiviso", "text": "Crea un profilo separato se disponibile, non salvare credenziali sul dispositivo condiviso e disconnettiti al termine." },
+        "quiz": [
+          { "id": "internet-profiles-q1", "type": "choice", "prompt": "Che cosa può ricordare un cookie?", "options": ["Preferenze o una sessione del sito", "La carica del computer", "Il PIN della SIM automaticamente"], "answer": 0, "explanation": "I cookie possono conservare preferenze e informazioni di sessione." },
+          { "id": "internet-profiles-q2", "type": "truefalse", "prompt": "La navigazione privata rende invisibili a tutti i siti e alla rete.", "answer": false, "explanation": "Riduce alcune tracce locali, ma non offre anonimato completo." },
+          { "id": "internet-profiles-q3", "type": "choice", "prompt": "Perché usare profili browser separati?", "options": ["Per distinguere sessioni e preferenze", "Per aumentare automaticamente la velocità internet", "Per non dover aggiornare il browser"], "answer": 0, "explanation": "Profili distinti separano account e impostazioni." },
+          { "id": "internet-profiles-q4", "type": "truefalse", "prompt": "La sincronizzazione può trasferire anche password o cronologia.", "answer": true, "explanation": "Controlla sempre quali tipi di dati vengono sincronizzati." },
+          { "id": "internet-profiles-q5", "type": "choice", "prompt": "Usi un computer pubblico: cosa fai al termine?", "options": ["Esci dagli account e non salvare le password", "Lasci aperta la sessione", "Condividi il profilo"], "answer": 0, "explanation": "Disconnettersi limita l'accesso di chi userà il computer dopo di te." },
+          { "id": "internet-profiles-q6", "type": "truefalse", "prompt": "Bloccare tutti i cookie può influire sul funzionamento di alcuni siti.", "answer": true, "explanation": "Alcuni siti usano cookie per funzioni necessarie o preferenze." },
+          { "id": "internet-profiles-q7", "type": "choice", "prompt": "Cosa fai con un'estensione che non usi più?", "options": ["La rimuovi e rivedi i permessi", "Le concedi altri accessi", "La condividi con sconosciuti"], "answer": 0, "explanation": "Ridurre le estensioni non necessarie limita i permessi attivi." }
+        ]
+      }
+    },
+    {
+      "topicId": "productivity",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "productivity-presentations-and-charts",
+        "title": "Presentazioni e grafici semplici",
+        "steps": [
+          { "text": "Una presentazione raccoglie informazioni in diapositive, ognuna dedicata a un punto principale." },
+          { "text": "Dai un titolo descrittivo a ogni diapositiva per rendere chiaro l'argomento." },
+          { "text": "Usa frasi brevi e dimensioni del testo leggibili; evita di riempire una diapositiva di paragrafi." },
+          { "text": "Immagini e forme possono illustrare un'idea, ma devono essere pertinenti e non coprire il testo." },
+          { "text": "Un grafico trasforma dati in una rappresentazione visiva; controlla che titolo e unità siano comprensibili." },
+          { "text": "Scegli un tipo di grafico adatto: barre per confrontare valori e linee per osservare un andamento nel tempo." },
+          { "text": "Rivedi l'ordine delle diapositive e avvia l'anteprima prima di presentare." },
+          { "text": "Salva una copia con un nome riconoscibile e controlla che il file si apra correttamente." }
+        ],
+        "realLife": { "title": "Preparare tre diapositive", "text": "Crea una diapositiva con titolo, una con pochi punti chiave e una con un grafico semplice; controlla la leggibilità in anteprima." },
+        "quiz": [
+          { "id": "productivity-present-q1", "type": "choice", "prompt": "Quale contenuto aiuta a capire subito una diapositiva?", "options": ["Un titolo chiaro", "Un paragrafo lunghissimo", "Un nome casuale"], "answer": 0, "explanation": "Un titolo descrittivo anticipa l'idea principale." },
+          { "id": "productivity-present-q2", "type": "truefalse", "prompt": "È meglio riempire ogni diapositiva di testo piccolo.", "answer": false, "explanation": "Poche frasi leggibili sono più facili da seguire." },
+          { "id": "productivity-present-q3", "type": "choice", "prompt": "Quale grafico è spesso adatto a confrontare categorie?", "options": ["Grafico a barre", "Mappa stradale", "Elenco delle password"], "answer": 0, "explanation": "Le barre rendono visibili differenze tra valori." },
+          { "id": "productivity-present-q4", "type": "truefalse", "prompt": "Un grafico dovrebbe avere titolo e unità comprensibili.", "answer": true, "explanation": "Titolo e unità aiutano a interpretare i dati." },
+          { "id": "productivity-present-q5", "type": "choice", "prompt": "Come controlli l'aspetto prima di presentare?", "options": ["Usi l'anteprima o la presentazione", "Cambi password", "Elimini il file"], "answer": 0, "explanation": "L'anteprima mostra come appariranno le diapositive." },
+          { "id": "productivity-present-q6", "type": "truefalse", "prompt": "Un grafico a linee può mostrare un andamento nel tempo.", "answer": true, "explanation": "Le linee aiutano a osservare variazioni successive." },
+          { "id": "productivity-present-q7", "type": "choice", "prompt": "Come salvi una presentazione da ritrovare facilmente?", "options": ["Con un nome descrittivo in una cartella nota", "Con un nome vuoto", "Dentro una notifica"], "answer": 0, "explanation": "Nome e posizione chiari rendono più semplice ritrovare il file." }
+        ]
+      }
+    },
+    {
+      "topicId": "productivity",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "productivity-formulas-and-references",
+        "title": "Formule, riferimenti e controllo dei dati",
+        "steps": [
+          { "text": "In un foglio di calcolo una formula inizia spesso con il segno uguale e può usare numeri, operatori o riferimenti a celle." },
+          { "text": "Un riferimento come A1 indica una cella per colonna e riga; controlla gli indirizzi prima di copiare una formula." },
+          { "text": "Un riferimento relativo cambia quando copi la formula in un'altra cella." },
+          { "text": "Un riferimento assoluto, indicato spesso con il simbolo del dollaro, mantiene fissa una riga o una colonna." },
+          { "text": "Le formule possono restituire errori se manca una parentesi, il separatore è errato o una cella contiene testo imprevisto." },
+          { "text": "Verifica i risultati con un calcolo semplice a mano o confrontando un campione di righe." },
+          { "text": "Ordina i dati solo dopo aver selezionato l'intera tabella, così le righe restano associate." },
+          { "text": "Conserva una copia dei dati originali prima di applicare trasformazioni estese." }
+        ],
+        "realLife": { "title": "Controllare una formula copiata", "text": "Copia una formula su alcune righe, osserva come cambiano i riferimenti e verifica manualmente almeno un risultato." },
+        "quiz": [
+          { "id": "productivity-references-q1", "type": "choice", "prompt": "Con quale simbolo inizia spesso una formula?", "options": ["=", "#", "@"], "answer": 0, "explanation": "Il segno uguale indica al foglio di calcolo che segue una formula." },
+          { "id": "productivity-references-q2", "type": "truefalse", "prompt": "Un riferimento relativo può cambiare copiando una formula.", "answer": true, "explanation": "Il riferimento si adatta alla nuova posizione della formula." },
+          { "id": "productivity-references-q3", "type": "choice", "prompt": "A cosa serve un riferimento assoluto?", "options": ["A mantenere fissa una riga o colonna", "A cancellare il foglio", "A cambiare il formato del computer"], "answer": 0, "explanation": "Il riferimento assoluto non si sposta come quello relativo." },
+          { "id": "productivity-references-q4", "type": "truefalse", "prompt": "È utile verificare un campione di risultati con un calcolo indipendente.", "answer": true, "explanation": "Un controllo manuale può far emergere errori nella formula o nei dati." },
+          { "id": "productivity-references-q5", "type": "choice", "prompt": "Prima di ordinare una tabella, cosa selezioni?", "options": ["Tutte le colonne e righe correlate", "Solo una cella a caso", "La barra del titolo"], "answer": 0, "explanation": "Selezionare l'intera tabella mantiene insieme i dati di ogni riga." },
+          { "id": "productivity-references-q6", "type": "truefalse", "prompt": "Una copia dei dati originali può essere utile prima di trasformazioni estese.", "answer": true, "explanation": "La copia consente di recuperare i dati di partenza." },
+          { "id": "productivity-references-q7", "type": "choice", "prompt": "Una formula mostra un errore: quale controllo fai?", "options": ["Verifichi riferimenti, parentesi e dati", "Condividi il foglio pubblicamente", "Elimini il sistema operativo"], "answer": 0, "explanation": "Errori di sintassi o riferimenti non validi sono cause comuni." }
+        ]
+      }
+    },
+    {
+      "topicId": "productivity",
+      "levelId": "pro",
+      "chapter": {
+        "id": "productivity-data-quality-and-exports",
+        "title": "Qualità dei dati, esportazione e accessibilità",
+        "steps": [
+          { "text": "Prima di analizzare un foglio, controlla intestazioni, righe vuote, duplicati e formati incoerenti." },
+          { "text": "Usa una colonna per ciascun tipo di informazione e una riga per ciascun elemento, evitando celle unite nei dati grezzi." },
+          { "text": "Filtri e tabelle aiutano a esplorare i dati senza eliminare le righe non visibili." },
+          { "text": "Una data o un numero salvato come testo può dare risultati inattesi: verifica formato e ordinamento." },
+          { "text": "Esportando in CSV, controlla separatori e codifica: il formato può non conservare formule o formattazione." },
+          { "text": "Un PDF conserva l'impaginazione ma può essere meno semplice da modificare; controlla il file esportato prima di inviarlo." },
+          { "text": "Per rendere un documento accessibile, usa titoli strutturati, testo alternativo e contrasto leggibile." },
+          { "text": "Quando condividi un file, rimuovi dati personali non necessari e limita l'accesso ai destinatari previsti." }
+        ],
+        "realLife": { "title": "Preparare un foglio da condividere", "text": "Controlla intestazioni e formati, salva una copia originale, esporta nel formato richiesto e verifica che non contenga dati personali non necessari." },
+        "quiz": [
+          { "id": "productivity-quality-q1", "type": "choice", "prompt": "Come organizzi una tabella di dati grezzi?", "options": ["Una riga per elemento e una colonna per tipo di dato", "Molte celle unite senza intestazioni", "Un dato diverso in ogni foglio"], "answer": 0, "explanation": "Una struttura coerente facilita filtri, ordinamenti e analisi." },
+          { "id": "productivity-quality-q2", "type": "truefalse", "prompt": "Un CSV conserva sempre formule e formattazione del foglio originale.", "answer": false, "explanation": "CSV conserva valori testuali delimitati, non necessariamente formule o formati." },
+          { "id": "productivity-quality-q3", "type": "choice", "prompt": "Cosa fai prima di inviare un PDF esportato?", "options": ["Controlli che impaginazione e contenuto siano corretti", "Elimini l'originale senza verifica", "Pubblichi il link senza restrizioni"], "answer": 0, "explanation": "Controlla la copia esportata prima di distribuirla." },
+          { "id": "productivity-quality-q4", "type": "truefalse", "prompt": "Titoli strutturati e testo alternativo possono aiutare l'accessibilità.", "answer": true, "explanation": "Le strutture e descrizioni aiutano diverse tecnologie assistive." },
+          { "id": "productivity-quality-q5", "type": "choice", "prompt": "Alcune date vengono ordinate in modo inatteso. Cosa controlli?", "options": ["Se sono interpretate come date o come testo", "Il volume delle casse", "La password del Wi-Fi"], "answer": 0, "explanation": "Valori testuali possono ordinarsi diversamente da date reali." },
+          { "id": "productivity-quality-q6", "type": "truefalse", "prompt": "Condividere un file con chiunque abbia il link limita già l'accesso ai destinatari previsti.", "answer": false, "explanation": "Controlla le autorizzazioni e scegli destinatari specifici quando possibile." },
+          { "id": "productivity-quality-q7", "type": "choice", "prompt": "Prima di condividere un documento, cosa verifichi?", "options": ["Dati personali e permessi di accesso", "Solo il colore del nome file", "La luminosità dello schermo"], "answer": 0, "explanation": "Rimuovi dati superflui e limita gli accessi." }
+        ]
+      }
+    },
+    {
+      "topicId": "communication",
+      "levelId": "beginner",
+      "chapter": {
+        "id": "communication-calendar-and-invitations",
+        "title": "Calendari, promemoria e inviti",
+        "steps": [
+          { "text": "Un calendario digitale registra appuntamenti e può mostrare promemoria prima dell'orario previsto." },
+          { "text": "Per un nuovo evento inserisci titolo, data e ora; ricontrolla il giorno e il fuso orario." },
+          { "text": "Aggiungi il luogo o un collegamento solo se è utile e proviene da una fonte attendibile." },
+          { "text": "Un promemoria può essere impostato con anticipo diverso; scegli un intervallo adatto all'impegno." },
+          { "text": "Un invito condiviso può mostrare disponibilità o dettagli ad altre persone: controlla i destinatari." },
+          { "text": "Non inserire informazioni sanitarie o riservate nel titolo visibile di un calendario condiviso." },
+          { "text": "Quando un appuntamento cambia, aggiorna l'evento e avvisa le persone coinvolte." },
+          { "text": "Verifica che la sincronizzazione sia attiva se vuoi vedere l'evento su più dispositivi." }
+        ],
+        "realLife": { "title": "Creare un promemoria", "text": "Aggiungi un appuntamento con data, ora e un promemoria, poi controlla se è personale o condiviso con altre persone." },
+        "quiz": [
+          { "id": "communication-calendar-q1", "type": "choice", "prompt": "Quali informazioni ricontrolli quando crei un evento?", "options": ["Data e ora", "Colore della custodia", "Livello del volume"], "answer": 0, "explanation": "Una data o un orario errato può far perdere l'appuntamento." },
+          { "id": "communication-calendar-q2", "type": "truefalse", "prompt": "Un promemoria può avvisarti prima dell'orario di un evento.", "answer": true, "explanation": "Puoi impostare un avviso anticipato." },
+          { "id": "communication-calendar-q3", "type": "choice", "prompt": "Prima di condividere un invito, cosa controlli?", "options": ["I destinatari e i dettagli visibili", "Il colore della schermata", "La password di altri account"], "answer": 0, "explanation": "I calendari condivisi possono mostrare informazioni ai destinatari." },
+          { "id": "communication-calendar-q4", "type": "truefalse", "prompt": "È opportuno inserire dettagli riservati nel titolo di un calendario condiviso.", "answer": false, "explanation": "Usa titoli discreti quando l'evento può essere visibile ad altri." },
+          { "id": "communication-calendar-q5", "type": "choice", "prompt": "Un appuntamento cambia. Qual è una buona azione?", "options": ["Aggiornare l'evento e avvisare gli invitati", "Lasciare l'informazione errata", "Cancellare l'intero calendario"], "answer": 0, "explanation": "Aggiornamento e comunicazione evitano equivoci." },
+          { "id": "communication-calendar-q6", "type": "truefalse", "prompt": "Un collegamento a una riunione va verificato prima di aprirlo.", "answer": true, "explanation": "Controlla che invito e link provengano dalla fonte prevista." },
+          { "id": "communication-calendar-q7", "type": "choice", "prompt": "Vuoi vedere un evento anche su un altro dispositivo. Cosa controlli?", "options": ["La sincronizzazione del calendario", "La luminosità", "Il volume della suoneria"], "answer": 0, "explanation": "La sincronizzazione consente di aggiornare i dati tra dispositivi." }
+        ]
+      }
+    },
+    {
+      "topicId": "communication",
+      "levelId": "intermediate",
+      "chapter": {
+        "id": "communication-email-recipients-and-etiquette",
+        "title": "Destinatari, copie e comunicazione chiara",
+        "steps": [
+          { "text": "Nel campo A inserisci chi deve ricevere e agire sul messaggio; controlla l'indirizzo prima di inviare." },
+          { "text": "CC invia una copia visibile agli altri destinatari, mentre CCN nasconde gli indirizzi degli altri destinatari tra loro." },
+          { "text": "Usa CCN per comunicazioni a molte persone che non si conoscono, evitando di esporre i loro indirizzi." },
+          { "text": "Scrivi un oggetto breve e informativo che descriva il motivo del messaggio." },
+          { "text": "Metti la richiesta principale all'inizio e specifica eventuali scadenze in modo chiaro." },
+          { "text": "Prima di rispondere a tutti, verifica che ogni destinatario debba davvero ricevere la risposta." },
+          { "text": "Controlla tono, allegati e destinatari prima di inviare: un messaggio inviato può essere difficile da ritirare." },
+          { "text": "Non inoltrare conversazioni private senza consenso e rimuovi dettagli non necessari." }
+        ],
+        "realLife": { "title": "Inviare un messaggio a un gruppo", "text": "Inserisci gli indirizzi dei destinatari in CCN se non devono vedere gli indirizzi altrui, aggiungi un oggetto chiaro e rileggi prima dell'invio." },
+        "quiz": [
+          { "id": "communication-email-q1", "type": "choice", "prompt": "Quale campo può nascondere gli indirizzi degli altri destinatari?", "options": ["CCN", "Oggetto", "Allegato"], "answer": 0, "explanation": "CCN invia copie senza mostrare gli indirizzi agli altri destinatari." },
+          { "id": "communication-email-q2", "type": "truefalse", "prompt": "Prima di usare Rispondi a tutti, conviene controllare chi deve ricevere la risposta.", "answer": true, "explanation": "Non tutti i partecipanti hanno bisogno di ogni messaggio." },
+          { "id": "communication-email-q3", "type": "choice", "prompt": "Cosa rende utile l'oggetto di un'email?", "options": ["Descrive brevemente il motivo", "Contiene la password", "È lasciato sempre vuoto"], "answer": 0, "explanation": "Un oggetto chiaro aiuta a comprendere e ritrovare il messaggio." },
+          { "id": "communication-email-q4", "type": "truefalse", "prompt": "È sempre sicuro inoltrare una conversazione privata senza chiedere.", "answer": false, "explanation": "Rispetta riservatezza e consenso prima di condividere conversazioni." },
+          { "id": "communication-email-q5", "type": "choice", "prompt": "Una mail a molte persone che non si conoscono: come riduci l'esposizione degli indirizzi?", "options": ["Usi CCN", "Scrivi tutti gli indirizzi nell'oggetto", "Pubblichi gli indirizzi online"], "answer": 0, "explanation": "CCN evita di mostrare gli indirizzi agli altri destinatari." },
+          { "id": "communication-email-q6", "type": "truefalse", "prompt": "È utile controllare destinatari e allegati prima di inviare.", "answer": true, "explanation": "Una verifica riduce errori e invii a persone sbagliate." },
+          { "id": "communication-email-q7", "type": "choice", "prompt": "Dove metti la richiesta più importante per facilitarne la lettura?", "options": ["All'inizio del messaggio", "Solo nel nome del file", "In un allegato non spiegato"], "answer": 0, "explanation": "Una richiesta esplicita all'inizio aiuta il destinatario a capire cosa serve." }
+        ]
+      }
+    },
+    {
+      "topicId": "communication",
+      "levelId": "pro",
+      "chapter": {
+        "id": "communication-content-and-moderation",
+        "title": "Condividere contenuti e gestire le interazioni",
+        "steps": [
+          { "text": "Prima di pubblicare una foto o un testo, considera chi potrà vederlo e per quanto tempo potrà restare online." },
+          { "text": "Chiedi il consenso prima di pubblicare immagini riconoscibili di altre persone, soprattutto in contesti privati." },
+          { "text": "Controlla lo sfondo delle immagini: cartellini, documenti, indirizzi o schermi possono rivelare informazioni personali." },
+          { "text": "Verifica le impostazioni del pubblico e limita la visibilità a persone fidate se il contenuto è personale." },
+          { "text": "Un blocco nasconde o limita un profilo; una segnalazione invia il contenuto alla piattaforma per una valutazione." },
+          { "text": "Conserva prove di molestie o impersonificazione senza rilanciare il contenuto dannoso." },
+          { "text": "Non rispondere a provocazioni con dati personali o minacce; usa gli strumenti di moderazione e chiedi aiuto." },
+          { "text": "Prima di cancellare un post, considera che altre persone potrebbero averlo già salvato o condiviso." }
+        ],
+        "realLife": { "title": "Rivedere un post prima di pubblicarlo", "text": "Controlla pubblico, sfondo e consenso delle persone ritratte; rimuovi dettagli identificativi e condividi solo ciò che vuoi rendere disponibile." },
+        "quiz": [
+          { "id": "communication-moderation-q1", "type": "choice", "prompt": "Prima di pubblicare la foto riconoscibile di un'altra persona, cosa fai?", "options": ["Chiedi il suo consenso", "Pubblicala sempre", "Aggiungi il suo indirizzo"], "answer": 0, "explanation": "Il consenso tutela la privacy delle persone ritratte." },
+          { "id": "communication-moderation-q2", "type": "truefalse", "prompt": "Anche lo sfondo di una foto può rivelare informazioni personali.", "answer": true, "explanation": "Documenti, indirizzi e schermi possono essere visibili sullo sfondo." },
+          { "id": "communication-moderation-q3", "type": "choice", "prompt": "Un profilo ti molesta ripetutamente. Quale azione è utile?", "options": ["Bloccare o segnalare tramite la piattaforma", "Condividere la password", "Pubblicare i suoi dati personali"], "answer": 0, "explanation": "Gli strumenti di blocco e segnalazione limitano le interazioni dannose." },
+          { "id": "communication-moderation-q4", "type": "truefalse", "prompt": "Cancellare un post garantisce che nessuno ne abbia conservato una copia.", "answer": false, "explanation": "Altri utenti potrebbero aver salvato o condiviso il contenuto." },
+          { "id": "communication-moderation-q5", "type": "choice", "prompt": "Quale dettaglio conviene rimuovere prima di pubblicare una foto personale?", "options": ["Un documento leggibile sullo sfondo", "Il cielo", "Un oggetto comune"], "answer": 0, "explanation": "Documenti e dati identificativi non dovrebbero essere esposti." },
+          { "id": "communication-moderation-q6", "type": "truefalse", "prompt": "È meglio rispondere alle molestie pubblicando dati personali dell'altra persona.", "answer": false, "explanation": "Non rilanciare dati personali; usa moderazione e chiedi supporto." },
+          { "id": "communication-moderation-q7", "type": "choice", "prompt": "Cosa controlli prima di pubblicare un contenuto personale?", "options": ["Pubblico e impostazioni di visibilità", "Il PIN della SIM", "Il volume degli altoparlanti"], "answer": 0, "explanation": "Le impostazioni determinano chi può vedere il contenuto." }
+        ]
+      }
     }
   ]
 }
